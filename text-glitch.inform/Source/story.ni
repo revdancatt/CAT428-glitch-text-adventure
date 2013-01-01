@@ -1,11 +1,19 @@
 "text-glitch alpha version 0.2.3" by Rev Dan Catt
 
+Use no scoring.
+
+[Include Exit Lister by Eric Eve.]
+
 When entire game begins: 
-	say "This is a very alpha text adventure port of the MMO game Glitch, it's currently mainly acting as a stub so I can link from GitHub to here.
+	say "==================================================
+
+This is a very alpha text adventure port of the MMO game Glitch, it's currently mainly acting as a stub so I can link from GitHub to here.
 
 Honestly there's nothing here yet, only a few streets that are linked together with no descriptions or items.
 
 You can find the source for this on Github over here: https://github.com/revdancatt/cat428-glitch-text-adventure
+
+==================================================
 
 ";
 
@@ -303,6 +311,5 @@ Vindel Frowns is a room in Alakol. "You are in Vindel Frowns, Alakol."
 Vragan Boost is a room in Alakol. "You are in Vragan Boost, Alakol."
 
 Yan Jaggery is a room in Alakol. "You are in Yan Jaggery, Alakol."
-
 
 

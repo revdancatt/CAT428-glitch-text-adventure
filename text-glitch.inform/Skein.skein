@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1bb5620" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1b32260" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1bb5620" />
-  <item nodeId="node-0x1bb5620">
+  <activeNode nodeId="node-0x1b32260" />
+  <item nodeId="node-0x1b32260">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -37,11 +37,11 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">NO</temporary>
     <children>
-      <child nodeId="node-0x8294150" />
-      <child nodeId="node-0x1bb9ab0" />
+      <child nodeId="node-0x1b23a10" />
+      <child nodeId="node-0x1b32f30" />
     </children>
   </item>
-  <item nodeId="node-0x1bb9ab0">
+  <item nodeId="node-0x1b32f30">
     <command xml:space="preserve">go Ekorran Roughs</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -50,10 +50,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb5670" />
+      <child nodeId="node-0x1b322b0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb5670">
+  <item nodeId="node-0x1b322b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -64,10 +64,10 @@ You are in Ekorran Roughs, Alakol.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb56c0" />
+      <child nodeId="node-0x1b32300" />
     </children>
   </item>
-  <item nodeId="node-0x1bb56c0">
+  <item nodeId="node-0x1b32300">
     <command xml:space="preserve">r</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -76,10 +76,10 @@ You are in Ekorran Roughs, Alakol.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb5710" />
+      <child nodeId="node-0x1b32350" />
     </children>
   </item>
-  <item nodeId="node-0x1bb5710">
+  <item nodeId="node-0x1b32350">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -92,10 +92,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb5760" />
+      <child nodeId="node-0x1b323a0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb5760">
+  <item nodeId="node-0x1b323a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -104,10 +104,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb57d0" />
+      <child nodeId="node-0x1b323f0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb57d0">
+  <item nodeId="node-0x1b323f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -116,10 +116,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb58c0" />
+      <child nodeId="node-0x1b324c0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb58c0">
+  <item nodeId="node-0x1b324c0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -128,10 +128,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb5910" />
+      <child nodeId="node-0x1b32510" />
     </children>
   </item>
-  <item nodeId="node-0x1bb5910">
+  <item nodeId="node-0x1b32510">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -140,10 +140,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb5960" />
+      <child nodeId="node-0x1b23ad0" />
     </children>
   </item>
-  <item nodeId="node-0x1bb5960">
+  <item nodeId="node-0x1b23ad0">
     <command xml:space="preserve">nnw</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -152,10 +152,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x82940e0" />
+      <child nodeId="node-0x1b23a80" />
     </children>
   </item>
-  <item nodeId="node-0x82940e0">
+  <item nodeId="node-0x1b23a80">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -164,7 +164,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x8294150">
+  <item nodeId="node-0x1b23a10">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs

@@ -1,4 +1,4 @@
-"text-glitch" by Rev Dan Catt version 0.2
+"text-glitch" by Rev Dan Catt version 0.2.1
 
 [================================]
 [	            REGIONS            ]

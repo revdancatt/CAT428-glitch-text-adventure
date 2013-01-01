@@ -11,10 +11,59 @@ You can find the source for this on Github over here: https://github.com/revdanc
 
 
 [================================]
-[	            REGIONS            ]
+[	            REGIONS             ]
 [================================]
 
-Alakol is a region
+Alakol is a region.
+Andra is a region.
+Aranna is a region.
+Balzare is a region.
+Baqala is a region.
+Besara is a region.
+Bortola is a region.
+Brillah is a region.
+Callopee is a region.
+Cauda is a region.
+Chakra Phool is a region.
+Choru is a region.
+Drifa is a region.
+Fenneq is a region.
+Firozi is a region.
+Folivoria is a region.
+Groddle Forest is a region.
+Groddle Heights is a region.
+Groddle Meadow is a region.
+Haoma is a region.
+Haraiva is a region.
+Ilmenskie Caverns is a region.
+Ilmenskie Deeps is a region.
+Ix is a region.
+Jal is a region.
+Jethimadh is a region.
+Kajuu is a region.
+Kalavana is a region.
+Karnata is a region.
+Kloro is a region.
+Lida is a region.
+Massadoe is a region.
+Moshi Moshi Oshilatis is a region.
+Muufo is a region.
+Nottis is a region.
+Ormonos is a region.
+Pollokoo is a region.
+Rasana is a region.
+Roobrik is a region.
+Salatu is a region.
+Samudra is a region.
+Shimla Mirch is a region.
+Sura is a region.
+Tahli is a region.
+Tamila is a region.
+Uralia is a region.
+Vantalu is a region.
+Vortex of Random is a region.
+Xalanga is a region.
+Zhambu is a region.
 
 [################################]
 [################################]
@@ -26,11 +75,11 @@ An item is a kind of thing.
 Tools, food, drink, storage, basic resources, advance resources, Gasses & Bubbles, spices, Alchemical Compounds & Powders, Tinctures & Potions, Machines & Fuel, Croppery & Gardening Supplies, Herbalism Supplies, Herdkeeping Supplies, Emblems & Icons, Licenses & Permits, Keys, Collectibles, Toys, Natural Resources, Quest Items and Other are kinds of item.
 
 [================================]
-[	NATURAL RESOURCES ]
+[	NATURAL RESOURCES               ]
 [================================]
 
 [================================]
-[	Trees	]
+[	Trees                           ]
 [================================]
 
 A tree is a kind of natural resources.
@@ -64,7 +113,7 @@ A Spice Plant is a kind of plant.
 The description of the Spice Plant is "The delectable Spice Plant. Seductively dangling with Allspice, the millability of this simple brown seed means that everyone's favorite varietal of spice can be found bounded in one shell if you look hard enough."
 
 [================================]
-[	Rocks	]
+[	Rocks	                           ]
 [================================]
 
 A rock is a kind of thing.
@@ -76,19 +125,29 @@ The description of the metal rock is "A stupefying combination of classic rock a
 A dullite rock is a kind of rock.
 The description of the dullite rock is "A study in shades of grey, gray, and a monochromatic 8-bit scale of debatable spelling, this common rock is mostly found underground, is minable, and may contain precious gems."
 
+[================================]
+[Shrines                         ]
+[================================]
+
 A shrine is a kind of container.
 A shrine is fixed in place.
 The description of a shrine is "A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur."
 
 A shrine to Mab is a kind of shrine.
 
-[==============================]
+[================================]
+[Vendors                         ]
+[================================]
 
 A vendor is a kind of person.
 A street sprite is a kind of vendor.
 
 A Produce Vendor is a kind of street sprite.
 The description of a Produce Vendor is "For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle."
+
+[================================]
+[Ok, places in Alakoi            ]
+[================================]
 
 The Anrasan Glance is a room in Alakol. "You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is North West and Semsan Simile is East."
 

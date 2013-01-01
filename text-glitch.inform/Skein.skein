@@ -8,8 +8,15 @@
 
 
 
-text-glitch
-An Interactive Fiction by Rev Dan Catt version 0.2
+This is a very alpha text adventure port of the MMO game Glitch.
+
+Honestly there&apos;s nothing here yet, only a couple of empty rooms. This is acting as a stub so I can link from GitHub to here.
+
+You can find the source for this on Github over here: https://github.com/revdancatt/cat428-glitch-text-adventure
+
+
+text-glitch alpha version 0.2.2
+An Interactive Fiction by Rev Dan Catt
 Release 1 / Serial number 130101 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Anrasan Glance
@@ -34,7 +41,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 &gt;w
 </commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="14">NO</temporary>
     <children>
       <child nodeId="node-0x1b23a10" />

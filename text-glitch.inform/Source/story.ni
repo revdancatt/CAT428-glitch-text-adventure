@@ -1,4 +1,14 @@
-"text-glitch" by Rev Dan Catt version 0.2.1
+"text-glitch alpha version 0.2.2" by Rev Dan Catt
+
+When entire game begins: 
+	say "This is a very alpha text adventure port of the MMO game Glitch.
+
+Honestly there's nothing here yet, only a couple of empty rooms. This is acting as a stub so I can link from GitHub to here.
+
+You can find the source for this on Github over here: https://github.com/revdancatt/cat428-glitch-text-adventure
+
+";
+
 
 [================================]
 [	            REGIONS            ]

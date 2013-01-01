@@ -1,9 +1,9 @@
-"text-glitch alpha version 0.2.2" by Rev Dan Catt
+"text-glitch alpha version 0.2.3" by Rev Dan Catt
 
 When entire game begins: 
-	say "This is a very alpha text adventure port of the MMO game Glitch.
+	say "This is a very alpha text adventure port of the MMO game Glitch, it's currently mainly acting as a stub so I can link from GitHub to here.
 
-Honestly there's nothing here yet, only a couple of empty rooms. This is acting as a stub so I can link from GitHub to here.
+Honestly there's nothing here yet, only a few streets that are linked together with no descriptions or items.
 
 You can find the source for this on Github over here: https://github.com/revdancatt/cat428-glitch-text-adventure
 
@@ -156,52 +156,123 @@ Anrasan Glance is southeast of Getan Tenets.
 Anrasan Glance is west of Semsan Simile.
 
 Bolesan Ambitions is a room in Alakol. "You are in Bolesan Ambitions, Alakol."
+Bolesan Ambitions is south of Motala Dun.
+Bolesan Ambitions is southeast of Harkan Idiom.
+Bolesan Ambitions is north of Pinnan Glimpse.
+Bolesan Ambitions is north of Yan Jaggery.
 
 Brunnan Bafflings is a room in Alakol. "You are in Brunnan Bafflings, Alakol."
+Brunnan Bafflings is south of Feman Falters.
+Brunnan Bafflings is west of Fyran Descant.
+Brunnan Bafflings is north of Ojan Repine.
 
 Dofsan Vex is a room in Alakol. "You are in Dofsan Vex, Alakol."
+Dofsan Vex is southwest of Isalan Interval.
+Dofsan Vex is west of Simean Dims.
+Dofsan Vex is northwest of Taftan Raves.
+Dofsan Vex is northeast of Vindel Frowns.
 
 Dyran Notion is a room in Alakol. "You are in Dyran Notion, Alakol."
+Dyran Notion is south of Marlan Bias.
+Dyran Notion is northwest of Navran Dissent.
+Dyran Notion is northeast of Hammar Steadies.
+Dyran Notion is east of Smy Mod.
 
 Ekorran Roughs is a room in Alakol. "You are in Ekorran Roughs, Alakol."
 Ekorran Roughs is west of Anrasan Glance.
+Ekorran Roughs is southwest of Getan Tenets.
+Ekorran Roughs is north of Via Firozi.
+Ekorran Roughs is east of Flogan Shames.
+Ekorran Roughs is southeast of Lustan Cautions.
 
 Feman Falters is a room in Alakol. "You are in Feman Falters, Alakol."
+Feman Falters is west of Idan Frisk.
+Feman Falters is northwest of Torpan Cleft.
+Feman Falters is north of Brunnan Bafflings.
+Feman Falters is northeast of Isalan Interval.
+Feman Falters is east of Jadraan Fix.
 
 Flogan Shames is a room in Alakol. "You are in Flogan Shames, Alakol."
+Flogan Shames is southwest of Lustan Cautions.
+Flogan Shames is west of Ekorran Roughs.
+Flogan Shames is east of Taftan Raves.
+Flogan Shames is southeast of Simean Dims.
 
 Fyran Descant is a room in Alakol. "You are in Fyran Descant, Alakol."
+Fyran Descant is west of Torpan Cleft.
+Fyran Descant is southeast of Brunnan Bafflings.
+Fyran Descant is northeast of Ojan Repine.
 
 Getan Tenets is a room in Alakol. "You are in Getan Tenets, Alakol."
-Getan Tenets is southeast of Anrasan Glance.
+Getan Tenets is northwest of Anrasan Glance.
+Getan Tenets is north of Ekorran Roughs.
+Getan Tenets is northeast of Lustan Cautions.
+Getan Tenets is southeast of Stora Rede.
 
 Gimja Preserve is a room in Alakol. "You are in Gimja Preserve, Alakol."
+Gimja Preserve is east of Isalan Interval.
 
 Hammar Steadies is a room in Alakol. "You are in Hammar Steadies, Alakol."
+Hammar Steadies is southwest of Dyran Notion.
+Hammar Steadies is southwest of Navran Dissent.
+Hammar Steadies is south of Smy Mod.
+Hammar Steadies is northwest of Vindel Frowns.
 
 Harkan Idiom is a room in Alakol. "You are in Harkan Idiom, Alakol."
+Harkan Idiom is west of Motala Dun.
+Harkan Idiom is northwest of Bolesan Ambitions.
+Harkan Idiom is east of Kolan Presence.
+Harkan Idiom is east of Idan Frisk.
 
 Idan Frisk is a room in Alakol. "You are in Idan Frisk, Alakol."
+Idan Frisk is southwest of Kolan Presence.
+Idan Frisk is southwest of Harkan Idiom.
+Idan Frisk is east of Feman Falters.
+Idan Frisk is northeast of Torpan Cleft.
 
 Isalan Interval is a room in Alakol. "You are in Isalan Interval, Alakol."
+Isalan Interval is southwest of Feman Falters.
+Isalan Interval is west of Gimja Preserve.
+Isalan Interval is north of Simean Dims.
+Isalan Interval is north of Dofsan Vex.
+Isalan Interval is southeast of Jadraan Fix.
 
 Jadraan Fix is a room in Alakol. "You are in Jadraan Fix, Alakol."
+Jadraan Fix is west of Feman Falters.
+Jadraan Fix is northwest of Isalan Interval.
+Jadraan Fix is northeast of Marlan Bias.
+Jadraan Fix is east of Stopan Winnow.
 
 Kobah Habitat is a room in Alakol. "You are in Kobah Habitat, Alakol."
+Kobah Habitat is east of Stora Rede.
 
 Kolan Presence is a room in Alakol. "You are in Kolan Presence, Alakol."
+Kolan Presence is northwest of Harkan Idiom.
+Kolan Presence is northeast of Idan Frisk.
 
 Lustan Cautions is a room in Alakol. "You are in Lustan Cautions, Alakol."
+Lustan Cautions is southwest of Stora Rede.
+Lustan Cautions is west of Getan Tenets.
+Lustan Cautions is northwest of Ekorran Roughs.
+Lustan Cautions is northeast of Flogan Shames.
+Lustan Cautions is east of Rekan Flux.
 
 Marlan Bias is a room in Alakol. "You are in Marlan Bias, Alakol."
+Marlan Bias is southeast of Stopan Winnow.
+Marlan Bias is southwest of Jadraan Fix.
+Marlan Bias is north of Dyran Notion.
+Marlan Bias is north of Navran Dissent.
 
 Motala Dun is a room in Alakol. "You are in Motala Dun, Alakol."
+Motala Dun is northeast of Bolesan Ambitions.
+Motala Dun is east of Harkan Idiom.
 
 Navran Dissent is a room in Alakol. "You are in Navran Dissent, Alakol."
 
 Ojan Repine is a room in Alakol. "You are in Ojan Repine, Alakol."
 
-Onbo Park is a room in Alakol. "You are in Onbo Park, Alakol."
+Onbo Park is a room in Alakol. "You are in Onbo Park, Alakol. Stopan Winnow is Southeast."
+Onbo Park is northwest of Stopan Winnow.
 
 Pinnan Glimpse is a room in Alakol. "You are in Pinnan Glimpse, Alakol."
 
@@ -214,7 +285,10 @@ Simean Dims is a room in Alakol. "You are in Simean Dims, Alakol."
 
 Smy Mod is a room in Alakol. "You are in Smy Mod, Alakol."
 
-Stopan Winnow is a room in Alakol. "You are in Stopan Winnow, Alakol."
+Stopan Winnow is a room in Alakol. "You are in Stopan Winnow, Alakol. Onbo Park is Northwest, Jadraan Fix is East and Marlan Bias is to the South."
+Stopan Winnow is southeast of Onbo Park.
+Stopan Winnow is west of Jadraan Fix.
+Stopan Winnow is northwest of Marlan Bias.
 
 Stora Rede is a room in Alakol. "You are in Stora Rede, Alakol."
 

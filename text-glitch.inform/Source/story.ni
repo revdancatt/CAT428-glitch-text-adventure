@@ -149,9 +149,86 @@ The description of a Produce Vendor is "For chefs, saucerers and fry-cooks who l
 [Ok, places in Alakoi            ]
 [================================]
 
-The Anrasan Glance is a room in Alakol. "You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is North West and Semsan Simile is East."
-
+The Anrasan Glance is a room in Alakol. "You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East."
 In Anrasan Glance is a A Produce Vendor, a shrine to Mab, one fruit trees, one bean tree, nine metal rocks and four dullite rocks.
+Anrasan Glance is east of Ekorran Roughs.
+Anrasan Glance is southeast of Getan Tenets.
+Anrasan Glance is west of Semsan Simile.
+
+Bolesan Ambitions is a room in Alakol. "You are in Bolesan Ambitions, Alakol."
+
+Brunnan Bafflings is a room in Alakol. "You are in Brunnan Bafflings, Alakol."
+
+Dofsan Vex is a room in Alakol. "You are in Dofsan Vex, Alakol."
+
+Dyran Notion is a room in Alakol. "You are in Dyran Notion, Alakol."
 
 Ekorran Roughs is a room in Alakol. "You are in Ekorran Roughs, Alakol."
 Ekorran Roughs is west of Anrasan Glance.
+
+Feman Falters is a room in Alakol. "You are in Feman Falters, Alakol."
+
+Flogan Shames is a room in Alakol. "You are in Flogan Shames, Alakol."
+
+Fyran Descant is a room in Alakol. "You are in Fyran Descant, Alakol."
+
+Getan Tenets is a room in Alakol. "You are in Getan Tenets, Alakol."
+Getan Tenets is southeast of Anrasan Glance.
+
+Gimja Preserve is a room in Alakol. "You are in Gimja Preserve, Alakol."
+
+Hammar Steadies is a room in Alakol. "You are in Hammar Steadies, Alakol."
+
+Harkan Idiom is a room in Alakol. "You are in Harkan Idiom, Alakol."
+
+Idan Frisk is a room in Alakol. "You are in Idan Frisk, Alakol."
+
+Isalan Interval is a room in Alakol. "You are in Isalan Interval, Alakol."
+
+Jadraan Fix is a room in Alakol. "You are in Jadraan Fix, Alakol."
+
+Kobah Habitat is a room in Alakol. "You are in Kobah Habitat, Alakol."
+
+Kolan Presence is a room in Alakol. "You are in Kolan Presence, Alakol."
+
+Lustan Cautions is a room in Alakol. "You are in Lustan Cautions, Alakol."
+
+Marlan Bias is a room in Alakol. "You are in Marlan Bias, Alakol."
+
+Motala Dun is a room in Alakol. "You are in Motala Dun, Alakol."
+
+Navran Dissent is a room in Alakol. "You are in Navran Dissent, Alakol."
+
+Ojan Repine is a room in Alakol. "You are in Ojan Repine, Alakol."
+
+Onbo Park is a room in Alakol. "You are in Onbo Park, Alakol."
+
+Pinnan Glimpse is a room in Alakol. "You are in Pinnan Glimpse, Alakol."
+
+Rekan Flux is a room in Alakol. "You are in Rekan Flux, Alakol."
+
+Semsan Simile is a room in Alakol. "You are in Semsan Simile, Alakol."
+Semsan Simile is east of Anrasan Glance.
+
+Simean Dims is a room in Alakol. "You are in Simean Dims, Alakol."
+
+Smy Mod is a room in Alakol. "You are in Smy Mod, Alakol."
+
+Stopan Winnow is a room in Alakol. "You are in Stopan Winnow, Alakol."
+
+Stora Rede is a room in Alakol. "You are in Stora Rede, Alakol."
+
+Taftan Raves is a room in Alakol. "You are in Taftan Raves, Alakol."
+
+Torpan Cleft is a room in Alakol. "You are in Torpan Cleft, Alakol."
+
+Via Firozi is a room in Alakol. "You are in Via Firozi, Alakol."
+
+Vindel Frowns is a room in Alakol. "You are in Vindel Frowns, Alakol."
+
+Vragan Boost is a room in Alakol. "You are in Vragan Boost, Alakol."
+
+Yan Jaggery is a room in Alakol. "You are in Yan Jaggery, Alakol."
+
+
+

@@ -4292,7 +4292,7 @@ Global lightflag = false;
 ];
 
 
-Constant REQUISITION_STACK_SIZE = 3*82;
+Constant REQUISITION_STACK_SIZE = 3*117;
 Array requisition_stack --> REQUISITION_STACK_SIZE;
 Global requisition_stack_pointer = 0;
 
@@ -9723,8 +9723,43 @@ Constant DirectionObject_9 = I55_down;
 Constant DirectionObject_10 = in_obj;
 Constant DirectionObject_11 = out_obj;
 Array Map_Storage -->
- 0 0 0 0 0 0 0 I197_ekorran_roughs 0 0 0 0 ! Exits from: I179_anrasan_glance
+ 0 0 I198_getan_tenets 0 I198_getan_tenets 0 I199_semsan_simile I197_ekorran_roughs 0 0 0 0 ! Exits from: I179_anrasan_glance
  0 0 0 0 0 0 I179_anrasan_glance 0 0 0 0 0 ! Exits from: I197_ekorran_roughs
+ 0 0 I179_anrasan_glance 0 I179_anrasan_glance 0 0 0 0 0 0 0 ! Exits from: I198_getan_tenets
+ 0 0 0 0 0 0 0 I179_anrasan_glance 0 0 0 0 ! Exits from: I199_semsan_simile
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I200_bolesan_ambitions
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I201_brunnan_bafflings
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I202_dofsan_vex
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I203_dyran_notion
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I204_feman_falters
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I205_flogan_shames
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I206_fyran_descant
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I207_gimja_preserve
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I208_hammar_steadies
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I209_harkan_idiom
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I210_idan_frisk
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I211_isalan_interval
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I212_jadraan_fix
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I213_kobah_habitat
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I214_kolan_presence
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I215_lustan_cautions
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I216_marlan_bias
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I217_motala_dun
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I218_navran_dissent
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I219_ojan_repine
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I220_onbo_park
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I221_pinnan_glimpse
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I222_rekan_flux
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I223_simean_dims
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I224_smy_mod
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I225_stopan_winnow
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I226_stora_rede
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I227_taftan_raves
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I228_torpan_cleft
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I229_via_firozi
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I230_vindel_frowns
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I231_vragan_boost
+ 0 0 0 0 0 0 0 0 0 0 0 0 ! Exits from: I232_yan_jaggery
 ;
 
 Class VPH_Class;
@@ -11395,9 +11430,604 @@ Object I197_ekorran_roughs ""
     with cap_short_name "Ekorran Roughs"
     has mark_as_room
     with IK1_Count 1
-    with IK1_Link nothing
+    with IK1_Link I198_getan_tenets
     with KD_Count 1
     with name 'ekorran' 'roughs' 
+;
+
+Object I198_getan_tenets ""
+    class K1_room
+    with short_name "Getan Tenets"
+    with description SC_19
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Getan Tenets"
+    has mark_as_room
+    with IK1_Count 2
+    with IK1_Link I199_semsan_simile
+    with KD_Count 1
+    with name 'getan' 'tenets' 
+;
+
+Object I199_semsan_simile ""
+    class K1_room
+    with short_name "Semsan Simile"
+    with description SC_20
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Semsan Simile"
+    has mark_as_room
+    with IK1_Count 3
+    with IK1_Link I200_bolesan_ambitions
+    with KD_Count 1
+    with name 'semsan' 'simile' 
+;
+
+Object I200_bolesan_ambitions ""
+    class K1_room
+    with short_name "Bolesan Ambitions"
+    with description SC_21
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Bolesan Ambitions"
+    has mark_as_room
+    with IK1_Count 4
+    with IK1_Link I201_brunnan_bafflings
+    with KD_Count 1
+    with name 'bolesan' 'ambitions' 
+;
+
+Object I201_brunnan_bafflings ""
+    class K1_room
+    with short_name "Brunnan Bafflings"
+    with description SC_22
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Brunnan Bafflings"
+    has mark_as_room
+    with IK1_Count 5
+    with IK1_Link I202_dofsan_vex
+    with KD_Count 1
+    with name 'brunnan' 'bafflings' 
+;
+
+Object I202_dofsan_vex ""
+    class K1_room
+    with short_name "Dofsan Vex"
+    with description SC_23
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Dofsan Vex"
+    has mark_as_room
+    with IK1_Count 6
+    with IK1_Link I203_dyran_notion
+    with KD_Count 1
+    with name 'dofsan' 'vex' 
+;
+
+Object I203_dyran_notion ""
+    class K1_room
+    with short_name "Dyran Notion"
+    with description SC_24
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Dyran Notion"
+    has mark_as_room
+    with IK1_Count 7
+    with IK1_Link I204_feman_falters
+    with KD_Count 1
+    with name 'dyran' 'notion' 
+;
+
+Object I204_feman_falters ""
+    class K1_room
+    with short_name "Feman Falters"
+    with description SC_25
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Feman Falters"
+    has mark_as_room
+    with IK1_Count 8
+    with IK1_Link I205_flogan_shames
+    with KD_Count 1
+    with name 'feman' 'falters' 
+;
+
+Object I205_flogan_shames ""
+    class K1_room
+    with short_name "Flogan Shames"
+    with description SC_26
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Flogan Shames"
+    has mark_as_room
+    with IK1_Count 9
+    with IK1_Link I206_fyran_descant
+    with KD_Count 1
+    with name 'flogan' 'shames' 
+;
+
+Object I206_fyran_descant ""
+    class K1_room
+    with short_name "Fyran Descant"
+    with description SC_27
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Fyran Descant"
+    has mark_as_room
+    with IK1_Count 10
+    with IK1_Link I207_gimja_preserve
+    with KD_Count 1
+    with name 'fyran' 'descant' 
+;
+
+Object I207_gimja_preserve ""
+    class K1_room
+    with short_name "Gimja Preserve"
+    with description SC_28
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Gimja Preserve"
+    has mark_as_room
+    with IK1_Count 11
+    with IK1_Link I208_hammar_steadies
+    with KD_Count 1
+    with name 'gimja' 'preserve' 
+;
+
+Object I208_hammar_steadies ""
+    class K1_room
+    with short_name "Hammar Steadies"
+    with description SC_29
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Hammar Steadies"
+    has mark_as_room
+    with IK1_Count 12
+    with IK1_Link I209_harkan_idiom
+    with KD_Count 1
+    with name 'hammar' 'steadies' 
+;
+
+Object I209_harkan_idiom ""
+    class K1_room
+    with short_name "Harkan Idiom"
+    with description SC_30
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Harkan Idiom"
+    has mark_as_room
+    with IK1_Count 13
+    with IK1_Link I210_idan_frisk
+    with KD_Count 1
+    with name 'harkan' 'idiom' 
+;
+
+Object I210_idan_frisk ""
+    class K1_room
+    with short_name "Idan Frisk"
+    with description SC_31
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Idan Frisk"
+    has mark_as_room
+    with IK1_Count 14
+    with IK1_Link I211_isalan_interval
+    with KD_Count 1
+    with name 'idan' 'frisk' 
+;
+
+Object I211_isalan_interval ""
+    class K1_room
+    with short_name "Isalan Interval"
+    with description SC_32
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Isalan Interval"
+    has mark_as_room
+    with IK1_Count 15
+    with IK1_Link I212_jadraan_fix
+    with KD_Count 1
+    with name 'isalan' 'interval' 
+;
+
+Object I212_jadraan_fix ""
+    class K1_room
+    with short_name "Jadraan Fix"
+    with description SC_33
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Jadraan Fix"
+    has mark_as_room
+    with IK1_Count 16
+    with IK1_Link I213_kobah_habitat
+    with KD_Count 1
+    with name 'jadraan' 'fix' 
+;
+
+Object I213_kobah_habitat ""
+    class K1_room
+    with short_name "Kobah Habitat"
+    with description SC_34
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Kobah Habitat"
+    has mark_as_room
+    with IK1_Count 17
+    with IK1_Link I214_kolan_presence
+    with KD_Count 1
+    with name 'kobah' 'habitat' 
+;
+
+Object I214_kolan_presence ""
+    class K1_room
+    with short_name "Kolan Presence"
+    with description SC_35
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Kolan Presence"
+    has mark_as_room
+    with IK1_Count 18
+    with IK1_Link I215_lustan_cautions
+    with KD_Count 1
+    with name 'kolan' 'presence' 
+;
+
+Object I215_lustan_cautions ""
+    class K1_room
+    with short_name "Lustan Cautions"
+    with description SC_36
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Lustan Cautions"
+    has mark_as_room
+    with IK1_Count 19
+    with IK1_Link I216_marlan_bias
+    with KD_Count 1
+    with name 'lustan' 'cautions' 
+;
+
+Object I216_marlan_bias ""
+    class K1_room
+    with short_name "Marlan Bias"
+    with description SC_37
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Marlan Bias"
+    has mark_as_room
+    with IK1_Count 20
+    with IK1_Link I217_motala_dun
+    with KD_Count 1
+    with name 'marlan' 'bias' 
+;
+
+Object I217_motala_dun ""
+    class K1_room
+    with short_name "Motala Dun"
+    with description SC_38
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Motala Dun"
+    has mark_as_room
+    with IK1_Count 21
+    with IK1_Link I218_navran_dissent
+    with KD_Count 1
+    with name 'motala' 'dun' 
+;
+
+Object I218_navran_dissent ""
+    class K1_room
+    with short_name "Navran Dissent"
+    with description SC_39
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Navran Dissent"
+    has mark_as_room
+    with IK1_Count 22
+    with IK1_Link I219_ojan_repine
+    with KD_Count 1
+    with name 'navran' 'dissent' 
+;
+
+Object I219_ojan_repine ""
+    class K1_room
+    with short_name "Ojan Repine"
+    with description SC_40
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Ojan Repine"
+    has mark_as_room
+    with IK1_Count 23
+    with IK1_Link I220_onbo_park
+    with KD_Count 1
+    with name 'ojan' 'repine' 
+;
+
+Object I220_onbo_park ""
+    class K1_room
+    with short_name "Onbo Park"
+    with description SC_41
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Onbo Park"
+    has mark_as_room
+    with IK1_Count 24
+    with IK1_Link I221_pinnan_glimpse
+    with KD_Count 1
+    with name 'onbo' 'park' 
+;
+
+Object I221_pinnan_glimpse ""
+    class K1_room
+    with short_name "Pinnan Glimpse"
+    with description SC_42
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Pinnan Glimpse"
+    has mark_as_room
+    with IK1_Count 25
+    with IK1_Link I222_rekan_flux
+    with KD_Count 1
+    with name 'pinnan' 'glimpse' 
+;
+
+Object I222_rekan_flux ""
+    class K1_room
+    with short_name "Rekan Flux"
+    with description SC_43
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Rekan Flux"
+    has mark_as_room
+    with IK1_Count 26
+    with IK1_Link I223_simean_dims
+    with KD_Count 1
+    with name 'rekan' 'flux' 
+;
+
+Object I223_simean_dims ""
+    class K1_room
+    with short_name "Simean Dims"
+    with description SC_44
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Simean Dims"
+    has mark_as_room
+    with IK1_Count 27
+    with IK1_Link I224_smy_mod
+    with KD_Count 1
+    with name 'simean' 'dims' 
+;
+
+Object I224_smy_mod ""
+    class K1_room
+    with short_name "Smy Mod"
+    with description SC_45
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Smy Mod"
+    has mark_as_room
+    with IK1_Count 28
+    with IK1_Link I225_stopan_winnow
+    with KD_Count 1
+    with name 'smy' 'mod' 
+;
+
+Object I225_stopan_winnow ""
+    class K1_room
+    with short_name "Stopan Winnow"
+    with description SC_46
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Stopan Winnow"
+    has mark_as_room
+    with IK1_Count 29
+    with IK1_Link I226_stora_rede
+    with KD_Count 1
+    with name 'stopan' 'winnow' 
+;
+
+Object I226_stora_rede ""
+    class K1_room
+    with short_name "Stora Rede"
+    with description SC_47
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Stora Rede"
+    has mark_as_room
+    with IK1_Count 30
+    with IK1_Link I227_taftan_raves
+    with KD_Count 1
+    with name 'stora' 'rede' 
+;
+
+Object I227_taftan_raves ""
+    class K1_room
+    with short_name "Taftan Raves"
+    with description SC_48
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Taftan Raves"
+    has mark_as_room
+    with IK1_Count 31
+    with IK1_Link I228_torpan_cleft
+    with KD_Count 1
+    with name 'taftan' 'raves' 
+;
+
+Object I228_torpan_cleft ""
+    class K1_room
+    with short_name "Torpan Cleft"
+    with description SC_49
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Torpan Cleft"
+    has mark_as_room
+    with IK1_Count 32
+    with IK1_Link I229_via_firozi
+    with KD_Count 1
+    with name 'torpan' 'cleft' 
+;
+
+Object I229_via_firozi ""
+    class K1_room
+    with short_name "Via Firozi"
+    with description SC_50
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Via Firozi"
+    has mark_as_room
+    with IK1_Count 33
+    with IK1_Link I230_vindel_frowns
+    with KD_Count 1
+    with name 'via' 'firozi' 
+;
+
+Object I230_vindel_frowns ""
+    class K1_room
+    with short_name "Vindel Frowns"
+    with description SC_51
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Vindel Frowns"
+    has mark_as_room
+    with IK1_Count 34
+    with IK1_Link I231_vragan_boost
+    with KD_Count 1
+    with name 'vindel' 'frowns' 
+;
+
+Object I231_vragan_boost ""
+    class K1_room
+    with short_name "Vragan Boost"
+    with description SC_52
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Vragan Boost"
+    has mark_as_room
+    with IK1_Count 35
+    with IK1_Link I232_yan_jaggery
+    with KD_Count 1
+    with name 'vragan' 'boost' 
+;
+
+Object I232_yan_jaggery ""
+    class K1_room
+    with short_name "Yan Jaggery"
+    with description SC_53
+    with map_region I88_alakol
+    has proper
+    with vector 0
+    with room_index -1
+    with list_together 0
+    with cap_short_name "Yan Jaggery"
+    has mark_as_room
+    with IK1_Count 36
+    with IK1_Link nothing
+    with KD_Count 1
+    with name 'yan' 'jaggery' 
 ;
 
 Constant I65_figure_of_cover = 1;
@@ -11424,7 +12054,7 @@ Constant I86_referred_to_a_determinat = 19;
 Constant I87_i_beg_your_pardon_error = 20;
 Array Global_Vars -->
   (false) ! 7
-  (SC_19) ! 24
+  (SC_54) ! 24
   (SC_2) ! 29
   (EMPTY_TEXT_VALUE) ! 30
   (EMPTY_TEXT_VALUE) ! 31
@@ -11437,7 +12067,7 @@ Array Global_Vars -->
 
 
 Array T0_final_question_options table  tab_0_0 tab_0_1 tab_0_2 tab_0_3 tab_0_4;
-Array tab_0_0 table $0064 0  (SC_20)  (SC_21)  (SC_22)  (SC_23)  (SC_24) ;
+Array tab_0_0 table $0064 0  (SC_55)  (SC_56)  (SC_57)  (SC_58)  (SC_59) ;
 Array tab_0_1 table $0465 1  (0)  (0)  (1)  (0)  (0) ;
 Array tab_0_2 table $2066 2  (Consult_Grammar_95)  (Consult_Grammar_96)  (Consult_Grammar_97)  (Consult_Grammar_98)  (Consult_Grammar_99) ;
 Array tab_0_3 table $0067 3  (IMMEDIATELY_RESTART_VM_R)  (IMMEDIATELY_RESTORE_SAVED_R)  TABLE_NOVALUE (IMMEDIATELY_QUIT_R)  (IMMEDIATELY_UNDO_R) ;
@@ -12030,7 +12660,7 @@ Array ActionHappened --> 0 0 0 0 0 0;
 [ R_20 ;
       ! phrase 1
       ! [1: if the current item from the multiple object list is not nothing , say ~[current item from the multiple object list]: [run paragraph on]~]
-       if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent();  print (PrintShortName) multiple_object_item; ParaContent();  print (PrintText) SC_25; ParaContent();  RunParagraphOn();  .L_Say2; .L_SayX2;  }
+       if (((~~((multiple_object_item == nothing))))) { say__p=1;ParaContent();  print (PrintShortName) multiple_object_item; ParaContent();  print (PrintText) SC_60; ParaContent();  RunParagraphOn();  .L_Say2; .L_SayX2;  }
    rfalse;
 ];
 ! No specific request
@@ -12383,7 +13013,7 @@ self = noun;
 [ R_740 ;
       ! phrase 1
       ! [1: say ~This is a very alpha text adventure port of the MMO game Glitch.^^Honestly there's nothing here yet, only a couple of empty rooms. This is acting as a stub so I can link from GitHub to here.^^You can find the source for this on Github over here: https://github.com/revdancatt/cat428-glitch-text-adventure^^~]
-      say__p=1;ParaContent();  print (PrintText) SC_26;  .L_Say3; .L_SayX3;
+      say__p=1;ParaContent();  print (PrintText) SC_61;  .L_Say3; .L_SayX3;
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -12448,7 +13078,7 @@ self = noun;
    if (debug_rules) DB_Rule(R_60, 60);
       ! phrase 1
       ! [1: say ~[listing group size in words] ~]
-      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_27;  .L_Say5; .L_SayX5;
+      say__p=1;ParaContent();  print (number) say__n=(listing_size); ParaContent();  print (PrintText) SC_62;  .L_Say5; .L_SayX5;
       ! phrase 2
       ! [2: carry out the printing the plural name activity with the item]
        CarryOutActivity(V1_printing_the_plural_name_, t_0); 
@@ -12661,7 +13291,7 @@ self = noun;
        if (((t_0 < 1))) {  if (ProcessRulebook(IMMEDIATELY_QUIT_R)) rtrue;   }
       ! phrase 10
       ! [10: say ~Would you like to ~]
-      say__p=1;ParaContent();  print (PrintText) SC_28;  .L_Say6; .L_SayX6;
+      say__p=1;ParaContent();  print (PrintText) SC_63;  .L_Say6; .L_SayX6;
       ! phrase 11
       ! [11: repeat through the table of final question options begin]
        @push ct_0; @push ct_1;
@@ -12688,23 +13318,23 @@ self = noun;
                    if (((t_0 == 0)))  {
                      ! phrase 18
                      ! [18: say ~?[line break]~]
-                     say__p=1;ParaContent();  print (PrintText) SC_29; ParaContent();  new_line;  .L_Say8; .L_SayX8;
+                     say__p=1;ParaContent();  print (PrintText) SC_64; ParaContent();  new_line;  .L_Say8; .L_SayX8;
                      ! phrase 19
                      ! [19: otherwise if the named options count is 1]
                       } else if (((t_0 == 1))) { 
                      ! phrase 20
                      ! [20: if the serial comma option is active , say ~,~]
-                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_30;  .L_Say9; .L_SayX9;  }
+                      if ((((Adj_22_t1_v15(5))))) { say__p=1;ParaContent();  print (PrintText) SC_65;  .L_Say9; .L_SayX9;  }
                      ! phrase 21
                      ! [21: say ~ or ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_31;  .L_Say10; .L_SayX10;
+                     say__p=1;ParaContent();  print (PrintText) SC_66;  .L_Say10; .L_SayX10;
                      ! phrase 22
                      ! [22: otherwise]
                      } else {
 
                      ! phrase 23
                      ! [23: say ~, ~]
-                     say__p=1;ParaContent();  print (PrintText) SC_32;  .L_Say11; .L_SayX11;
+                     say__p=1;ParaContent();  print (PrintText) SC_67;  .L_Say11; .L_SayX11;
                      ! phrase 24
                      ! [24: end if]
                      }
@@ -12733,7 +13363,7 @@ self = noun;
 [ R_68 ;
       ! phrase 1
       ! [1: say ~> [run paragraph on]~]
-      say__p=1;ParaContent();  print (PrintText) SC_33; ParaContent();  RunParagraphOn();  .L_Say12; .L_SayX12;
+      say__p=1;ParaContent();  print (PrintText) SC_68; ParaContent();  RunParagraphOn();  .L_Say12; .L_SayX12;
    rfalse;
 ];
 ! ----------------------------------------------------------------------------------------------------
@@ -12986,40 +13616,40 @@ self = noun;
                 if (((t_0 ofclass K1_room)))  {
                   ! phrase 22
                   ! [22: if the domain is the location , say ~You ~]
-                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_34;  .L_Say13; .L_SayX13;  }
+                   if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_69;  .L_Say13; .L_SayX13;  }
                   ! phrase 23
                   ! [23: otherwise say ~In [the domain] you ~]
-                   else { say__p=1;ParaContent();  print (PrintText) SC_35; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_36;  .L_Say14; .L_SayX14;  }
+                   else { say__p=1;ParaContent();  print (PrintText) SC_70; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_71;  .L_Say14; .L_SayX14;  }
                   ! phrase 24
                   ! [24: otherwise if the domain is a supporter]
                    } else if (((t_0 ofclass K6_supporter))) { 
                   ! phrase 25
                   ! [25: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_37; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_36;  .L_Say15; .L_SayX15;
+                  say__p=1;ParaContent();  print (PrintText) SC_72; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_71;  .L_Say15; .L_SayX15;
                   ! phrase 26
                   ! [26: otherwise if the domain is an animal]
                    } else if (((t_0 ofclass K12_animal))) { 
                   ! phrase 27
                   ! [27: say ~On [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_37; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_36;  .L_Say16; .L_SayX16;
+                  say__p=1;ParaContent();  print (PrintText) SC_72; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_71;  .L_Say16; .L_SayX16;
                   ! phrase 28
                   ! [28: otherwise]
                   } else {
 
                   ! phrase 29
                   ! [29: say ~In [the domain] you ~]
-                  say__p=1;ParaContent();  print (PrintText) SC_35; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_36;  .L_Say17; .L_SayX17;
+                  say__p=1;ParaContent();  print (PrintText) SC_70; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_71;  .L_Say17; .L_SayX17;
                   ! phrase 30
                   ! [30: end if]
                   }
 
                ! phrase 31
                ! [31: say ~can [if the locale paragraph count is greater than 0]also [end if]see ~]
-               say__p=1;ParaContent();  print (PrintText) SC_38; 
+               say__p=1;ParaContent();  print (PrintText) SC_73; 
 	if (~~(((((Global_Vars-->8) > 0))))) jump L_Say18;
-		ParaContent();  print (PrintText) SC_39; 
+		ParaContent();  print (PrintText) SC_74; 
 	.L_Say18; .L_SayX18;
-		ParaContent();  print (PrintText) SC_40;  .L_Say19; .L_SayX19;
+		ParaContent();  print (PrintText) SC_75;  .L_Say19; .L_SayX19;
                ! phrase 32
                ! [32: let the common holder be nothing]
                 t_2 = nothing; 
@@ -13065,10 +13695,10 @@ self = noun;
 		@pull subst__v;  .L_Say20; .L_SayX20;  }
                ! phrase 44
                ! [44: if the domain is the location , say ~ here~]
-                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_41;  .L_Say21; .L_SayX21;  }
+                if (((t_0 == real_location))) { say__p=1;ParaContent();  print (PrintText) SC_76;  .L_Say21; .L_SayX21;  }
                ! phrase 45
                ! [45: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_42; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say22; .L_SayX22;
+               say__p=1;ParaContent();  print (PrintText) SC_77; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say22; .L_SayX22;
                ! phrase 46
                ! [46: unfilter list recursion]
                 list_filter_routine = 0; 
@@ -13329,13 +13959,13 @@ self = noun;
 
                ! phrase 13
                ! [13: say ~On [the item] ~]
-               say__p=1;ParaContent();  print (PrintText) SC_37; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_27;  .L_Say27; .L_SayX27;
+               say__p=1;ParaContent();  print (PrintText) SC_72; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_62;  .L_Say27; .L_SayX27;
                ! phrase 14
                ! [14: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
                 WriteListFrom(child(t_0), 3800); 
                ! phrase 15
                ! [15: say ~.[paragraph break]~]
-               say__p=1;ParaContent();  print (PrintText) SC_42; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say28; .L_SayX28;
+               say__p=1;ParaContent();  print (PrintText) SC_77; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say28; .L_SayX28;
                ! phrase 16
                ! [16: end if]
                }
@@ -13403,13 +14033,13 @@ self = noun;
              (Global_Vars-->8) = (Global_Vars-->8) + 1; 
             ! phrase 11
             ! [11: say ~On [the item] ~]
-            say__p=1;ParaContent();  print (PrintText) SC_37; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_27;  .L_Say29; .L_SayX29;
+            say__p=1;ParaContent();  print (PrintText) SC_72; ParaContent();  print (the) t_0; ParaContent();  print (PrintText) SC_62;  .L_Say29; .L_SayX29;
             ! phrase 12
             ! [12: list the contents of the item , as a sentence , including contents , giving brief inventory information , tersely , not listing concealed items , prefacing with is/are , listing marked items only]
              WriteListFrom(child(t_0), 3800); 
             ! phrase 13
             ! [13: say ~.[paragraph break]~]
-            say__p=1;ParaContent();  print (PrintText) SC_42; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say30; .L_SayX30;
+            say__p=1;ParaContent();  print (PrintText) SC_77; ParaContent();  DivideParagraphPoint(); new_line;  .L_Say30; .L_SayX30;
             ! phrase 14
             ! [14: end if]
             }
@@ -13459,7 +14089,7 @@ self = noun;
        GL__M(##Inv,2,noun); 
       ! phrase 2
       ! [2: say ~:[line break]~]
-      say__p=1;ParaContent();  print (PrintText) SC_43; ParaContent();  new_line;  .L_Say31; .L_SayX31;
+      say__p=1;ParaContent();  print (PrintText) SC_78; ParaContent();  new_line;  .L_Say31; .L_SayX31;
       ! phrase 3
       ! [3: list the contents of the player , with newlines , indented , including contents , giving inventory information , with extra indentation]
        WriteListFrom(child(player), 8215); 
@@ -15055,7 +15685,7 @@ self = noun;
           if (((~~(((MStack-->MstVO(20007,3)) == nothing)))))  {
             ! phrase 49
             ! [49: say ~ ~]
-            say__p=1;ParaContent();  print (PrintText) SC_27;  .L_Say32; .L_SayX32;
+            say__p=1;ParaContent();  print (PrintText) SC_62;  .L_Say32; .L_SayX32;
             ! phrase 50
             ! [50: if the vehicle gone by is a supporter , issue actor-based library message going action number 20 for the vehicle gone by]
              if ((((MStack-->MstVO(20007,3)) ofclass K6_supporter))) {  AGL__M(##Go,20,(MStack-->MstVO(20007,3)));   }
@@ -15110,7 +15740,7 @@ self = noun;
              AGL__M(##Go,26,noun); 
             ! phrase 66
             ! [66: say ~.~]
-            say__p=1;ParaContent();  print (PrintText) SC_42;  new_line; .L_Say33; .L_SayX33;
+            say__p=1;ParaContent();  print (PrintText) SC_77;  new_line; .L_Say33; .L_SayX33;
             ! phrase 67
             ! [67: try looking]
              TryAction(0, player, ##Look, 0, 0);; 
@@ -15123,7 +15753,7 @@ self = noun;
 
          ! phrase 70
          ! [70: say ~.~]
-         say__p=1;ParaContent();  print (PrintText) SC_42;  new_line; .L_Say34; .L_SayX34;
+         say__p=1;ParaContent();  print (PrintText) SC_77;  new_line; .L_Say34; .L_SayX34;
          ! phrase 71
          ! [71: end if]
          }
@@ -23367,7 +23997,7 @@ Constant SLOW_ROUTE_FINDING;
 #endif;
 
 Constant NUM_DOORS = 0;
-Constant NUM_ROOMS = 2;
+Constant NUM_ROOMS = 37;
 
 Array DoorRoutingViable -> NUM_DOORS+1;
 
@@ -23554,7 +24184,7 @@ Array FWMatrix --> NUM_ROOMS*NUM_ROOMS;
 ];
 #ENDIF;
 
-Constant MAX_ROUTE_LENGTH = 82 + 32;
+Constant MAX_ROUTE_LENGTH = 117 + 32;
 
 [ RelationRouteTo relation from to count  handler;
 	if (count) {
@@ -28999,28 +29629,28 @@ ArgumentTypeFailed(filename, line);
 Array ConstantListPointers --> 
  0 0;
 
-Constant SC_27 = " ";
-Constant SC_41 = " here";
-Constant SC_31 = " or ";
-Constant SC_36 = " you ";
-Constant SC_32 = ", ";
-Constant SC_30 = ",";
-Constant SC_42 = ".";
-Constant SC_25 = ": ";
-Constant SC_43 = ":";
-Constant SC_33 = "> ";
-Constant SC_19 = ">";
-Constant SC_29 = "?";
+Constant SC_62 = " ";
+Constant SC_76 = " here";
+Constant SC_66 = " or ";
+Constant SC_71 = " you ";
+Constant SC_67 = ", ";
+Constant SC_65 = ",";
+Constant SC_77 = ".";
+Constant SC_60 = ": ";
+Constant SC_78 = ":";
+Constant SC_68 = "> ";
+Constant SC_54 = ">";
+Constant SC_64 = "?";
 Constant SC_4 = "A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.";
 Constant SC_14 = "A study in shades of grey, gray, and a monochromatic 8-bit scale of debatable spelling, this common rock is mostly found underground, is minable, and may contain precious gems.";
 Constant SC_13 = "A stupefying combination of classic rock and the power of metal. Most often found in rocky areas, these heavyweights are indispensable in the production of ingots and the metallurgic arts.";
 Constant SC_16 = "As good-looking as ever.";
 Constant SC_3 = "For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle.";
-Constant SC_35 = "In ";
-Constant SC_37 = "On ";
-Constant SC_23 = "QUIT";
-Constant SC_20 = "RESTART";
-Constant SC_21 = "RESTORE a saved game";
+Constant SC_70 = "In ";
+Constant SC_72 = "On ";
+Constant SC_58 = "QUIT";
+Constant SC_55 = "RESTART";
+Constant SC_56 = "RESTORE a saved game";
 Constant SC_2 = "Rev Dan Catt";
 Constant SC_12 = "The delectable Spice Plant. Seductively dangling with Allspice, the millability of this simple brown seed means that everyone's favorite varietal of spice can be found bounded in one shell if you look hard enough.";
 Constant SC_6 = "The delicate Bubble Tree. Bursting with plain bubbles waiting to be tuned, these somewhat unstable specimens harbor fruit of perfect transparency - and thoughts of bizarre conspiracy.";
@@ -29028,18 +29658,53 @@ Constant SC_11 = "The ever-mellow Gas Plant. Packed with a stash of General Vapo
 Constant SC_7 = "The glorious Fruit Tree. Thick with tasty cherries ripe to be converted into other delicious fruits, these venerable plants may not be chatty, but they're indispensable for fine edibles and quaffables of all sorts.";
 Constant SC_5 = "The good old Tree of Bean. Laden with 57 varieties of identical-looking legume, these protein-machines provide the raw ingredients for hearty chow and base material for new trees.";
 Constant SC_10 = "The noble Egg Plant. As is fitting to a fruit as ovoidly perfect as a prolate moon, Egg Plants (of course) can only be found underground in cool, dark places.";
-Constant SC_26 = "This is a very alpha text adventure port of the MMO game Glitch.^^Honestly there's nothing here yet, only a couple of empty rooms. This is acting as a stub so I can link from GitHub to here.^^You can find the source for this on Github over here: https://github.com/revdancatt/cat428-glitch-text-adventure^^";
+Constant SC_61 = "This is a very alpha text adventure port of the MMO game Glitch.^^Honestly there's nothing here yet, only a couple of empty rooms. This is acting as a stub so I can link from GitHub to here.^^You can find the source for this on Github over here: https://github.com/revdancatt/cat428-glitch-text-adventure^^";
 Constant SC_8 = "Turns out that paper DOES grow on trees, as long as the tree in question is this one. The sheety fruit of this practical tree is a prerequisite for all manner of Penpersonship skills.";
-Constant SC_24 = "UNDO the last command";
+Constant SC_59 = "UNDO the last command";
 Constant SC_9 = "While all trees are woody, the Wood Tree is woodier than most. Tending to your wood is a rewarding solitary pursuit, but gathering friends to engorge your wood before all wielding your choppers simultaneously is both mutually satisfying, and sure to result in the injection of firm, tasty planks into your bag.";
-Constant SC_28 = "Would you like to ";
-Constant SC_34 = "You ";
-Constant SC_17 = "You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is North West and Semsan Simile is East.";
+Constant SC_63 = "Would you like to ";
+Constant SC_69 = "You ";
+Constant SC_17 = "You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.";
+Constant SC_21 = "You are in Bolesan Ambitions, Alakol.";
+Constant SC_22 = "You are in Brunnan Bafflings, Alakol.";
+Constant SC_23 = "You are in Dofsan Vex, Alakol.";
+Constant SC_24 = "You are in Dyran Notion, Alakol.";
 Constant SC_18 = "You are in Ekorran Roughs, Alakol.";
-Constant SC_39 = "also ";
-Constant SC_38 = "can ";
-Constant SC_40 = "see ";
-Constant SC_22 = "see some suggestions for AMUSING things to do";
+Constant SC_25 = "You are in Feman Falters, Alakol.";
+Constant SC_26 = "You are in Flogan Shames, Alakol.";
+Constant SC_27 = "You are in Fyran Descant, Alakol.";
+Constant SC_19 = "You are in Getan Tenets, Alakol.";
+Constant SC_28 = "You are in Gimja Preserve, Alakol.";
+Constant SC_29 = "You are in Hammar Steadies, Alakol.";
+Constant SC_30 = "You are in Harkan Idiom, Alakol.";
+Constant SC_31 = "You are in Idan Frisk, Alakol.";
+Constant SC_32 = "You are in Isalan Interval, Alakol.";
+Constant SC_33 = "You are in Jadraan Fix, Alakol.";
+Constant SC_34 = "You are in Kobah Habitat, Alakol.";
+Constant SC_35 = "You are in Kolan Presence, Alakol.";
+Constant SC_36 = "You are in Lustan Cautions, Alakol.";
+Constant SC_37 = "You are in Marlan Bias, Alakol.";
+Constant SC_38 = "You are in Motala Dun, Alakol.";
+Constant SC_39 = "You are in Navran Dissent, Alakol.";
+Constant SC_40 = "You are in Ojan Repine, Alakol.";
+Constant SC_41 = "You are in Onbo Park, Alakol.";
+Constant SC_42 = "You are in Pinnan Glimpse, Alakol.";
+Constant SC_43 = "You are in Rekan Flux, Alakol.";
+Constant SC_20 = "You are in Semsan Simile, Alakol.";
+Constant SC_44 = "You are in Simean Dims, Alakol.";
+Constant SC_45 = "You are in Smy Mod, Alakol.";
+Constant SC_46 = "You are in Stopan Winnow, Alakol.";
+Constant SC_47 = "You are in Stora Rede, Alakol.";
+Constant SC_48 = "You are in Taftan Raves, Alakol.";
+Constant SC_49 = "You are in Torpan Cleft, Alakol.";
+Constant SC_50 = "You are in Via Firozi, Alakol.";
+Constant SC_51 = "You are in Vindel Frowns, Alakol.";
+Constant SC_52 = "You are in Vragan Boost, Alakol.";
+Constant SC_53 = "You are in Yan Jaggery, Alakol.";
+Constant SC_74 = "also ";
+Constant SC_73 = "can ";
+Constant SC_75 = "see ";
+Constant SC_57 = "see some suggestions for AMUSING things to do";
 Constant SC_15 = "the";
 
 #ifndef p0_specification; Constant p0_specification = 0; #endif;

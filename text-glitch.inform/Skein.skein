@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1b32260" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1b32260" />
+  <activeNode nodeId="node-0x18d88a0" />
   <item nodeId="node-0x1b32260">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -20,7 +20,7 @@ An Interactive Fiction by Rev Dan Catt
 Release 1 / Serial number 130101 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is North West and Semsan Simile is East.
+You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
 
 You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
 
@@ -42,11 +42,47 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 </commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="14">NO</temporary>
+    <temporary score="25">NO</temporary>
     <children>
       <child nodeId="node-0x1b23a10" />
+      <child nodeId="node-0x1ecb810" />
+      <child nodeId="node-0x18ee070" />
       <child nodeId="node-0x1b32f30" />
+      <child nodeId="node-0x18f8800" />
     </children>
+  </item>
+  <item nodeId="node-0x18f8800">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0xa93af40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa93af40">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x1815db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1815db0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
   </item>
   <item nodeId="node-0x1b32f30">
     <command xml:space="preserve">go Ekorran Roughs</command>
@@ -171,7 +207,82 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x1b23a10">
+  <item nodeId="node-0x18ee070">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0xa9f0780" />
+    </children>
+  </item>
+  <item nodeId="node-0xa9f0780">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x18d4a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x18d4a40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+    <children>
+      <child nodeId="node-0x184fd30" />
+    </children>
+  </item>
+  <item nodeId="node-0x184fd30">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0x1ecb810">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Semsan Simile
+You are in Semsan Simile, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x1da0940" />
+    </children>
+  </item>
+  <item nodeId="node-0x1da0940">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Anrasan Glance
+You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
+
+You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e00440" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e00440">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -180,6 +291,114 @@ You are in Ekorran Roughs, Alakol.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x36e0d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x36e0d60">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Anrasan Glance
+You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
+
+You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x18d55f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18d55f0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Getan Tenets
+You are in Getan Tenets, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="23">YES</temporary>
+    <children>
+      <child nodeId="node-0x1821d10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1821d10">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Anrasan Glance
+You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
+
+You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b23a10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Ekorran Roughs
+You are in Ekorran Roughs, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x18d88a0" />
+      <child nodeId="node-0x1dedcc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1dedcc0">
+    <command xml:space="preserve">exits</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x18bb7b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18bb7b0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Ekorran Roughs
+You are in Ekorran Roughs, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
     <temporary score="3">YES</temporary>
+  </item>
+  <item nodeId="node-0x18d88a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Anrasan Glance
+You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
+
+You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x18aeae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18aeae0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
   </item>
 </Skein>

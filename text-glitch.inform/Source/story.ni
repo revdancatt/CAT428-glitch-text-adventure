@@ -178,10 +178,10 @@ Dofsan Vex is a room in Alakol. "You are in Dofsan Vex, Alakol."
 Dofsan Vex is southwest of Isalan Interval.
 Dofsan Vex is west of Simean Dims.
 Dofsan Vex is northwest of Taftan Raves.
-Dofsan Vex is northeast of Vindel Frowns.
+Dofsan Vex is north of Vindel Frowns.
 
 Dyran Notion is a room in Alakol. "You are in Dyran Notion, Alakol."
-Dyran Notion is south of Marlan Bias.
+Dyran Notion is southwest of Marlan Bias.
 Dyran Notion is northwest of Navran Dissent.
 Dyran Notion is northeast of Hammar Steadies.
 Dyran Notion is east of Smy Mod.
@@ -259,7 +259,7 @@ Kolan Presence is northwest of Harkan Idiom.
 Kolan Presence is northeast of Idan Frisk.
 
 Lustan Cautions is a room in Alakol. "You are in Lustan Cautions, Alakol."
-Lustan Cautions is southwest of Stora Rede.
+Lustan Cautions is south of Stora Rede.
 Lustan Cautions is west of Getan Tenets.
 Lustan Cautions is northwest of Ekorran Roughs.
 Lustan Cautions is northeast of Flogan Shames.
@@ -276,22 +276,40 @@ Motala Dun is northeast of Bolesan Ambitions.
 Motala Dun is east of Harkan Idiom.
 
 Navran Dissent is a room in Alakol. "You are in Navran Dissent, Alakol."
+Navran Dissent is south of Marlan Bias.
+Navran Dissent is northeast of Vindel Frowns.
+Navran Dissent is east of Hammar Steadies.
+Navran Dissent is southeast of Dyran Notion.
 
 Ojan Repine is a room in Alakol. "You are in Ojan Repine, Alakol."
+Ojan Repine is south of Brunnan Bafflings.
+Ojan Repine is northeast of Vragan Boost.
+Ojan Repine is north of Rekan Flux.
 
 Onbo Park is a room in Alakol. "You are in Onbo Park, Alakol. Stopan Winnow is Southeast."
 Onbo Park is northwest of Stopan Winnow.
 
 Pinnan Glimpse is a room in Alakol. "You are in Pinnan Glimpse, Alakol."
+Pinnan Glimpse is east of Yan Jaggery.
+Pinnan Glimpse is southeast of Bolesan Ambitions.
 
 Rekan Flux is a room in Alakol. "You are in Rekan Flux, Alakol."
+Rekan Flux is west of Lustan Cautions.
+Rekan Flux is east of Vragan Boost.
+Rekan Flux is southeast of Ojan Repine.
 
 Semsan Simile is a room in Alakol. "You are in Semsan Simile, Alakol."
 Semsan Simile is east of Anrasan Glance.
 
 Simean Dims is a room in Alakol. "You are in Simean Dims, Alakol."
+Simean Dims is northwest of Flogan Shames.
+Simean Dims is southeast of Isalan Interval.
+Simean Dims is northeast of Taftan Raves.
+Simean Dims is east of Dofsan Vex.
 
 Smy Mod is a room in Alakol. "You are in Smy Mod, Alakol."
+Smy Mod is north of Hammar Steadies.
+Smy Mod is west of Dyran Notion.
 
 Stopan Winnow is a room in Alakol. "You are in Stopan Winnow, Alakol. Onbo Park is Northwest, Jadraan Fix is East and Marlan Bias is to the South."
 Stopan Winnow is southeast of Onbo Park.
@@ -299,17 +317,41 @@ Stopan Winnow is west of Jadraan Fix.
 Stopan Winnow is northwest of Marlan Bias.
 
 Stora Rede is a room in Alakol. "You are in Stora Rede, Alakol."
+Stora Rede is southwest of Yan Jaggery.
+Stora Rede is west of Kobah Habitat.
+Stora Rede is south of Torpan Cleft.
+Stora Rede is northeast of Getan Tenets.
+Stora Rede is north of Lustan Cautions.
 
 Taftan Raves is a room in Alakol. "You are in Taftan Raves, Alakol."
+Taftan Raves is west of Flogan Shames.
+Taftan Raves is east of Vindel Frowns.
+Taftan Raves is southwest of Simean Dims.
+Taftan Raves is southeast of Dofsan Vex.
 
 Torpan Cleft is a room in Alakol. "You are in Torpan Cleft, Alakol."
+Torpan Cleft is southwest of Idan Frisk.
+Torpan Cleft is southeast of Feman Falters.
+Torpan Cleft is east of Fyran Descant.
+Torpan Cleft is northwest of Yan Jaggery.
+Torpan Cleft is north of Stora Rede.
 
 Via Firozi is a room in Alakol. "You are in Via Firozi, Alakol."
+Via Firozi is south of Ekorran Roughs.
 
 Vindel Frowns is a room in Alakol. "You are in Vindel Frowns, Alakol."
+Vindel Frowns is west of Taftan Raves.
+Vindel Frowns is southwest of Dofsan Vex.
+Vindel Frowns is south of Navran Dissent.
+Vindel Frowns is southeast of Hammar Steadies.
 
 Vragan Boost is a room in Alakol. "You are in Vragan Boost, Alakol."
+Vragan Boost is west of Rekan Flux.
+Vragan Boost is southwest of Ojan Repine.
 
 Yan Jaggery is a room in Alakol. "You are in Yan Jaggery, Alakol."
-
+Yan Jaggery is west of Pinnan Glimpse.
+Yan Jaggery is south of Bolesan Ambitions.
+Yan Jaggery is southeast of Torpan Cleft.
+Yan Jaggery is northeast of Stora Rede.
 

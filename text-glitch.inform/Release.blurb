@@ -1,0 +1,37 @@
+! Blurb file created by Inform build 6G60
+
+status "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/CblorbModel.html" "/Users/revdancatt/Dropbox/Dan's Stuff/Documents/Projects/CAT428-glitch-text-adventure/text-glitch.inform/Build/StatusCblorb.html"
+
+
+! Identification
+
+project folder "/Users/revdancatt/Dropbox/Dan's Stuff/Documents/Projects/CAT428-glitch-text-adventure/text-glitch.inform"
+release to "/Users/revdancatt/Dropbox/Dan's Stuff/Documents/Projects/CAT428-glitch-text-adventure/text-glitch Materials/Release"
+
+! Blorb instructions
+
+storyfile leafname "text-glitch alpha version 0-2-3.zblorb"
+storyfile "/Users/revdancatt/Dropbox/Dan's Stuff/Documents/Projects/CAT428-glitch-text-adventure/text-glitch.inform/Build/output.z8" include
+ifiction "/Users/revdancatt/Dropbox/Dan's Stuff/Documents/Projects/CAT428-glitch-text-adventure/text-glitch.inform/Metadata.iFiction" include
+cover "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
+picture 1 "/Applications/Inform.app/Contents/Resources/Inform7/Extensions/Reserved/DefaultCover.jpg"
+
+! Placeholder variables
+
+placeholder [IFID] = "923035B6-C430-47CF-884D-62D7F8961714"
+placeholder [RELEASE] = "1"
+placeholder [YEAR] = "2013"
+placeholder [TITLE] = "text-glitch alpha version 0.2.3"
+placeholder [AUTHOR] = "Rev Dan Catt"
+placeholder [BLURB] = "A work of interactive fiction."
+
+! Other material to release
+
+status alternative ||Using 'Release along with cover art', to provide something more distinctive than the default artwork above&nbsp;<a href=inform:/doc391.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a website'&nbsp;<a href=inform:/doc393.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with an interpreter', for in-browser play on your website&nbsp;<a href=inform:/doc394.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the "Such-and-Such" file called "whatever.pdf"', perhaps to add a manual, or a welcoming note&nbsp;<a href=inform:/doc389.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the source text'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with a solution'&nbsp;<a href=inform:/doc398.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the library card'&nbsp;<a href=inform:/doc399.html><img border=0 src=inform:/help.png></a>||
+status alternative ||Using 'Release along with the introductory booklet'&nbsp;<a href=inform:/doc392.html><img border=0 src=inform:/help.png></a>||

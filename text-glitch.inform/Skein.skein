@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1d752b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1ec0c30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1d752b0" />
-  <item nodeId="node-0x1d752b0">
+  <activeNode nodeId="node-0x1ec0c30" />
+  <item nodeId="node-0x1ec0c30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -21,7 +21,7 @@ You can find the source for this on Github over here: https://github.com/revdanc
 
 text-glitch alpha version 0.2.3
 An Interactive Fiction by Rev Dan Catt
-Release 1 / Serial number 130101 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130102 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Anrasan Glance
 You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
@@ -45,17 +45,17 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 &gt;w
 </commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="78">NO</temporary>
     <children>
-      <child nodeId="node-0x1dc72f0" />
-      <child nodeId="node-0x1dc6600" />
-      <child nodeId="node-0x1dc6280" />
-      <child nodeId="node-0x1d75080" />
-      <child nodeId="node-0x1d74dd0" />
+      <child nodeId="node-0x1e5d610" />
+      <child nodeId="node-0x1e5e340" />
+      <child nodeId="node-0x1e5e660" />
+      <child nodeId="node-0x1e5eb20" />
+      <child nodeId="node-0x1ec0ca0" />
     </children>
   </item>
-  <item nodeId="node-0x1d74dd0">
+  <item nodeId="node-0x1ec0ca0">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -64,10 +64,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>NO</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1d75580" />
+      <child nodeId="node-0x1ec0cf0" />
     </children>
   </item>
-  <item nodeId="node-0x1d75580">
+  <item nodeId="node-0x1ec0cf0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -76,10 +76,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1d755d0" />
+      <child nodeId="node-0x1e5eb70" />
     </children>
   </item>
-  <item nodeId="node-0x1d755d0">
+  <item nodeId="node-0x1e5eb70">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -88,7 +88,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x1d75080">
+  <item nodeId="node-0x1e5eb20">
     <command xml:space="preserve">go Ekorran Roughs</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -97,10 +97,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1d750d0" />
+      <child nodeId="node-0x1e5ead0" />
     </children>
   </item>
-  <item nodeId="node-0x1d750d0">
+  <item nodeId="node-0x1e5ead0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -111,10 +111,10 @@ You are in Ekorran Roughs, Alakol.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1d75120" />
+      <child nodeId="node-0x1e5ea80" />
     </children>
   </item>
-  <item nodeId="node-0x1d75120">
+  <item nodeId="node-0x1e5ea80">
     <command xml:space="preserve">r</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -123,10 +123,10 @@ You are in Ekorran Roughs, Alakol.
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc5f60" />
+      <child nodeId="node-0x1e5e9b0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc5f60">
+  <item nodeId="node-0x1e5e9b0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -139,10 +139,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc5fb0" />
+      <child nodeId="node-0x1e5e960" />
     </children>
   </item>
-  <item nodeId="node-0x1dc5fb0">
+  <item nodeId="node-0x1e5e960">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -151,10 +151,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6000" />
+      <child nodeId="node-0x1e5e910" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6000">
+  <item nodeId="node-0x1e5e910">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -163,10 +163,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6070" />
+      <child nodeId="node-0x1e5e8a0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6070">
+  <item nodeId="node-0x1e5e8a0">
     <command xml:space="preserve">u</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -175,10 +175,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc60e0" />
+      <child nodeId="node-0x1e5e830" />
     </children>
   </item>
-  <item nodeId="node-0x1dc60e0">
+  <item nodeId="node-0x1e5e830">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -187,10 +187,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6210" />
+      <child nodeId="node-0x1e5e700" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6210">
+  <item nodeId="node-0x1e5e700">
     <command xml:space="preserve">nnw</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -199,10 +199,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc5f00" />
+      <child nodeId="node-0x1e5e6b0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc5f00">
+  <item nodeId="node-0x1e5e6b0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -211,7 +211,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x1dc6280">
+  <item nodeId="node-0x1e5e660">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -222,11 +222,11 @@ You are in Getan Tenets, Alakol.
     <changed>NO</changed>
     <temporary score="78">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6b00" />
-      <child nodeId="node-0x1dc62f0" />
+      <child nodeId="node-0x1e5de00" />
+      <child nodeId="node-0x1e5e610" />
     </children>
   </item>
-  <item nodeId="node-0x1dc62f0">
+  <item nodeId="node-0x1e5e610">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Stora Rede
@@ -237,10 +237,10 @@ You are in Stora Rede, Alakol.
     <changed>YES</changed>
     <temporary score="78">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6360" />
+      <child nodeId="node-0x1e5e5c0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6360">
+  <item nodeId="node-0x1e5e5c0">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -251,10 +251,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="77">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc63d0" />
+      <child nodeId="node-0x1e5e550" />
     </children>
   </item>
-  <item nodeId="node-0x1dc63d0">
+  <item nodeId="node-0x1e5e550">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -265,10 +265,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6440" />
+      <child nodeId="node-0x1e5e4e0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6440">
+  <item nodeId="node-0x1e5e4e0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -277,10 +277,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc64b0" />
+      <child nodeId="node-0x1e5e470" />
     </children>
   </item>
-  <item nodeId="node-0x1dc64b0">
+  <item nodeId="node-0x1e5e470">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -293,10 +293,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6150" />
+      <child nodeId="node-0x1e5e7b0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6150">
+  <item nodeId="node-0x1e5e7b0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -307,10 +307,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc61a0" />
+      <child nodeId="node-0x1e5e750" />
     </children>
   </item>
-  <item nodeId="node-0x1dc61a0">
+  <item nodeId="node-0x1e5e750">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -319,10 +319,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc66a0" />
+      <child nodeId="node-0x1e5e260" />
     </children>
   </item>
-  <item nodeId="node-0x1dc66a0">
+  <item nodeId="node-0x1e5e260">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -335,10 +335,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6710" />
+      <child nodeId="node-0x1e5e1f0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6710">
+  <item nodeId="node-0x1e5e1f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -349,10 +349,10 @@ You are in Ekorran Roughs, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6780" />
+      <child nodeId="node-0x1e5e180" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6780">
+  <item nodeId="node-0x1e5e180">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -363,10 +363,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc67f0" />
+      <child nodeId="node-0x1e5e110" />
     </children>
   </item>
-  <item nodeId="node-0x1dc67f0">
+  <item nodeId="node-0x1e5e110">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -377,10 +377,10 @@ You are in Ekorran Roughs, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6860" />
+      <child nodeId="node-0x1e5e0a0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6860">
+  <item nodeId="node-0x1e5e0a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Flogan Shames
@@ -391,10 +391,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc68d0" />
+      <child nodeId="node-0x1e5e030" />
     </children>
   </item>
-  <item nodeId="node-0x1dc68d0">
+  <item nodeId="node-0x1e5e030">
     <command xml:space="preserve">back</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -403,10 +403,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6940" />
+      <child nodeId="node-0x1e5dfc0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6940">
+  <item nodeId="node-0x1e5dfc0">
     <command xml:space="preserve">go back</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -415,10 +415,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc69b0" />
+      <child nodeId="node-0x1e5df50" />
     </children>
   </item>
-  <item nodeId="node-0x1dc69b0">
+  <item nodeId="node-0x1e5df50">
     <command xml:space="preserve">go north</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -427,10 +427,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6a20" />
+      <child nodeId="node-0x1e5dee0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6a20">
+  <item nodeId="node-0x1e5dee0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -441,10 +441,10 @@ You are in Ekorran Roughs, Alakol.
     <changed>YES</changed>
     <temporary score="65">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6a90" />
+      <child nodeId="node-0x1e5de70" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6a90">
+  <item nodeId="node-0x1e5de70">
     <command xml:space="preserve">go west</command>
     <result xml:space="preserve">
 Flogan Shames
@@ -455,7 +455,7 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="64">YES</temporary>
   </item>
-  <item nodeId="node-0x1dc6b00">
+  <item nodeId="node-0x1e5de00">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -464,10 +464,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6520" />
+      <child nodeId="node-0x1e5e3a0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6520">
+  <item nodeId="node-0x1e5e3a0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -476,10 +476,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6590" />
+      <child nodeId="node-0x1e5e2f0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6590">
+  <item nodeId="node-0x1e5e2f0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -488,7 +488,7 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
   </item>
-  <item nodeId="node-0x1dc6600">
+  <item nodeId="node-0x1e5e340">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Semsan Simile
@@ -499,10 +499,10 @@ You are in Semsan Simile, Alakol.
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6db0" />
+      <child nodeId="node-0x1e5db50" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6db0">
+  <item nodeId="node-0x1e5db50">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -515,10 +515,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6e20" />
+      <child nodeId="node-0x1e5dae0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6e20">
+  <item nodeId="node-0x1e5dae0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -529,11 +529,11 @@ You are in Ekorran Roughs, Alakol.
     <changed>NO</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc71a0" />
-      <child nodeId="node-0x1dc6e90" />
+      <child nodeId="node-0x1e5d760" />
+      <child nodeId="node-0x1e5da70" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6e90">
+  <item nodeId="node-0x1e5da70">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Flogan Shames
@@ -544,10 +544,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6f00" />
+      <child nodeId="node-0x1e5da00" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6f00">
+  <item nodeId="node-0x1e5da00">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Taftan Raves
@@ -558,10 +558,10 @@ You are in Taftan Raves, Alakol.
     <changed>YES</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6f70" />
+      <child nodeId="node-0x1e5d990" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6f70">
+  <item nodeId="node-0x1e5d990">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -570,10 +570,10 @@ You are in Taftan Raves, Alakol.
     <changed>YES</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6fe0" />
+      <child nodeId="node-0x1e5d920" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6fe0">
+  <item nodeId="node-0x1e5d920">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Dofsan Vex
@@ -584,10 +584,10 @@ You are in Dofsan Vex, Alakol.
     <changed>YES</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7050" />
+      <child nodeId="node-0x1e5d8b0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7050">
+  <item nodeId="node-0x1e5d8b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -596,10 +596,10 @@ You are in Dofsan Vex, Alakol.
     <changed>YES</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc70c0" />
+      <child nodeId="node-0x1e5d840" />
     </children>
   </item>
-  <item nodeId="node-0x1dc70c0">
+  <item nodeId="node-0x1e5d840">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Isalan Interval
@@ -610,10 +610,10 @@ You are in Isalan Interval, Alakol.
     <changed>YES</changed>
     <temporary score="75">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7130" />
+      <child nodeId="node-0x1e5d7d0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7130">
+  <item nodeId="node-0x1e5d7d0">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
 Dofsan Vex
@@ -624,7 +624,7 @@ You are in Dofsan Vex, Alakol.
     <changed>YES</changed>
     <temporary score="74">YES</temporary>
   </item>
-  <item nodeId="node-0x1dc71a0">
+  <item nodeId="node-0x1e5d760">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -637,10 +637,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7210" />
+      <child nodeId="node-0x1e5d6f0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7210">
+  <item nodeId="node-0x1e5d6f0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -651,10 +651,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="23">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7280" />
+      <child nodeId="node-0x1e5d680" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7280">
+  <item nodeId="node-0x1e5d680">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -667,7 +667,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
   </item>
-  <item nodeId="node-0x1dc72f0">
+  <item nodeId="node-0x1e5d610">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -678,12 +678,12 @@ You are in Ekorran Roughs, Alakol.
     <changed>NO</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7b40" />
-      <child nodeId="node-0x1dc7a60" />
-      <child nodeId="node-0x1dc7360" />
+      <child nodeId="node-0x1e5cdc0" />
+      <child nodeId="node-0x1e5cea0" />
+      <child nodeId="node-0x1e5d5a0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7360">
+  <item nodeId="node-0x1e5d5a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Flogan Shames
@@ -694,10 +694,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc73d0" />
+      <child nodeId="node-0x1e5d530" />
     </children>
   </item>
-  <item nodeId="node-0x1dc73d0">
+  <item nodeId="node-0x1e5d530">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -706,10 +706,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7440" />
+      <child nodeId="node-0x1e5d4c0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7440">
+  <item nodeId="node-0x1e5d4c0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -718,10 +718,10 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc74b0" />
+      <child nodeId="node-0x1e5d450" />
     </children>
   </item>
-  <item nodeId="node-0x1dc74b0">
+  <item nodeId="node-0x1e5d450">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -732,10 +732,10 @@ You are in Ekorran Roughs, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6b70" />
+      <child nodeId="node-0x1e5dba0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6b70">
+  <item nodeId="node-0x1e5dba0">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -746,10 +746,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6be0" />
+      <child nodeId="node-0x1e5dc10" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6be0">
+  <item nodeId="node-0x1e5dc10">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -762,10 +762,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6c50" />
+      <child nodeId="node-0x1e5dc80" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6c50">
+  <item nodeId="node-0x1e5dc80">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -776,10 +776,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6cc0" />
+      <child nodeId="node-0x1e5dcf0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6cc0">
+  <item nodeId="node-0x1e5dcf0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -788,10 +788,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc6d30" />
+      <child nodeId="node-0x1e5dd60" />
     </children>
   </item>
-  <item nodeId="node-0x1dc6d30">
+  <item nodeId="node-0x1e5dd60">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -804,10 +804,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7520" />
+      <child nodeId="node-0x1e5d3e0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7520">
+  <item nodeId="node-0x1e5d3e0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -818,40 +818,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7590" />
+      <child nodeId="node-0x1e5d370" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7590">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1dc7600" />
-    </children>
-  </item>
-  <item nodeId="node-0x1dc7600">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1dc7670" />
-    </children>
-  </item>
-  <item nodeId="node-0x1dc7670">
+  <item nodeId="node-0x1e5d370">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -864,10 +834,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc76e0" />
+      <child nodeId="node-0x1e5d300" />
     </children>
   </item>
-  <item nodeId="node-0x1dc76e0">
+  <item nodeId="node-0x1e5d300">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -878,11 +848,11 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7750" />
+      <child nodeId="node-0x1e5d290" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7750">
-    <command xml:space="preserve">se</command>
+  <item nodeId="node-0x1e5d290">
+    <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Anrasan Glance
 You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
@@ -894,10 +864,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc77c0" />
+      <child nodeId="node-0x1e5d220" />
     </children>
   </item>
-  <item nodeId="node-0x1dc77c0">
+  <item nodeId="node-0x1e5d220">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -908,10 +878,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7830" />
+      <child nodeId="node-0x1e5d1b0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7830">
+  <item nodeId="node-0x1e5d1b0">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -924,11 +894,11 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc78a0" />
+      <child nodeId="node-0x1e5d140" />
     </children>
   </item>
-  <item nodeId="node-0x1dc78a0">
-    <command xml:space="preserve">se</command>
+  <item nodeId="node-0x1e5d140">
+    <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
 You are in Getan Tenets, Alakol.
@@ -938,10 +908,10 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7910" />
+      <child nodeId="node-0x1e5d0d0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7910">
+  <item nodeId="node-0x1e5d0d0">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -954,10 +924,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7980" />
+      <child nodeId="node-0x1e5d060" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7980">
+  <item nodeId="node-0x1e5d060">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -968,10 +938,40 @@ You are in Getan Tenets, Alakol.
     <changed>YES</changed>
     <temporary score="47">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc79f0" />
+      <child nodeId="node-0x1e5cff0" />
     </children>
   </item>
-  <item nodeId="node-0x1dc79f0">
+  <item nodeId="node-0x1e5cff0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Anrasan Glance
+You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
+
+You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e5cf80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e5cf80">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Getan Tenets
+You are in Getan Tenets, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e5cf10" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e5cf10">
     <command xml:space="preserve">se</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -984,7 +984,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="46">YES</temporary>
   </item>
-  <item nodeId="node-0x1dc7a60">
+  <item nodeId="node-0x1e5cea0">
     <command xml:space="preserve">exits</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -993,10 +993,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7ad0" />
+      <child nodeId="node-0x1e5ce30" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7ad0">
+  <item nodeId="node-0x1e5ce30">
     <command xml:space="preserve">look</command>
     <result xml:space="preserve">Ekorran Roughs
 You are in Ekorran Roughs, Alakol.
@@ -1006,7 +1006,7 @@ You are in Ekorran Roughs, Alakol.
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
   </item>
-  <item nodeId="node-0x1dc7b40">
+  <item nodeId="node-0x1e5cdc0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Anrasan Glance
@@ -1019,10 +1019,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>NO</changed>
     <temporary score="24">YES</temporary>
     <children>
-      <child nodeId="node-0x1dc7bb0" />
+      <child nodeId="node-0x1e5cd50" />
     </children>
   </item>
-  <item nodeId="node-0x1dc7bb0">
+  <item nodeId="node-0x1e5cd50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 

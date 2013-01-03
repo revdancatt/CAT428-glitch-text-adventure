@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1ec0c30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1ec0c30" />
+  <activeNode nodeId="node-0xf9cac70" />
   <item nodeId="node-0x1ec0c30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -21,7 +21,7 @@ You can find the source for this on Github over here: https://github.com/revdanc
 
 text-glitch alpha version 0.2.3
 An Interactive Fiction by Rev Dan Catt
-Release 1 / Serial number 130102 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 130103 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Anrasan Glance
 You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
@@ -46,7 +46,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 </commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="78">NO</temporary>
+    <temporary score="39">NO</temporary>
     <children>
       <child nodeId="node-0x1e5d610" />
       <child nodeId="node-0x1e5e340" />
@@ -215,16 +215,197 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
-You are in Getan Tenets, Alakol.
+You are in Getan Tenets, underground in Alakol. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
     <children>
       <child nodeId="node-0x1e5de00" />
+      <child nodeId="node-0x1e731f0" />
       <child nodeId="node-0x1e5e610" />
+      <child nodeId="node-0x1e6c190" />
     </children>
+  </item>
+  <item nodeId="node-0x1e6c190">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Stora Rede
+You are in Stora Rede, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2590d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2590d0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kobah Habitat
+You are in Kobah Habitat, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xda2de10" />
+    </children>
+  </item>
+  <item nodeId="node-0xda2de10">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Stora Rede
+You are in Stora Rede, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xda2e330" />
+    </children>
+  </item>
+  <item nodeId="node-0xda2e330">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Yan Jaggery
+You are in Yan Jaggery, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xa297c90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa297c90">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bolesan Ambitions
+You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xa230690" />
+    </children>
+  </item>
+  <item nodeId="node-0xa230690">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Motala Dun
+You are in Motala Dun, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xf999800" />
+    </children>
+  </item>
+  <item nodeId="node-0xf999800">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Bolesan Ambitions
+You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xa263eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa263eb0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Harkan Idiom
+You are in Harkan Idiom, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xf9154a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf9154a0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Bolesan Ambitions
+You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2607e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2607e0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Pinnan Glimpse
+You are in Pinnan Glimpse, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xdabe1d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdabe1d0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Bolesan Ambitions
+You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0x182b8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x182b8f0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Yan Jaggery
+You are in Yan Jaggery, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+    <children>
+      <child nodeId="node-0xa258170" />
+    </children>
+  </item>
+  <item nodeId="node-0xa258170">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bolesan Ambitions
+You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
   </item>
   <item nodeId="node-0x1e5e610">
     <command xml:space="preserve">nw</command>
@@ -455,6 +636,45 @@ You are in Flogan Shames, Alakol.
     <changed>YES</changed>
     <temporary score="64">YES</temporary>
   </item>
+  <item nodeId="node-0x1e731f0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c4780" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c4780">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Stora Rede
+You are in Stora Rede, Alakol. A rocky path leads to Yan Jaggery and Torpan Cleft to the Northeast and North, while in the opposite direction a grassy track heads South into the Lustan Cautions. Curiously the faint sound of foxes can be heard drifting in from the East.
+
+Oh and cave! There&apos;s a cave to the Southeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="30">YES</temporary>
+    <children>
+      <child nodeId="node-0xb89f720" />
+    </children>
+  </item>
+  <item nodeId="node-0xb89f720">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Getan Tenets
+You are in Getan Tenets, underground in Alakol. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+  </item>
   <item nodeId="node-0x1e5de00">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
@@ -492,12 +712,12 @@ You are in Flogan Shames, Alakol.
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Semsan Simile
-You are in Semsan Simile, Alakol.
+You are in Semsan Simile at the start (or end depending on your point of view) of the cliff top path which heads off into the distance Westwards. A rather intriguing exit leads East to Groddle Heights but an annoying magical force is preventing you from heading in that direction.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="75">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
     <children>
       <child nodeId="node-0x1e5db50" />
     </children>
@@ -513,7 +733,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="75">YES</temporary>
+    <temporary score="39">YES</temporary>
     <children>
       <child nodeId="node-0x1e5dae0" />
     </children>
@@ -522,12 +742,12 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
-You are in Ekorran Roughs, Alakol.
+You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="75">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
     <children>
       <child nodeId="node-0x1e5d760" />
       <child nodeId="node-0x1e5da70" />
@@ -537,12 +757,12 @@ You are in Ekorran Roughs, Alakol.
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Flogan Shames
-You are in Flogan Shames, Alakol.
+You are in Flogan Shames, Alakol. The cliff top trails lead off East and West to Ekorran Roughs and Taftan Raves, Lustan Cautions is to the Northeast, a dark cave Northwest leasts to Simean Dims.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="75">YES</temporary>
+    <temporary score="39">YES</temporary>
     <children>
       <child nodeId="node-0x1e5da00" />
     </children>
@@ -551,13 +771,14 @@ You are in Flogan Shames, Alakol.
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Taftan Raves
-You are in Taftan Raves, Alakol.
+You are in Taftan Raves, Alakol. The cliff top trails continues East and West to Flogan Shames and Vindel Frowns, Dofsan Vex is to the Northwest, a dark cave Northeast leasts to Simean Dims.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="75">YES</temporary>
+    <temporary score="39">YES</temporary>
     <children>
+      <child nodeId="node-0xa2a2df0" />
       <child nodeId="node-0x1e5d990" />
     </children>
   </item>
@@ -624,6 +845,59 @@ You are in Dofsan Vex, Alakol.
     <changed>YES</changed>
     <temporary score="74">YES</temporary>
   </item>
+  <item nodeId="node-0xa2a2df0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xdab0b90" />
+    </children>
+  </item>
+  <item nodeId="node-0xdab0b90">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xa154d30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa154d30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Smy Mod
+You are in Smy Mod at the end (or start depending on your point of view) of the cliff top path which heads off into the distance Southwards, although you can also head inland East to Dyran Notion.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xf9cac70" />
+    </children>
+  </item>
+  <item nodeId="node-0xf9cac70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Dyran Notion
+You are in Dyran Notion, Alakol. Marlan Bias and Navran Dissent are futher into the grassy plains to the North and Southeast, while Hammar Steadies and Smy Mod are along a rock path running Southwest and Westwards.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
   <item nodeId="node-0x1e5d760">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
@@ -671,17 +945,118 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
-You are in Ekorran Roughs, Alakol.
+You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="47">YES</temporary>
+    <temporary score="26">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5cdc0" />
-      <child nodeId="node-0x1e5cea0" />
       <child nodeId="node-0x1e5d5a0" />
+      <child nodeId="node-0x1e5cea0" />
+      <child nodeId="node-0x1e5cdc0" />
+      <child nodeId="node-0xf90c640" />
     </children>
+  </item>
+  <item nodeId="node-0xf90c640">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Via Firozi
+You are in Via Firozi, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2bf2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2bf2a0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Ekorran Roughs
+You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0xf975cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf975cd0">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">
+Via Firozi
+You are in Via Firozi, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+    <children>
+      <child nodeId="node-0xf9366d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf9366d0">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">
+Ekorran Roughs
+You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+  </item>
+  <item nodeId="node-0x1e5cdc0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Anrasan Glance
+You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
+
+You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="24">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e5cd50" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e5cd50">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="16">YES</temporary>
+  </item>
+  <item nodeId="node-0x1e5cea0">
+    <command xml:space="preserve">exits</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e5ce30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e5ce30">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Ekorran Roughs
+You are in Ekorran Roughs, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="3">YES</temporary>
   </item>
   <item nodeId="node-0x1e5d5a0">
     <command xml:space="preserve">w</command>
@@ -691,9 +1066,10 @@ You are in Flogan Shames, Alakol.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="21">YES</temporary>
     <children>
+      <child nodeId="node-0x83a4660" />
       <child nodeId="node-0x1e5d530" />
     </children>
   </item>
@@ -984,51 +1360,55 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="46">YES</temporary>
   </item>
-  <item nodeId="node-0x1e5cea0">
-    <command xml:space="preserve">exits</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5ce30" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5ce30">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Ekorran Roughs
-You are in Ekorran Roughs, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="3">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e5cdc0">
+  <item nodeId="node-0x83a4660">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+Ekorran Roughs
+You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="24">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5cd50" />
+      <child nodeId="node-0xda59730" />
     </children>
   </item>
-  <item nodeId="node-0x1e5cd50">
-    <command xml:space="preserve">e</command>
+  <item nodeId="node-0xda59730">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Via Firozi
+You are in Via Firozi, Alakol.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0xa23d5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa23d5a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Ekorran Roughs
+You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+    <children>
+      <child nodeId="node-0xa1eb090" />
+    </children>
+  </item>
+  <item nodeId="node-0xa1eb090">
+    <command xml:space="preserve">d</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="16">YES</temporary>
+    <temporary score="20">YES</temporary>
   </item>
 </Skein>

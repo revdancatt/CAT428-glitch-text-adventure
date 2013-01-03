@@ -11,7 +11,7 @@ set up as a multiplayer Inform7 MUD :)
 
 You can "play" the latest version of the game over at playfic: http://playfic.com/games/revdancatt/text-glitch
 
-*NOTE:* The one file you need to copy over to playfic.com is `text-glitch.inform/Source/story.ni` the rest is just inform7 IDE cruft.
+*NOTE:* The one file you need to copy over to playfic.com is [`text-glitch.inform/Source/story.ni`](https://github.com/revdancatt/cat428-glitch-text-adventure/blob/master/text-glitch.inform/Source/story.ni) the rest is just inform7 IDE cruft.
 
 
 TODO

@@ -17,15 +17,20 @@ You can "play" the latest version of the game over at playfic: http://playfic.co
 TODO
 ====
 
-1. Add text descriptions to all the streets in Alakol, including the descriptions of the exits.
-2. Add the code in for the rest of the street vendors.
-3. Add the code in for the rest of the street items.
-4. Make the trees give fruit.
-5. Make the rocks give rocks (if the player has a pick).
-6. Add "money" to the system.
-7. Allow the player to sell fruit to the vendor.
-8. Allow the user to buy a pick from the vendor.
+1. Add the code in for the rest of the street vendors.
+2. Add the code in for the rest of the street items.
+3. Make the trees give fruit.
+4. Make the rocks give rocks (if the player has a pick).
+5. Add "money" to the system.
+6. Allow the player to sell fruit to the vendor.
+7. Allow the user to buy a pick from the vendor.
 
+
+0.2.4
+=====
+
+Added minimal descriptions to all the streets in Alakol so in theory you can now find your way around the place by just reading the room description.
+Also aliased Street to Room just because it feels nicer.
 
 0.2.3
 =====

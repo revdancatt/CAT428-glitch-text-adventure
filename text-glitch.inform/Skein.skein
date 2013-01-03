@@ -45,7 +45,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 &gt;w
 </commentary>
     <played>YES</played>
-    <changed>YES</changed>
+    <changed>NO</changed>
     <temporary score="39">NO</temporary>
     <children>
       <child nodeId="node-0x1e5d610" />

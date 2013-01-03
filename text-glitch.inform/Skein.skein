@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1ec0c30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1ec0c30" />
+  <activeNode nodeId="node-0xa254e10" />
   <item nodeId="node-0x1ec0c30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -26,7 +26,7 @@ Release 1 / Serial number 130103 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 Anrasan Glance
 You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
 
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine Metal Rocks and four Dullite Rocks here.
 
 &gt;</result>
     <commentary xml:space="preserve">
@@ -46,366 +46,63 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 </commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="39">NO</temporary>
+    <temporary score="296">NO</temporary>
     <children>
+      <child nodeId="node-0xa2f5b20" />
       <child nodeId="node-0x1e5d610" />
-      <child nodeId="node-0x1e5e340" />
       <child nodeId="node-0x1e5e660" />
-      <child nodeId="node-0x1e5eb20" />
-      <child nodeId="node-0x1ec0ca0" />
     </children>
-  </item>
-  <item nodeId="node-0x1ec0ca0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ec0cf0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ec0cf0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5eb70" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5eb70">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="13">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e5eb20">
-    <command xml:space="preserve">go Ekorran Roughs</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5ead0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5ead0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Ekorran Roughs
-You are in Ekorran Roughs, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5ea80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5ea80">
-    <command xml:space="preserve">r</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e9b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e9b0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is North West and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e960" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e960">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e910" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e910">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e8a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e8a0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e830" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e830">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e700" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e700">
-    <command xml:space="preserve">nnw</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e6b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e6b0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="13">YES</temporary>
   </item>
   <item nodeId="node-0x1e5e660">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
-You are in Getan Tenets, underground in Alakol. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions.
+You are in the underground cave of Getan Tenets. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions.
+
+You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Plant, nine Metal Rocks and four Beryl Rocks here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="30">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5de00" />
       <child nodeId="node-0x1e731f0" />
       <child nodeId="node-0x1e5e610" />
-      <child nodeId="node-0x1e6c190" />
+      <child nodeId="node-0xdaa2800" />
     </children>
   </item>
-  <item nodeId="node-0x1e6c190">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Stora Rede
-You are in Stora Rede, Alakol.
+  <item nodeId="node-0xdaa2800">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you&apos;ll find everything Alchemy, Crystalmalizing and Potion-related right here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="15">YES</temporary>
+    <temporary score="218">YES</temporary>
     <children>
-      <child nodeId="node-0xa2590d0" />
+      <child nodeId="node-0xdae0380" />
     </children>
   </item>
-  <item nodeId="node-0xa2590d0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Kobah Habitat
-You are in Kobah Habitat, Alakol.
+  <item nodeId="node-0xdae0380">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="15">YES</temporary>
+    <temporary score="218">YES</temporary>
     <children>
-      <child nodeId="node-0xda2de10" />
+      <child nodeId="node-0xda22da0" />
     </children>
   </item>
-  <item nodeId="node-0xda2de10">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Stora Rede
-You are in Stora Rede, Alakol.
+  <item nodeId="node-0xda22da0">
+    <command xml:space="preserve">x egg plant</command>
+    <result xml:space="preserve">The noble Egg Plant. As is fitting to a fruit as ovoidly perfect as a prolate moon, Egg Plants (of course) can only be found underground in cool, dark places.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xda2e330" />
-    </children>
-  </item>
-  <item nodeId="node-0xda2e330">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Yan Jaggery
-You are in Yan Jaggery, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xa297c90" />
-    </children>
-  </item>
-  <item nodeId="node-0xa297c90">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Bolesan Ambitions
-You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xa230690" />
-    </children>
-  </item>
-  <item nodeId="node-0xa230690">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Motala Dun
-You are in Motala Dun, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xf999800" />
-    </children>
-  </item>
-  <item nodeId="node-0xf999800">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">
-Bolesan Ambitions
-You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xa263eb0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa263eb0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Harkan Idiom
-You are in Harkan Idiom, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xf9154a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf9154a0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Bolesan Ambitions
-You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xa2607e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa2607e0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Pinnan Glimpse
-You are in Pinnan Glimpse, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xdabe1d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdabe1d0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Bolesan Ambitions
-You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0x182b8f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x182b8f0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Yan Jaggery
-You are in Yan Jaggery, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="15">YES</temporary>
-    <children>
-      <child nodeId="node-0xa258170" />
-    </children>
-  </item>
-  <item nodeId="node-0xa258170">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Bolesan Ambitions
-You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="14">YES</temporary>
+    <temporary score="217">YES</temporary>
   </item>
   <item nodeId="node-0x1e5e610">
     <command xml:space="preserve">nw</command>
@@ -642,8 +339,8 @@ You are in Flogan Shames, Alakol.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="30">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="251">YES</temporary>
     <children>
       <child nodeId="node-0x18c4780" />
     </children>
@@ -658,116 +355,613 @@ Oh and cave! There&apos;s a cave to the Southeast.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="30">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xb89f720" />
+      <child nodeId="node-0xb8b59a0" />
+      <child nodeId="node-0x1e6f3b10" />
     </children>
   </item>
-  <item nodeId="node-0xb89f720">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, underground in Alakol. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e5de00">
-    <command xml:space="preserve">w</command>
+  <item nodeId="node-0x1e6f3b10">
+    <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e3a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e3a0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="8">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e2f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e2f0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e5e340">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Semsan Simile
-You are in Semsan Simile at the start (or end depending on your point of view) of the cliff top path which heads off into the distance Westwards. A rather intriguing exit leads East to Groddle Heights but an annoying magical force is preventing you from heading in that direction.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5db50" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5db50">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="39">YES</temporary>
+    <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5dae0" />
+      <child nodeId="node-0xa23a6e0" />
     </children>
   </item>
-  <item nodeId="node-0x1e5dae0">
+  <item nodeId="node-0xa23a6e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Torpan Cleft
+You are in Torpan Cleft, Alakol. You can see the entrance to Torpan Cleft Subway Station here, which irritatingly you can&apos;t get into. Exists you can get into are Northeast, Southeast, South, West and Northwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xa257590" />
+      <child nodeId="node-0x833db30" />
+    </children>
+  </item>
+  <item nodeId="node-0x833db30">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Feman Falters
+You are in Feman Falters, Alakol. Paths heading East and Southeast at the top of the rocky cliff face take you to Idan Frisk and Torpan Cleft, while a trail at the bottom leads South to Brunnan Bafflings. Isalan Interval is Southwest and Jadraan Fix is West.
+
+You can see a Produce Vendor, a shrine to Mab (empty), a Bean Tree, a Sparkly Rock, two Beryl Rocks and two Metal Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa28c770" />
+    </children>
+  </item>
+  <item nodeId="node-0xa28c770">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2a4b40" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2a4b40">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e6a4e80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e6a4e80">
+    <command xml:space="preserve">x bean tree</command>
+    <result xml:space="preserve">The good old Tree of Bean. Laden with 57 varieties of identical-looking legume, these protein-machines provide the raw ingredients for hearty chow and base material for new trees.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e6eabc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e6eabc0">
+    <command xml:space="preserve">x sparkly</command>
+    <result xml:space="preserve">The most desperate-to-be-loved mineral you could ever hope to meet, this minable mini-mountain brings a touch of disco to out-of-the-way places. Full of high-value chunks and crushable minerals, every major miner seeks their own vein of sparkly.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="175">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e6f96a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e6f96a0">
+    <command xml:space="preserve">x metal</command>
+    <result xml:space="preserve">A stupefying combination of classic rock and the power of metal. Most often found in rocky areas, these heavyweights are indispensable in the production of ingots and the metallurgic arts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="174">YES</temporary>
+  </item>
+  <item nodeId="node-0xa257590">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Fyran Descant
+You are in Fyran Descant, Alakol. A steep climb to the East leads to the Torpan Cleft, meanwhile a grassy trail leads West and Southwest to Brunnan Bafflings and Ojan Repine.
+
+You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree, a Sparkly Rock, a Dullite Rock, three Metal Rocks and two Beryl Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e66baf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e66baf0">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Endorsed by Mab herself, if you find a Street Spirit specialising in Gardening Goods, you&apos;ll find everything necessary for home-grown self-sufficiency.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2708e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2708e0">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xddf3340" />
+    </children>
+  </item>
+  <item nodeId="node-0xddf3340">
+    <command xml:space="preserve">x bean tree</command>
+    <result xml:space="preserve">The good old Tree of Bean. Laden with 57 varieties of identical-looking legume, these protein-machines provide the raw ingredients for hearty chow and base material for new trees.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd8f440" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd8f440">
+    <command xml:space="preserve">get beryl rock</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xdda3e40" />
+    </children>
+  </item>
+  <item nodeId="node-0xdda3e40">
+    <command xml:space="preserve">get beryl rocks</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2f3710" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2f3710">
+    <command xml:space="preserve">get beryl rock</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2f49f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2f49f0">
+    <command xml:space="preserve">get two beryl rock</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xddbdfa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xddbdfa0">
+    <command xml:space="preserve">get two beryl rocks</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2f9a50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2f9a50">
+    <command xml:space="preserve">get 2 beryl rocks</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="214">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd9b740" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd9b740">
+    <command xml:space="preserve">get 2 beryl rock</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="213">YES</temporary>
+  </item>
+  <item nodeId="node-0xb8b59a0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Kobah Habitat
+You are in Kobah Habitat, a premier Fox Brushing Preserve in Alakol. Sometimes, rarely, you can see a fox in much need of a brushing here. The only way out of the preserve is back West.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2b8550" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2b8550">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Stora Rede
+You are in Stora Rede, Alakol. A rocky path leads to Yan Jaggery and Torpan Cleft to the Northeast and North, while in the opposite direction a grassy track heads South into the Lustan Cautions. Curiously the faint sound of foxes can be heard drifting in from the East.
+
+Oh and cave! There&apos;s a cave to the Southeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb839620" />
+    </children>
+  </item>
+  <item nodeId="node-0xb839620">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Yan Jaggery
+You are in Yan Jaggery, Alakol. Its a bit windy up here but comes with fansatic views South across Alakol. Exits are all over the place but for the sake of simplicity; North, East, Northwest and Southwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2ac500" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2ac500">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Bolesan Ambitions
+You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South.
+
+You can see a Produce Vendor, a shrine to Spriggan (empty), two Metal Rocks and three Sparkly Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0x83a9be0" />
+    </children>
+  </item>
+  <item nodeId="node-0x83a9be0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Harkan Idiom
+You are high up in the mountains in Harkan Idiom, Alakol. Rocky trails lead Northwest, Southwest and Southeast to Kolan Presence, Idan Fris and Bolesan Ambitions. To the East a cave mouth acts as the entrance to Motala Dun.
+
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Patch, a Wood Tree, two Fruit Trees, a Dullite Rock and two Metal Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb83aa20" />
+    </children>
+  </item>
+  <item nodeId="node-0xb83aa20">
+    <command xml:space="preserve">x tii</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0xa230110" />
+    </children>
+  </item>
+  <item nodeId="node-0xa230110">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you&apos;ll find everything Alchemy, Crystalmalizing and Potion-related right here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8f60a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8f60a0">
+    <command xml:space="preserve">x patch</command>
+    <result xml:space="preserve">A humble, weedy patch. With a spade you can dig it, a hoe you can tend it, and, with a bean, even grow a tree in it. (NB: Trees are delicate organisms, and beans will only consent to being planted in the correct region.)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0xa261360" />
+    </children>
+  </item>
+  <item nodeId="node-0xa261360">
+    <command xml:space="preserve">x tree</command>
+    <result xml:space="preserve">Which do you mean, the Wood Tree or a Fruit Tree?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0x18df9e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x18df9e0">
+    <command xml:space="preserve">x dullite</command>
+    <result xml:space="preserve">A study in shades of grey, gray, and a monochromatic 8-bit scale of debatable spelling, this common rock is mostly found underground, is minable, and may contain precious gems.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="251">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2b7290" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2b7290">
+    <command xml:space="preserve">x metal</command>
+    <result xml:space="preserve">A stupefying combination of classic rock and the power of metal. Most often found in rocky areas, these heavyweights are indispensable in the production of ingots and the metallurgic arts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="250">YES</temporary>
+  </item>
+  <item nodeId="node-0x1e5d610">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
 You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
 
+You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile, a Fruit Tree, five Metal Rocks, two Dullite Rocks and three Beryl Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8e3780" />
+      <child nodeId="node-0x1e5d5a0" />
+      <child nodeId="node-0xa2a8570" />
+      <child nodeId="node-0xdabf790" />
+    </children>
+  </item>
+  <item nodeId="node-0xdabf790">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">You can&apos;t make an omlet without making eggs might be true, but you&apos;d look pretty stupid trying to make one without a frying pan as well. If you need a Frying Pan for frying, a Saucepan for saucing, or an Awesome Pot for general awesomeness, you need to look to the Street Spirit who holds all the Kitchen Tools.
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="39">YES</temporary>
+    <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5d760" />
-      <child nodeId="node-0x1e5da70" />
+      <child nodeId="node-0xdaf8b50" />
     </children>
   </item>
-  <item nodeId="node-0x1e5da70">
+  <item nodeId="node-0xdaf8b50">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2ac310" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2ac310">
+    <command xml:space="preserve">x pile</command>
+    <result xml:space="preserve">A pile of dirt. Digging it with a shovel produces various dirty rewards, their quality depending on how deeply you appreciate soil, and how many friends are digging with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2324a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2324a0">
+    <command xml:space="preserve">x rocks</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0xdaccbb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdaccbb0">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">Which do you mean, a metal rock, a dullite rock or a beryl rock?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0xa20b6e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa20b6e0">
+    <command xml:space="preserve">x metal rock</command>
+    <result xml:space="preserve">A stupefying combination of classic rock and the power of metal. Most often found in rocky areas, these heavyweights are indispensable in the production of ingots and the metallurgic arts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="153">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2e05b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2e05b0">
+    <command xml:space="preserve">x beryl rock</command>
+    <result xml:space="preserve">A mineral dull in colour if not composite, Beryl can generally be found underground, where its eerie green surface calls to miners, refiners and gem collectors alike.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="152">YES</temporary>
+  </item>
+  <item nodeId="node-0xa2a8570">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Lustan Cautions
+You are in Lustan Cautions, Alakol. There&apos;s a deep dark cave Northeast heading into Getan Tenets, the cliff top trails can be seen to the Southeast and Southwest leading to Ekorran Roughs and Flogan Shames. The main track leads North to Stora Rede, while a small nearly hidden grassy path wanders West to Rekan Flux.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e676cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e676cb0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Rekan Flux
+You are in pleasent fields of Rekan Flux, Alakol. There are clear exists East and West, while a short path curves round North to Ojan Repine.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0xddf5f70" />
+    </children>
+  </item>
+  <item nodeId="node-0xddf5f70">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2113b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2113b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Ojan Repine
+You are in Ojan Repine, Alakol. A tricky looking path leads Northeast and North to the base of the cliff at Fyran Descant and Brunnan Bafflings, meanwhile an easier looking path winds off Southwest and Southeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd414b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd414b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Brunnan Bafflings
+You are in Brunnan Bafflings, Alakol. It&apos;s a grim cliff face strewn with rocks, along the bottom you can get to Fyran Descant Southeast and Ojan Repine South. There is a small pass to the North that takes you to Feman Falters.
+
+You can see three beryl rocks, a Toy Vendor, a shrine to Cosma (empty), two Bean Trees and three metal rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2a9cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2a9cd0">
+    <command xml:space="preserve">exam venfor</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0xa290a30" />
+    </children>
+  </item>
+  <item nodeId="node-0xa290a30">
+    <command xml:space="preserve">exam vendor</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="78">YES</temporary>
+    <children>
+      <child nodeId="node-0xa15a670" />
+    </children>
+  </item>
+  <item nodeId="node-0xa15a670">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Once branded in the age of Tii as The Lord of Misrule, this is a bit unfair for a street spirit who, let&apos;s face it, mainly specialises in selling dice, party spaces, cubimals, cameras and other things that are fun. If you like fun, seek out a Street Spirit with Toys. And why wouldn&apos;t you? You don&apos;t want everyone to think you hate FUN, do you?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="77">YES</temporary>
+  </item>
+  <item nodeId="node-0x1e5d5a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Flogan Shames
 You are in Flogan Shames, Alakol. The cliff top trails lead off East and West to Ekorran Roughs and Taftan Raves, Lustan Cautions is to the Northeast, a dark cave Northwest leasts to Simean Dims.
 
+You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Patch, five Metal Rocks, three Beryl Rocks and four Dullite Rocks here.
+
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="296">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5da00" />
+      <child nodeId="node-0xda50f20" />
+      <child nodeId="node-0x1e5d530" />
+      <child nodeId="node-0xdd86230" />
     </children>
   </item>
-  <item nodeId="node-0x1e5da00">
+  <item nodeId="node-0xdd86230">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Taftan Raves
@@ -775,77 +969,87 @@ You are in Taftan Raves, Alakol. The cliff top trails continues East and West to
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="296">YES</temporary>
     <children>
-      <child nodeId="node-0xa2a2df0" />
-      <child nodeId="node-0x1e5d990" />
+      <child nodeId="node-0xda3ca30" />
+      <child nodeId="node-0x839f990" />
     </children>
   </item>
-  <item nodeId="node-0x1e5d990">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="75">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d920" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d920">
+  <item nodeId="node-0x839f990">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Dofsan Vex
-You are in Dofsan Vex, Alakol.
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
+
+You can see a shrine to Ti, a dirt pile, an Alchemical Goods Vendor, two Fruit Trees, a Wood Tree and a Bubble Tree here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="75">YES</temporary>
+    <temporary score="92">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5d8b0" />
+      <child nodeId="node-0xf949b00" />
     </children>
   </item>
-  <item nodeId="node-0x1e5d8b0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+  <item nodeId="node-0xf949b00">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you&apos;ll find everything Alchemy, Crystalmalizing and Potion-related right here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="75">YES</temporary>
+    <temporary score="92">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5d840" />
+      <child nodeId="node-0x183dd50" />
     </children>
   </item>
-  <item nodeId="node-0x1e5d840">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Isalan Interval
-You are in Isalan Interval, Alakol.
+  <item nodeId="node-0x183dd50">
+    <command xml:space="preserve">x fruit tree</command>
+    <result xml:space="preserve">The glorious Fruit Tree. Thick with tasty cherries ripe to be converted into other delicious fruits, these venerable plants may not be chatty, but they&apos;re indispensable for fine edibles and quaffables of all sorts.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="75">YES</temporary>
+    <temporary score="92">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5d7d0" />
+      <child nodeId="node-0x1b06880" />
     </children>
   </item>
-  <item nodeId="node-0x1e5d7d0">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">
-Dofsan Vex
-You are in Dofsan Vex, Alakol.
+  <item nodeId="node-0x1b06880">
+    <command xml:space="preserve">x wood tree</command>
+    <result xml:space="preserve">While all trees are woody, the Wood Tree is woodier than most. Tending to your wood is a rewarding solitary pursuit, but gathering friends to engorge your wood before all wielding your choppers simultaneously is both mutually satisfying, and sure to result in the injection of firm, tasty planks into your bag.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="74">YES</temporary>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0x18bf8f0" />
+    </children>
   </item>
-  <item nodeId="node-0xa2a2df0">
+  <item nodeId="node-0x18bf8f0">
+    <command xml:space="preserve">x bubble tree</command>
+    <result xml:space="preserve">The delicate Bubble Tree. Bursting with plain bubbles waiting to be tuned, these somewhat unstable specimens harbor fruit of perfect transparency - and thoughts of bizarre conspiracy.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="92">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd7b310" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd7b310">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">You see nothing special about the shrine to Ti.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="91">YES</temporary>
+  </item>
+  <item nodeId="node-0xda3ca30">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Vindel Frowns
@@ -853,13 +1057,155 @@ You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northw
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="296">YES</temporary>
     <children>
-      <child nodeId="node-0xdab0b90" />
+      <child nodeId="node-0x1e6e1070" />
+      <child nodeId="node-0xdaf3dc0" />
+      <child nodeId="node-0xdaf97e0" />
+      <child nodeId="node-0xdd67fb0" />
     </children>
   </item>
-  <item nodeId="node-0xdab0b90">
+  <item nodeId="node-0xdd67fb0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Dofsan Vex
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
+
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xdaa2da0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdaa2da0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xddd0100" />
+    </children>
+  </item>
+  <item nodeId="node-0xddd0100">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xa26ea90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa26ea90">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xa22ced0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa22ced0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
+
+You can see a Groceries Vendor, a shrine to Cosma (empty), a Bean Tree, three Metal Rocks and three Dullite Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xddb4770" />
+    </children>
+  </item>
+  <item nodeId="node-0xddb4770">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd758e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd758e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xb83f300" />
+    </children>
+  </item>
+  <item nodeId="node-0xb83f300">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Marlan Bias
+You are in Marlan Bias, Alakol. You can make out winding tracks leading Northwest, Northeast, Southwest and South.
+
+You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), a Dirt Pile and two Gas Plants here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xdde1fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdde1fa0">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you&apos;ll find everything Alchemy, Crystalmalizing and Potion-related right here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0xa254e10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa254e10">
+    <command xml:space="preserve">x gas plant</command>
+    <result xml:space="preserve">The ever-mellow Gas Plant. Packed with a stash of General Vapour that&apos;s just begging to be gassified. With a love of the murky and mystical, Gas Plants can often be found in totally far out spaces.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="295">YES</temporary>
+  </item>
+  <item nodeId="node-0xdaf97e0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Hammar Steadies
@@ -868,547 +1214,1188 @@ You are in Hammar Steadies, Alakol. The clifftop trails lead off North and South
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="39">YES</temporary>
+    <temporary score="145">YES</temporary>
     <children>
-      <child nodeId="node-0xa154d30" />
+      <child nodeId="node-0xa25ca00" />
     </children>
   </item>
-  <item nodeId="node-0xa154d30">
-    <command xml:space="preserve">n</command>
+  <item nodeId="node-0xa25ca00">
+    <command xml:space="preserve">e</command>
     <result xml:space="preserve">
-Smy Mod
-You are in Smy Mod at the end (or start depending on your point of view) of the cliff top path which heads off into the distance Southwards, although you can also head inland East to Dyran Notion.
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="39">YES</temporary>
+    <temporary score="145">YES</temporary>
     <children>
-      <child nodeId="node-0xf9cac70" />
+      <child nodeId="node-0xa22b100" />
     </children>
   </item>
-  <item nodeId="node-0xf9cac70">
-    <command xml:space="preserve">e</command>
+  <item nodeId="node-0xa22b100">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x18c4730" />
+    </children>
+  </item>
+  <item nodeId="node-0x18c4730">
+    <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Dyran Notion
 You are in Dyran Notion, Alakol. Marlan Bias and Navran Dissent are futher into the grassy plains to the North and Southeast, while Hammar Steadies and Smy Mod are along a rock path running Southwest and Westwards.
 
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="38">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e5d760">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+You can see a Produce Vendor, a shrine to Mab (empty) and four Fruit Trees here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="23">YES</temporary>
+    <temporary score="145">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5d6f0" />
+      <child nodeId="node-0xda61960" />
     </children>
   </item>
-  <item nodeId="node-0x1e5d6f0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
+  <item nodeId="node-0xda61960">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="23">YES</temporary>
+    <temporary score="145">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5d680" />
+      <child nodeId="node-0xf980520" />
     </children>
   </item>
-  <item nodeId="node-0x1e5d680">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+  <item nodeId="node-0xf980520">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="22">YES</temporary>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2d20f0" />
+    </children>
   </item>
-  <item nodeId="node-0x1e5d610">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Ekorran Roughs
-You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
+  <item nodeId="node-0xa2d20f0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="26">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5d5a0" />
-      <child nodeId="node-0x1e5cea0" />
-      <child nodeId="node-0x1e5cdc0" />
-      <child nodeId="node-0xf90c640" />
+      <child nodeId="node-0xda37f10" />
     </children>
   </item>
-  <item nodeId="node-0xf90c640">
+  <item nodeId="node-0xda37f10">
+    <command xml:space="preserve">tree</command>
+    <result xml:space="preserve">compass (5) 
+  the north
+  the northeast
+  the northwest
+  the south
+  the southeast
+  the southwest
+  the east
+  the west
+  the up
+  the down
+  the inside
+  the outside
+(LibraryMessages) (6) 
+(darkness object) (7) 
+(Inform Parser) (8) 
+(Inform Library) (9) 
+(property_numberspace_forcer) (10) 
+(ValuePropertyHolder_39) (12) 
+Alakol (99) 
+Andra (100) 
+Aranna (101) 
+Balzare (102) 
+Baqala (103) 
+Besara (104) 
+Bortola (105) 
+Brillah (106) 
+Callopee (107) 
+Cauda (108) 
+Chakra Phool (109) 
+Choru (110) 
+Drifa (111) 
+Fenneq (112) 
+Firozi (113) 
+Folivoria (114) 
+Groddle Forest (115) 
+Groddle Heights (116) 
+Groddle Meadow (117) 
+Haoma (118) 
+Haraiva (119) 
+Ilmenskie Caverns (120) 
+Ilmenskie Deeps (121) 
+Ix (122) 
+Jal (123) 
+Jethimadh (124) 
+Kajuu (125) 
+Kalavana (126) 
+Karnata (127) 
+Kloro (128) 
+Lida (129) 
+Massadoe (130) 
+Moshi Moshi Oshilatis (131) 
+Muufo (132) 
+Nottis (133) 
+Ormonos (134) 
+Pollokoo (135) 
+Rasana (136) 
+Roobrik (137) 
+Salatu (138) 
+Samudra (139) 
+Shimla Mirch (140) 
+Sura (141) 
+Tahli (142) 
+Tamila (143) 
+Uralia (144) 
+Vantalu (145) 
+Vortex of Random (146) 
+Xalanga (147) 
+Zhambu (148) 
+Anrasan Glance (149) 
+  a Produce Vendor
+  a shrine to Mab
+  a Fruit Tree
+  a Bean Tree
+  nine metal rocks
+  four dullite rocks
+Ekorran Roughs (167) 
+Getan Tenets (168) 
+Semsan Simile (169) 
+Bolesan Ambitions (170) 
+  a Produce Vendor
+  a shrine to Spriggan
+  two metal rocks
+  three sparkly rocks
+Motala Dun (178) 
+Harkan Idiom (179) 
+Pinnan Glimpse (180) 
+Yan Jaggery (181) 
+Brunnan Bafflings (182) 
+  three beryl rocks
+  a Toy Vendor
+  a shrine to Cosma
+  two Bean Trees
+  three metal rocks
+Feman Falters (191) 
+Fyran Descant (192) 
+Ojan Repine (193) 
+Dofsan Vex (194) 
+  an Alchemical Goods Vendor
+  a shrine to Tii
+  a dirt pile
+  two Fruit Trees
+  a Wood Tree
+  a Bubble Tree
+Isalan Interval (202) 
+Simean Dims (203) 
+Taftan Raves (204) 
+Vindel Frowns (205) 
+Dyran Notion (206) 
+  yourself
+  a Produce Vendor
+  a shrine to Mab
+  four Fruit Trees
+Marlan Bias (213) 
+Navran Dissent (214) 
+Hammar Steadies (215) 
+Smy Mod (216) 
+Via Firozi (217) 
+Flogan Shames (218) 
+Lustan Cautions (219) 
+Idan Frisk (220) 
+Torpan Cleft (221) 
+Jadraan Fix (222) 
+Stora Rede (223) 
+Gimja Preserve (224) 
+Kolan Presence (225) 
+Stopan Winnow (226) 
+Kobah Habitat (227) 
+Rekan Flux (228) 
+Vragan Boost (229) 
+Onbo Park (230) 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e6b8fa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e6b8fa0">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0xddf3390" />
+    </children>
+  </item>
+  <item nodeId="node-0xddf3390">
+    <command xml:space="preserve">x tree</command>
+    <result xml:space="preserve">The glorious Fruit Tree. Thick with tasty cherries ripe to be converted into other delicious fruits, these venerable plants may not be chatty, but they&apos;re indispensable for fine edibles and quaffables of all sorts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0xddb0d00" />
+    </children>
+  </item>
+  <item nodeId="node-0xddb0d00">
+    <command xml:space="preserve">tree</command>
+    <result xml:space="preserve">compass (5) 
+  the north
+  the northeast
+  the northwest
+  the south
+  the southeast
+  the southwest
+  the east
+  the west
+  the up
+  the down
+  the inside
+  the outside
+(LibraryMessages) (6) 
+(darkness object) (7) 
+(Inform Parser) (8) 
+(Inform Library) (9) 
+(property_numberspace_forcer) (10) 
+(ValuePropertyHolder_39) (12) 
+Alakol (99) 
+Andra (100) 
+Aranna (101) 
+Balzare (102) 
+Baqala (103) 
+Besara (104) 
+Bortola (105) 
+Brillah (106) 
+Callopee (107) 
+Cauda (108) 
+Chakra Phool (109) 
+Choru (110) 
+Drifa (111) 
+Fenneq (112) 
+Firozi (113) 
+Folivoria (114) 
+Groddle Forest (115) 
+Groddle Heights (116) 
+Groddle Meadow (117) 
+Haoma (118) 
+Haraiva (119) 
+Ilmenskie Caverns (120) 
+Ilmenskie Deeps (121) 
+Ix (122) 
+Jal (123) 
+Jethimadh (124) 
+Kajuu (125) 
+Kalavana (126) 
+Karnata (127) 
+Kloro (128) 
+Lida (129) 
+Massadoe (130) 
+Moshi Moshi Oshilatis (131) 
+Muufo (132) 
+Nottis (133) 
+Ormonos (134) 
+Pollokoo (135) 
+Rasana (136) 
+Roobrik (137) 
+Salatu (138) 
+Samudra (139) 
+Shimla Mirch (140) 
+Sura (141) 
+Tahli (142) 
+Tamila (143) 
+Uralia (144) 
+Vantalu (145) 
+Vortex of Random (146) 
+Xalanga (147) 
+Zhambu (148) 
+Anrasan Glance (149) 
+  a Produce Vendor
+  a shrine to Mab
+  a Fruit Tree
+  a Bean Tree
+  nine metal rocks
+  four dullite rocks
+Ekorran Roughs (167) 
+Getan Tenets (168) 
+Semsan Simile (169) 
+Bolesan Ambitions (170) 
+  a Produce Vendor
+  a shrine to Spriggan
+  two metal rocks
+  three sparkly rocks
+Motala Dun (178) 
+Harkan Idiom (179) 
+Pinnan Glimpse (180) 
+Yan Jaggery (181) 
+Brunnan Bafflings (182) 
+  three beryl rocks
+  a Toy Vendor
+  a shrine to Cosma
+  two Bean Trees
+  three metal rocks
+Feman Falters (191) 
+Fyran Descant (192) 
+Ojan Repine (193) 
+Dofsan Vex (194) 
+  an Alchemical Goods Vendor
+  a shrine to Tii
+  a dirt pile
+  two Fruit Trees
+  a Wood Tree
+  a Bubble Tree
+Isalan Interval (202) 
+Simean Dims (203) 
+Taftan Raves (204) 
+Vindel Frowns (205) 
+Dyran Notion (206) 
+  yourself
+  a Produce Vendor
+  a shrine to Mab
+  four Fruit Trees
+Marlan Bias (213) 
+Navran Dissent (214) 
+Hammar Steadies (215) 
+Smy Mod (216) 
+Via Firozi (217) 
+Flogan Shames (218) 
+Lustan Cautions (219) 
+Idan Frisk (220) 
+Torpan Cleft (221) 
+Jadraan Fix (222) 
+Stora Rede (223) 
+Gimja Preserve (224) 
+Kolan Presence (225) 
+Stopan Winnow (226) 
+Kobah Habitat (227) 
+Rekan Flux (228) 
+Vragan Boost (229) 
+Onbo Park (230) 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0xda241d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xda241d0">
+    <command xml:space="preserve">x tree</command>
+    <result xml:space="preserve">The glorious Fruit Tree. Thick with tasty cherries ripe to be converted into other delicious fruits, these venerable plants may not be chatty, but they&apos;re indispensable for fine edibles and quaffables of all sorts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+  </item>
+  <item nodeId="node-0xdaf3dc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Dofsan Vex
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
+
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0xa20fa00" />
+    </children>
+  </item>
+  <item nodeId="node-0xa20fa00">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
-Via Firozi
-You are in Via Firozi, Alakol.
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="26">YES</temporary>
+    <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0xa2bf2a0" />
+      <child nodeId="node-0xa2da6f0" />
     </children>
   </item>
-  <item nodeId="node-0xa2bf2a0">
-    <command xml:space="preserve">u</command>
+  <item nodeId="node-0xa2da6f0">
+    <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
-Ekorran Roughs
-You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="26">YES</temporary>
+    <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0xf975cd0" />
+      <child nodeId="node-0xa2df610" />
     </children>
   </item>
-  <item nodeId="node-0xf975cd0">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">
-Via Firozi
-You are in Via Firozi, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="26">YES</temporary>
-    <children>
-      <child nodeId="node-0xf9366d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xf9366d0">
-    <command xml:space="preserve">u</command>
-    <result xml:space="preserve">
-Ekorran Roughs
-You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="25">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e5cdc0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="24">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5cd50" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5cd50">
-    <command xml:space="preserve">e</command>
+  <item nodeId="node-0xa2df610">
+    <command xml:space="preserve">se</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="16">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e5cea0">
-    <command xml:space="preserve">exits</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
+    <temporary score="282">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5ce30" />
+      <child nodeId="node-0x832abe0" />
     </children>
   </item>
-  <item nodeId="node-0x1e5ce30">
-    <command xml:space="preserve">look</command>
-    <result xml:space="preserve">Ekorran Roughs
-You are in Ekorran Roughs, Alakol.
+  <item nodeId="node-0x832abe0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="3">YES</temporary>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x83167c0" />
+    </children>
   </item>
-  <item nodeId="node-0x1e5d5a0">
-    <command xml:space="preserve">w</command>
+  <item nodeId="node-0x83167c0">
+    <command xml:space="preserve">n</command>
     <result xml:space="preserve">
-Flogan Shames
-You are in Flogan Shames, Alakol.
+Dofsan Vex
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
+
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e678200" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e678200">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x180b980" />
+    </children>
+  </item>
+  <item nodeId="node-0x180b980">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd53910" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd53910">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0xa27d370" />
+    </children>
+  </item>
+  <item nodeId="node-0xa27d370">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
+
+You can see a Groceries Vendor, a shrine to Cosma (empty), a Bean Tree, three Metal Rocks and three Dullite Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e634d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e634d40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd89340" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd89340">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd09080" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd09080">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd88130" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd88130">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Dofsan Vex
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
+
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0xa20b4b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa20b4b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="281">YES</temporary>
+  </item>
+  <item nodeId="node-0x1e6e1070">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="21">YES</temporary>
+    <temporary score="237">YES</temporary>
     <children>
-      <child nodeId="node-0x83a4660" />
-      <child nodeId="node-0x1e5d530" />
+      <child nodeId="node-0x1e6dd0d0" />
     </children>
+  </item>
+  <item nodeId="node-0x1e6dd0d0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
+
+You can see a Groceries Vendor, a shrine to Cosma (empty), a Bean Tree, three Metal Rocks and three Dullite Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e683570" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e683570">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Carrying the kind of ingredients necessary for some of your more fancy-pant meals, this Pot-endorsed Street Spirit sells anything delicious that you cannot make at home (like honey, birch syrup and salmon) and a couple of things you can (like buns and garlic). Grocery Street Spirits: The Foodie&apos;s Friend.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0xddf5910" />
+    </children>
+  </item>
+  <item nodeId="node-0xddf5910">
+    <command xml:space="preserve">x spirit</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x8300ae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x8300ae0">
+    <command xml:space="preserve">x sprite</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd73a70" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd73a70">
+    <command xml:space="preserve">x street sprite</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e61950" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e61950">
+    <command xml:space="preserve">x street sprite</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0xda41140" />
+    </children>
+  </item>
+  <item nodeId="node-0xda41140">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Carrying the kind of ingredients necessary for some of your more fancy-pant meals, this Pot-endorsed Street Spirit sells anything delicious that you cannot make at home (like honey, birch syrup and salmon) and a couple of things you can (like buns and garlic). Grocery Street Spirits: The Foodie&apos;s Friend.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
   </item>
   <item nodeId="node-0x1e5d530">
     <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d4c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d4c0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d450" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d450">
-    <command xml:space="preserve">e</command>
     <result xml:space="preserve">
-Ekorran Roughs
-You are in Ekorran Roughs, Alakol.
+Simean Dims
+Ooooh, you are underground in Simean Dims, Alakol, how exciting! There are several exits out of this cave, but it&apos;s so snug and warm why would you want to leave?
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="47">YES</temporary>
+    <temporary score="257">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5dba0" />
+      <child nodeId="node-0xa26de30" />
     </children>
   </item>
-  <item nodeId="node-0x1e5dba0">
+  <item nodeId="node-0xa26de30">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Isalan Interval
+You are in Isalan Interval, Alakol. Paths Southwest and Northwest head to Dofsan Vex and Jadraan Fix, while a small trail leads Northeast to the base of Feman Falters. A small dark cave to the Southeast is the way to enter Simean Dims. The smell of damp foxes drifts over from the Gimja Preserve to the East.
+
+You can see a Gardening Goods Vendor, a shrine to Grendaline (empty), a Dirt Pile, two Bean Trees and a Fruit Tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="257">YES</temporary>
+    <children>
+      <child nodeId="node-0x18cab30" />
+    </children>
+  </item>
+  <item nodeId="node-0x18cab30">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Jadraan Fix
+You are in Jadraan Fix, Alakol. A pretty looking walk heads Southwest and West to Marlan Bias and Stopan Winnow, Southeast takes you to Isalan Interval while a stoney path East leads to the base of Feman Falters.
+
+You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fruit Trees here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="257">YES</temporary>
+    <children>
+      <child nodeId="node-0x1867780" />
+    </children>
+  </item>
+  <item nodeId="node-0x1867780">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Clanking almost inaudibly as it bounces gently up and down, you might think the Street Spirit specialising Hardware doesn&apos;t look like a vendor carrying several tonnes of equipment, but you would be wrong. Bags, Toolboxes, Gassifiers, Fruit-changers and Machine Parts can all be found tucked into invisible pockets of the Alph-endorsed Street Spirit. If you can use it to turn one thing into another, the Hardware vendor probably has it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="256">YES</temporary>
+  </item>
+  <item nodeId="node-0xda50f20">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Endorsed by Mab herself, if you find a Street Spirit specialising in Gardening Goods, you&apos;ll find everything necessary for home-grown self-sufficiency.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0x181f8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x181f8f0">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0x8347940" />
+    </children>
+  </item>
+  <item nodeId="node-0x8347940">
+    <command xml:space="preserve">x patch</command>
+    <result xml:space="preserve">A humble, weedy patch. With a spade you can dig it, a hoe you can tend it, and, with a bean, even grow a tree in it. (NB: Trees are delicate organisms, and beans will only consent to being planted in the correct region.)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2bbc10" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2bbc10">
+    <command xml:space="preserve">x metal</command>
+    <result xml:space="preserve">A stupefying combination of classic rock and the power of metal. Most often found in rocky areas, these heavyweights are indispensable in the production of ingots and the metallurgic arts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2a4300" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2a4300">
+    <command xml:space="preserve">x beryl</command>
+    <result xml:space="preserve">A mineral dull in colour if not composite, Beryl can generally be found underground, where its eerie green surface calls to miners, refiners and gem collectors alike.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd5c900" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd5c900">
+    <command xml:space="preserve">x dullite</command>
+    <result xml:space="preserve">A study in shades of grey, gray, and a monochromatic 8-bit scale of debatable spelling, this common rock is mostly found underground, is minable, and may contain precious gems.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xddfa2e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xddfa2e0">
+    <command xml:space="preserve">get all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0x83b17a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x83b17a0">
+    <command xml:space="preserve">take all</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2a6690" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2a6690">
+    <command xml:space="preserve">get tree</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd57ee0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd57ee0">
+    <command xml:space="preserve">get vendor</command>
+    <result xml:space="preserve">I don&apos;t suppose the Gardening Goods Vendor would care for that.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0x83a8cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x83a8cb0">
+    <command xml:space="preserve">get metal rocks</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xddc3560" />
+    </children>
+  </item>
+  <item nodeId="node-0xddc3560">
+    <command xml:space="preserve">get patch</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2df660" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2df660">
+    <command xml:space="preserve">get four dullite rocks</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd640c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd640c0">
+    <command xml:space="preserve">x rocks</command>
+    <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xa2e0a90" />
+    </children>
+  </item>
+  <item nodeId="node-0xa2e0a90">
+    <command xml:space="preserve">x rock</command>
+    <result xml:space="preserve">Which do you mean, a Metal Rock, a Beryl Rock or a Dullite Rock?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8d6510" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8d6510">
+    <command xml:space="preserve">get rock</command>
+    <result xml:space="preserve">Which do you mean, a Metal Rock, a Beryl Rock or a Dullite Rock?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0xda603b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xda603b0">
+    <command xml:space="preserve">get dullite rock</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e6519e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e6519e0">
+    <command xml:space="preserve">get all rocks</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="198">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e6b62c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e6b62c0">
+    <command xml:space="preserve">get all metal rocks</command>
+    <result xml:space="preserve">There are none at all available!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="197">YES</temporary>
+  </item>
+  <item nodeId="node-0xb8e3780">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Getan Tenets
-You are in Getan Tenets, Alakol.
+You are in the underground cave of Getan Tenets. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions.
+
+You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Plant, nine Metal Rocks and four Beryl Rocks here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="47">YES</temporary>
+    <temporary score="263">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5dc10" />
+      <child nodeId="node-0xb8ad6a0" />
     </children>
   </item>
-  <item nodeId="node-0x1e5dc10">
+  <item nodeId="node-0xb8ad6a0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Ekorran Roughs
+You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
+
+You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile, a Fruit Tree, five Metal Rocks, two Dullite Rocks and three Beryl Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="263">YES</temporary>
+    <children>
+      <child nodeId="node-0xddf9340" />
+    </children>
+  </item>
+  <item nodeId="node-0xddf9340">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
+Lustan Cautions
+You are in Lustan Cautions, Alakol. There&apos;s a deep dark cave Northeast heading into Getan Tenets, the cliff top trails can be seen to the Southeast and Southwest leading to Ekorran Roughs and Flogan Shames. The main track leads North to Stora Rede, while a small nearly hidden grassy path wanders West to Rekan Flux.
 
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
+You can see a Groceries Vendor, a shrine to Pot (empty), a Gas Plant and two Fruit Trees here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="47">YES</temporary>
+    <temporary score="263">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5dc80" />
+      <child nodeId="node-0xb85d030" />
     </children>
   </item>
-  <item nodeId="node-0x1e5dc80">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
+  <item nodeId="node-0xb85d030">
+    <command xml:space="preserve">x plant</command>
+    <result xml:space="preserve">The ever-mellow Gas Plant. Packed with a stash of General Vapour that&apos;s just begging to be gassified. With a love of the murky and mystical, Gas Plants can often be found in totally far out spaces.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="47">YES</temporary>
+    <temporary score="263">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5dcf0" />
+      <child nodeId="node-0x182ba90" />
     </children>
   </item>
-  <item nodeId="node-0x1e5dcf0">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+  <item nodeId="node-0x182ba90">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Carrying the kind of ingredients necessary for some of your more fancy-pant meals, this Pot-endorsed Street Spirit sells anything delicious that you cannot make at home (like honey, birch syrup and salmon) and a couple of things you can (like buns and garlic). Grocery Street Spirits: The Foodie&apos;s Friend.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="47">YES</temporary>
+    <temporary score="262">YES</temporary>
+  </item>
+  <item nodeId="node-0xa2f5b20">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0x1e5dd60" />
+      <child nodeId="node-0xddf3220" />
     </children>
   </item>
-  <item nodeId="node-0x1e5dd60">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d3e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d3e0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d370" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d370">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d300" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d300">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d290" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d290">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d220" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d220">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d1b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d1b0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d140" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d140">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d0d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d0d0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5d060" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5d060">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5cff0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5cff0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5cf80" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5cf80">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="47">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5cf10" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5cf10">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
-
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree, nine metal rocks and four dullite rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="46">YES</temporary>
-  </item>
-  <item nodeId="node-0x83a4660">
-    <command xml:space="preserve">e</command>
+  <item nodeId="node-0xddf3220">
+    <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
 You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0xda59730" />
+      <child nodeId="node-0x1e6f0d30" />
     </children>
   </item>
-  <item nodeId="node-0xda59730">
-    <command xml:space="preserve">s</command>
+  <item nodeId="node-0x1e6f0d30">
+    <command xml:space="preserve">w</command>
     <result xml:space="preserve">
-Via Firozi
-You are in Via Firozi, Alakol.
+Flogan Shames
+You are in Flogan Shames, Alakol. The cliff top trails lead off East and West to Ekorran Roughs and Taftan Raves, Lustan Cautions is to the Northeast, a dark cave Northwest leasts to Simean Dims.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0xa23d5a0" />
+      <child nodeId="node-0xa2d0230" />
     </children>
   </item>
-  <item nodeId="node-0xa23d5a0">
-    <command xml:space="preserve">n</command>
+  <item nodeId="node-0xa2d0230">
+    <command xml:space="preserve">w</command>
     <result xml:space="preserve">
-Ekorran Roughs
-You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
+Taftan Raves
+You are in Taftan Raves, Alakol. The cliff top trails continues East and West to Flogan Shames and Vindel Frowns, Dofsan Vex is to the Northwest, a dark cave Northeast leasts to Simean Dims.
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="21">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="129">YES</temporary>
     <children>
-      <child nodeId="node-0xa1eb090" />
+      <child nodeId="node-0xa24a910" />
     </children>
   </item>
-  <item nodeId="node-0xa1eb090">
-    <command xml:space="preserve">d</command>
-    <result xml:space="preserve">You can&apos;t go that way.
+  <item nodeId="node-0xa24a910">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Dofsan Vex
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
+
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a dirt pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="129">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd6ac70" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd6ac70">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="129">YES</temporary>
+    <children>
+      <child nodeId="node-0xf92e010" />
+    </children>
+  </item>
+  <item nodeId="node-0xf92e010">
+    <command xml:space="preserve">get shrine</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="20">YES</temporary>
+    <temporary score="129">YES</temporary>
+    <children>
+      <child nodeId="node-0xa20f480" />
+    </children>
+  </item>
+  <item nodeId="node-0xa20f480">
+    <command xml:space="preserve">get tree</command>
+    <result xml:space="preserve">Which do you mean, a Fruit Tree, the Wood Tree or the Bubble Tree?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="129">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd83740" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd83740">
+    <command xml:space="preserve">get fruit tree</command>
+    <result xml:space="preserve">That&apos;s fixed in place.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="129">YES</temporary>
+    <children>
+      <child nodeId="node-0xa214ea0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa214ea0">
+    <command xml:space="preserve">x dirt pile</command>
+    <result xml:space="preserve">A pile of dirt. Digging it with a shovel produces various dirty rewards, their quality depending on how deeply you appreciate soil, and how many friends are digging with you.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="128">YES</temporary>
   </item>
 </Skein>

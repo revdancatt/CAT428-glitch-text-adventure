@@ -9,7 +9,7 @@ When entire game begins:
 
 This is a very alpha text adventure port of the MMO game Glitch, it's currently mainly acting as a stub so I can link from GitHub to here.
 
-Honestly there's nothing here yet, only a few streets that are linked together with no descriptions or items.
+Currently you can just about walk around Alakol with very little else to do.
 
 You can find the source for this on Github over here: https://github.com/revdancatt/cat428-glitch-text-adventure
 

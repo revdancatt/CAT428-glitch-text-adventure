@@ -22,7 +22,12 @@
 		<false/>
 	</dict>
 	<key>IFOutputSettings</key>
-	<dict/>
+	<dict>
+		<key>IFSettingCreateBlorb</key>
+		<true/>
+		<key>IFSettingZCodeVersion</key>
+		<integer>8</integer>
+	</dict>
 	<key>IFRandomSettings</key>
 	<dict/>
 </dict>

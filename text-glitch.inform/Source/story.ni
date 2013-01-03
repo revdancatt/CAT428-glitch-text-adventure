@@ -2,8 +2,6 @@
 
 Use no scoring.
 
-[Include Exit Lister by Eric Eve.]
-
 When entire game begins: 
 	say "==================================================
 

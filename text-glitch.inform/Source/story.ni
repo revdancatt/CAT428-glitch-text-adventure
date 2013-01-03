@@ -128,7 +128,7 @@ An Alchemical Goods Vendor is a kind of street sprite.
 The description of an Alchemical Goods Vendor is "Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you'll find everything Alchemy, Crystalmalizing and Potion-related right here."
 
 An Animal Goods Vendor is a kind of street sprite.
-The description of an Animal Goods is "With the ripe smell of Happy Capture branded Piggy Bait wafting from streets away, you can always find a Street Spirit selling Animal Goods if you need one. Specialising in butterfly massage oil, loomers, spindles, and everything you need for a successful home herd."
+The description of an Animal Goods Vendor is "With the ripe smell of Happy Capture branded Piggy Bait wafting from streets away, you can always find a Street Spirit selling Animal Goods if you need one. Specialising in butterfly massage oil, loomers, spindles, and everything you need for a successful home herd."
 
 A Produce Vendor is a kind of street sprite.
 The description of a Produce Vendor is "For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle."

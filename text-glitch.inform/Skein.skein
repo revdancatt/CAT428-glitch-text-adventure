@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1ec0c30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1ec0c30" />
+  <activeNode nodeId="node-0x1e6f6070" />
   <item nodeId="node-0x1ec0c30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -10,7 +10,9 @@
 
 ==================================================
 
-This is a very alpha text adventure port of the MMO game Glitch into the Inform7 langue. The region of Alakol with the included items is about the maximum size a
+This is a very alpha text adventure port of the MMO game Glitch into the Inform7 language. The region of Alakol with the included items is about the maximum size the Z-Code virtual machine can handle (Glulx can handle it fine fwiw).
+
+Nothing is particularly interactive at the moment, hoping to add some planting, watering, petting and harvesting of trees and mining of rocks soon.
 
 More notes and/or to fork and make pull requests on the source head over to Github: https://github.com/revdancatt/cat428-glitch-text-adventure
 
@@ -43,13 +45,40 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 &gt;w
 </commentary>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">NO</temporary>
+    <changed>NO</changed>
+    <temporary score="305">NO</temporary>
     <children>
       <child nodeId="node-0xa2f5b20" />
       <child nodeId="node-0x1e5d610" />
+      <child nodeId="node-0xdddfde0" />
       <child nodeId="node-0x1e5e660" />
+      <child nodeId="node-0xddb1a30" />
     </children>
+  </item>
+  <item nodeId="node-0xddb1a30">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="305">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e6f6070" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e6f6070">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Semsan Simile
+You are in Semsan Simile at the start (or end depending on your point of view) of the cliff top path which heads off into the distance Westwards. A rather intriguing exit leads East to Groddle Heights but an annoying magical force is preventing you from heading in that direction.
+
+You can see an Animal Goods Vendor, a shrine to Humbaba (empty), four Metal Rocks and a Beryl Rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="304">YES</temporary>
   </item>
   <item nodeId="node-0x1e5e660">
     <command xml:space="preserve">nw</command>
@@ -65,7 +94,6 @@ You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Pla
     <temporary score="251">YES</temporary>
     <children>
       <child nodeId="node-0x1e731f0" />
-      <child nodeId="node-0x1e5e610" />
       <child nodeId="node-0xdaa2800" />
     </children>
   </item>
@@ -101,31 +129,6 @@ You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Pla
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="217">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e5e610">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Stora Rede
-You are in Stora Rede, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e5e5c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e5e5c0">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Getan Tenets
-You are in Getan Tenets, Alakol.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="77">YES</temporary>
   </item>
   <item nodeId="node-0x1e731f0">
     <command xml:space="preserve">n</command>
@@ -534,22 +537,47 @@ You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Patch, a Wood
     <changed>YES</changed>
     <temporary score="250">YES</temporary>
   </item>
+  <item nodeId="node-0xdddfde0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Semsan Simile
+You are in Semsan Simile at the start (or end depending on your point of view) of the cliff top path which heads off into the distance Westwards. A rather intriguing exit leads East to Groddle Heights but an annoying magical force is preventing you from heading in that direction.
+
+You can see an Animal Goods Vendor, a shrine to Humbaba (empty), four Metal Rocks and a Beryl Rock here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="303">YES</temporary>
+    <children>
+      <child nodeId="node-0xddb5090" />
+    </children>
+  </item>
+  <item nodeId="node-0xddb5090">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">You see nothing special about the Animal Goods Vendor.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="302">YES</temporary>
+  </item>
   <item nodeId="node-0x1e5d610">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
 You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
 
-You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile, a Fruit Tree, five Metal Rocks, two Dullite Rocks and three Beryl Rocks here.
+You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile, a Fruit Tree, five Metal Rocks and a Beryl Rock here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="296">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="301">YES</temporary>
     <children>
       <child nodeId="node-0xb8e3780" />
       <child nodeId="node-0x1e5d5a0" />
-      <child nodeId="node-0xa2a8570" />
+      <child nodeId="node-0xdd9bf10" />
       <child nodeId="node-0xdabf790" />
     </children>
   </item>
@@ -634,108 +662,64 @@ You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile,
     <changed>YES</changed>
     <temporary score="152">YES</temporary>
   </item>
-  <item nodeId="node-0xa2a8570">
-    <command xml:space="preserve">nw</command>
+  <item nodeId="node-0xdd9bf10">
+    <command xml:space="preserve">n</command>
     <result xml:space="preserve">
-Lustan Cautions
-You are in Lustan Cautions, Alakol. There&apos;s a deep dark cave Northeast heading into Getan Tenets, the cliff top trails can be seen to the Southeast and Southwest leading to Ekorran Roughs and Flogan Shames. The main track leads North to Stora Rede, while a small nearly hidden grassy path wanders West to Rekan Flux.
+Getan Tenets
+You are in the underground cave of Getan Tenets. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions.
+
+You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Plant and four Beryl Rocks here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="301">YES</temporary>
     <children>
-      <child nodeId="node-0x1e676cb0" />
+      <child nodeId="node-0xdd74be0" />
     </children>
   </item>
-  <item nodeId="node-0x1e676cb0">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Rekan Flux
-You are in pleasent fields of Rekan Flux, Alakol. There are clear exists East and West, while a short path curves round North to Ojan Repine.
+  <item nodeId="node-0xdd74be0">
+    <command xml:space="preserve">nr</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="301">YES</temporary>
     <children>
-      <child nodeId="node-0xddf5f70" />
+      <child nodeId="node-0xdde1e60" />
     </children>
   </item>
-  <item nodeId="node-0xddf5f70">
+  <item nodeId="node-0xdde1e60">
     <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0xa2113b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa2113b0">
-    <command xml:space="preserve">n</command>
     <result xml:space="preserve">
-Ojan Repine
-You are in Ojan Repine, Alakol. A tricky looking path leads Northeast and North to the base of the cliff at Fyran Descant and Brunnan Bafflings, meanwhile an easier looking path winds off Southwest and Southeast.
+Stora Rede
+You are in Stora Rede, Alakol. A rocky path leads to Yan Jaggery and Torpan Cleft to the Northeast and North, while in the opposite direction a grassy track heads South into the Lustan Cautions. Curiously the faint sound of foxes can be heard drifting in from the East.
+
+Oh and cave! There&apos;s a cave to the Southeast.
+
+You can see a Hardware Vendor, a shrine to Friendly (empty), a Bean Tree, a Spice Plant and a Fruit Tree here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="78">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="301">YES</temporary>
     <children>
-      <child nodeId="node-0xdd414b0" />
+      <child nodeId="node-0x833f780" />
     </children>
   </item>
-  <item nodeId="node-0xdd414b0">
-    <command xml:space="preserve">n</command>
+  <item nodeId="node-0x833f780">
+    <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
-Brunnan Bafflings
-You are in Brunnan Bafflings, Alakol. It&apos;s a grim cliff face strewn with rocks, along the bottom you can get to Fyran Descant Southeast and Ojan Repine South. There is a small pass to the North that takes you to Feman Falters.
+Yan Jaggery
+You are in Yan Jaggery, Alakol. Its a bit windy up here but comes with fansatic views South across Alakol. Exits are all over the place but for the sake of simplicity; North, East, Northwest and Southwest.
 
-You can see three beryl rocks, a Toy Vendor, a shrine to Cosma (empty), two Bean Trees and three metal rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0xa2a9cd0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa2a9cd0">
-    <command xml:space="preserve">exam venfor</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+You can see a Groceries Vendor, a shrine to Cosma (empty), a Patch, a Wood Tree, a Fruit Tree and two Sparkly Rocks here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0xa290a30" />
-    </children>
-  </item>
-  <item nodeId="node-0xa290a30">
-    <command xml:space="preserve">exam vendor</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="78">YES</temporary>
-    <children>
-      <child nodeId="node-0xa15a670" />
-    </children>
-  </item>
-  <item nodeId="node-0xa15a670">
-    <command xml:space="preserve">x vendor</command>
-    <result xml:space="preserve">Once branded in the age of Tii as The Lord of Misrule, this is a bit unfair for a street spirit who, let&apos;s face it, mainly specialises in selling dice, party spaces, cubimals, cameras and other things that are fun. If you like fun, seek out a Street Spirit with Toys. And why wouldn&apos;t you? You don&apos;t want everyone to think you hate FUN, do you?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="77">YES</temporary>
+    <temporary score="300">YES</temporary>
   </item>
   <item nodeId="node-0x1e5d5a0">
     <command xml:space="preserve">w</command>
@@ -767,81 +751,7 @@ You are in Taftan Raves, Alakol. The cliff top trails continues East and West to
     <temporary score="296">YES</temporary>
     <children>
       <child nodeId="node-0xda3ca30" />
-      <child nodeId="node-0x839f990" />
     </children>
-  </item>
-  <item nodeId="node-0x839f990">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Dofsan Vex
-You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
-
-You can see a shrine to Ti, a dirt pile, an Alchemical Goods Vendor, two Fruit Trees, a Wood Tree and a Bubble Tree here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="92">YES</temporary>
-    <children>
-      <child nodeId="node-0xf949b00" />
-    </children>
-  </item>
-  <item nodeId="node-0xf949b00">
-    <command xml:space="preserve">x vendor</command>
-    <result xml:space="preserve">Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you&apos;ll find everything Alchemy, Crystalmalizing and Potion-related right here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="92">YES</temporary>
-    <children>
-      <child nodeId="node-0x183dd50" />
-    </children>
-  </item>
-  <item nodeId="node-0x183dd50">
-    <command xml:space="preserve">x fruit tree</command>
-    <result xml:space="preserve">The glorious Fruit Tree. Thick with tasty cherries ripe to be converted into other delicious fruits, these venerable plants may not be chatty, but they&apos;re indispensable for fine edibles and quaffables of all sorts.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="92">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b06880" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b06880">
-    <command xml:space="preserve">x wood tree</command>
-    <result xml:space="preserve">While all trees are woody, the Wood Tree is woodier than most. Tending to your wood is a rewarding solitary pursuit, but gathering friends to engorge your wood before all wielding your choppers simultaneously is both mutually satisfying, and sure to result in the injection of firm, tasty planks into your bag.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="92">YES</temporary>
-    <children>
-      <child nodeId="node-0x18bf8f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x18bf8f0">
-    <command xml:space="preserve">x bubble tree</command>
-    <result xml:space="preserve">The delicate Bubble Tree. Bursting with plain bubbles waiting to be tuned, these somewhat unstable specimens harbor fruit of perfect transparency - and thoughts of bizarre conspiracy.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="92">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd7b310" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd7b310">
-    <command xml:space="preserve">x shrine</command>
-    <result xml:space="preserve">You see nothing special about the shrine to Ti.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="91">YES</temporary>
   </item>
   <item nodeId="node-0xda3ca30">
     <command xml:space="preserve">w</command>

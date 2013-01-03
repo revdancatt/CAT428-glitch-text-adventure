@@ -212,7 +212,7 @@ Fyran Descant is west of Torpan Cleft.
 Fyran Descant is southeast of Brunnan Bafflings.
 Fyran Descant is northeast of Ojan Repine.
 
-Getan Tenets is a room in Alakol. "You are in the underground dave of Getan Tenets. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions."
+Getan Tenets is a room in Alakol. "You are in the underground cave of Getan Tenets. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions."
 Getan Tenets is northwest of Anrasan Glance.
 Getan Tenets is north of Ekorran Roughs.
 Getan Tenets is northeast of Lustan Cautions.

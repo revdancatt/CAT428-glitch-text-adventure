@@ -141,7 +141,17 @@ A shrine is a kind of container.
 A shrine is fixed in place.
 The description of a shrine is "A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur."
 
+A shrine to Humbaba is a kind of shrine.
+A shrine to Lem is a kind of shrine.
+A shrine to Friendly is a kind of shrine.
+A shrine to Spriggan is a kind of shrine.
+A shrine to Cosma is a kind of shrine.
 A shrine to Mab is a kind of shrine.
+A shrine to Tii is a kind of shrine.
+A shrine to Grendaline is a kind of shrine.
+A shrine to Zille is a kind of shrine.
+A shrine to Alph is a kind of shrine.
+A shrine to Pot is a kind of shrine.
 
 [================================]
 [Vendors                         ]

@@ -8305,7 +8305,7 @@ Constant START_ROOM_INIS = 2;
 Constant START_TIME_INIS = 3;
 Constant DONE_INIS = 4;
 
-Array InitialSituation --> selfobj nothing I180_anrasan_glance 540 0;
+Array InitialSituation --> selfobj nothing I190_anrasan_glance 540 0;
 
 
 
@@ -8728,10 +8728,30 @@ Constant p179 = IK56_Count;
 Constant p180 = IK56_Link;
 Constant p181 = IK57_Count;
 Constant p182 = IK57_Link;
-Constant p183 = KD_Count;
-Constant p184 = name;
-Constant p185 = parse_name;
-Constant p186 = action_bitmap;
+Constant p183 = IK58_Count;
+Constant p184 = IK58_Link;
+Constant p185 = IK59_Count;
+Constant p186 = IK59_Link;
+Constant p187 = IK60_Count;
+Constant p188 = IK60_Link;
+Constant p189 = IK61_Count;
+Constant p190 = IK61_Link;
+Constant p191 = IK62_Count;
+Constant p192 = IK62_Link;
+Constant p193 = IK63_Count;
+Constant p194 = IK63_Link;
+Constant p195 = IK64_Count;
+Constant p196 = IK64_Link;
+Constant p197 = IK65_Count;
+Constant p198 = IK65_Link;
+Constant p199 = IK66_Count;
+Constant p200 = IK66_Link;
+Constant p201 = IK67_Count;
+Constant p202 = IK67_Link;
+Constant p203 = KD_Count;
+Constant p204 = name;
+Constant p205 = parse_name;
+Constant p206 = action_bitmap;
 
 Constant FBNA_PROP_NUMBER = p54_recurring;
 Object property_numberspace_forcer
@@ -9069,19 +9089,59 @@ Array property_metadata -->
     "<nameless>" NULL
     ! offset 398: property IK57_Link
     "<nameless>" NULL
-    ! offset 400: property KD_Count
+    ! offset 400: property IK58_Count
     "<nameless>" NULL
-    ! offset 402: property name
+    ! offset 402: property IK58_Link
     "<nameless>" NULL
-    ! offset 404: property parse_name
+    ! offset 404: property IK59_Count
     "<nameless>" NULL
-    ! offset 406: property action_bitmap
+    ! offset 406: property IK59_Link
+    "<nameless>" NULL
+    ! offset 408: property IK60_Count
+    "<nameless>" NULL
+    ! offset 410: property IK60_Link
+    "<nameless>" NULL
+    ! offset 412: property IK61_Count
+    "<nameless>" NULL
+    ! offset 414: property IK61_Link
+    "<nameless>" NULL
+    ! offset 416: property IK62_Count
+    "<nameless>" NULL
+    ! offset 418: property IK62_Link
+    "<nameless>" NULL
+    ! offset 420: property IK63_Count
+    "<nameless>" NULL
+    ! offset 422: property IK63_Link
+    "<nameless>" NULL
+    ! offset 424: property IK64_Count
+    "<nameless>" NULL
+    ! offset 426: property IK64_Link
+    "<nameless>" NULL
+    ! offset 428: property IK65_Count
+    "<nameless>" NULL
+    ! offset 430: property IK65_Link
+    "<nameless>" NULL
+    ! offset 432: property IK66_Count
+    "<nameless>" NULL
+    ! offset 434: property IK66_Link
+    "<nameless>" NULL
+    ! offset 436: property IK67_Count
+    "<nameless>" NULL
+    ! offset 438: property IK67_Link
+    "<nameless>" NULL
+    ! offset 440: property KD_Count
+    "<nameless>" NULL
+    ! offset 442: property name
+    "<nameless>" NULL
+    ! offset 444: property parse_name
+    "<nameless>" NULL
+    ! offset 446: property action_bitmap
     "<nameless>" NULL
 ;
 
 Constant attributed_property_offsets_SIZE 48;
 Array attributed_property_offsets --> attributed_property_offsets_SIZE;
-Constant valued_property_offsets_SIZE (100 + 187 + INDIV_PROP_START-48);
+Constant valued_property_offsets_SIZE (100 + 207 + INDIV_PROP_START-48);
 Array valued_property_offsets --> valued_property_offsets_SIZE;
 
 [ CreatePropertyOffsets i;
@@ -9252,10 +9312,30 @@ Array valued_property_offsets --> valued_property_offsets_SIZE;
     valued_property_offsets-->IK56_Link = 394;
     valued_property_offsets-->IK57_Count = 396;
     valued_property_offsets-->IK57_Link = 398;
-    valued_property_offsets-->KD_Count = 400;
-    valued_property_offsets-->name = 402;
-    valued_property_offsets-->parse_name = 404;
-    valued_property_offsets-->action_bitmap = 406;
+    valued_property_offsets-->IK58_Count = 400;
+    valued_property_offsets-->IK58_Link = 402;
+    valued_property_offsets-->IK59_Count = 404;
+    valued_property_offsets-->IK59_Link = 406;
+    valued_property_offsets-->IK60_Count = 408;
+    valued_property_offsets-->IK60_Link = 410;
+    valued_property_offsets-->IK61_Count = 412;
+    valued_property_offsets-->IK61_Link = 414;
+    valued_property_offsets-->IK62_Count = 416;
+    valued_property_offsets-->IK62_Link = 418;
+    valued_property_offsets-->IK63_Count = 420;
+    valued_property_offsets-->IK63_Link = 422;
+    valued_property_offsets-->IK64_Count = 424;
+    valued_property_offsets-->IK64_Link = 426;
+    valued_property_offsets-->IK65_Count = 428;
+    valued_property_offsets-->IK65_Link = 430;
+    valued_property_offsets-->IK66_Count = 432;
+    valued_property_offsets-->IK66_Link = 434;
+    valued_property_offsets-->IK67_Count = 436;
+    valued_property_offsets-->IK67_Link = 438;
+    valued_property_offsets-->KD_Count = 440;
+    valued_property_offsets-->name = 442;
+    valued_property_offsets-->parse_name = 444;
+    valued_property_offsets-->action_bitmap = 446;
 ];
 
 
@@ -9637,11 +9717,21 @@ Constant REL_BLOCK_HEADER ($100*6 + $$1101)*$10000;
     if (k == K50_metal_rock) print "metal rock";
     if (k == K51_dullite_rock) print "dullite rock";
     if (k == K52_shrine) print "shrine";
-    if (k == K53_shrine_to_mab) print "shrine to Mab";
-    if (k == K54_vendor) print "vendor";
-    if (k == K55_street_sprite) print "street sprite";
-    if (k == K56_produce_vendor) print "Produce Vendor";
-    if (k == K57_street) print "street";
+    if (k == K53_shrine_to_humbaba) print "shrine to Humbaba";
+    if (k == K54_shrine_to_lem) print "shrine to Lem";
+    if (k == K55_shrine_to_friendly) print "shrine to Friendly";
+    if (k == K56_shrine_to_spriggan) print "shrine to Spriggan";
+    if (k == K57_shrine_to_cosma) print "shrine to Cosma";
+    if (k == K58_shrine_to_mab) print "shrine to Mab";
+    if (k == K59_shrine_to_tii) print "shrine to Tii";
+    if (k == K60_shrine_to_grendaline) print "shrine to Grendaline";
+    if (k == K61_shrine_to_zille) print "shrine to Zille";
+    if (k == K62_shrine_to_alph) print "shrine to Alph";
+    if (k == K63_shrine_to_pot) print "shrine to Pot";
+    if (k == K64_vendor) print "vendor";
+    if (k == K65_street_sprite) print "street sprite";
+    if (k == K66_produce_vendor) print "Produce Vendor";
+    if (k == K67_street) print "street";
 ];
 
 Constant RBNO_0 = "allow access";
@@ -9663,12 +9753,12 @@ Constant RBNO_12 = "it does";
 
 
 
-Array KindHierarchy --> K0_kind (0) K1_room (0) K2_thing (0) K3_direction (0) K4_door (2) K5_container (2) K6_supporter (2) K7_backdrop (2) K8_person (2) K9_region (0) K10_man (8) K11_woman (8) K12_animal (8) K13_device (2) K14_vehicle (5) K15_player_s_holdall (5) K16_item (2) K17_tools (16) K18_food (16) K19_drink (16) K20_storage (16) K21_basic_resources (16) K22_advance_resources (16) K23_gasses___bubbles (16) K24_spices (16) K25_alchemical_compounds___p (16) K26_tinctures___potions (16) K27_machines___fuel (16) K28_croppery___gardening_sup (16) K29_herbalism_supplies (16) K30_herdkeeping_supplies (16) K31_emblems___icons (16) K32_licenses___permits (16) K33_keys (16) K34_collectibles (16) K35_toys (16) K36_natural_resources (16) K37_quest_items (16) K38_other (16) K39_tree (36) K40_bean_tree (39) K41_bubble_tree (39) K42_fruit_tree (39) K43_paper_tree (39) K44_wood_tree (39) K45_plant (39) K46_egg_plant (45) K47_gas_plant (45) K48_spice_plant (45) K49_rock (2) K50_metal_rock (49) K51_dullite_rock (49) K52_shrine (5) K53_shrine_to_mab (52) K54_vendor (8) K55_street_sprite (54) K56_produce_vendor (55) K57_street (1) ;
-Constant IK1_First = I180_anrasan_glance;
+Array KindHierarchy --> K0_kind (0) K1_room (0) K2_thing (0) K3_direction (0) K4_door (2) K5_container (2) K6_supporter (2) K7_backdrop (2) K8_person (2) K9_region (0) K10_man (8) K11_woman (8) K12_animal (8) K13_device (2) K14_vehicle (5) K15_player_s_holdall (5) K16_item (2) K17_tools (16) K18_food (16) K19_drink (16) K20_storage (16) K21_basic_resources (16) K22_advance_resources (16) K23_gasses___bubbles (16) K24_spices (16) K25_alchemical_compounds___p (16) K26_tinctures___potions (16) K27_machines___fuel (16) K28_croppery___gardening_sup (16) K29_herbalism_supplies (16) K30_herdkeeping_supplies (16) K31_emblems___icons (16) K32_licenses___permits (16) K33_keys (16) K34_collectibles (16) K35_toys (16) K36_natural_resources (16) K37_quest_items (16) K38_other (16) K39_tree (36) K40_bean_tree (39) K41_bubble_tree (39) K42_fruit_tree (39) K43_paper_tree (39) K44_wood_tree (39) K45_plant (39) K46_egg_plant (45) K47_gas_plant (45) K48_spice_plant (45) K49_rock (2) K50_metal_rock (49) K51_dullite_rock (49) K52_shrine (5) K53_shrine_to_humbaba (52) K54_shrine_to_lem (52) K55_shrine_to_friendly (52) K56_shrine_to_spriggan (52) K57_shrine_to_cosma (52) K58_shrine_to_mab (52) K59_shrine_to_tii (52) K60_shrine_to_grendaline (52) K61_shrine_to_zille (52) K62_shrine_to_alph (52) K63_shrine_to_pot (52) K64_vendor (8) K65_street_sprite (64) K66_produce_vendor (65) K67_street (1) ;
+Constant IK1_First = I190_anrasan_glance;
 Constant IK2_First = selfobj;
 Constant IK3_First = I46_north;
 Constant IK4_First = nothing;
-Constant IK5_First = X182;
+Constant IK5_First = X192;
 Constant IK6_First = nothing;
 Constant IK7_First = nothing;
 Constant IK8_First = selfobj;
@@ -9679,7 +9769,7 @@ Constant IK12_First = nothing;
 Constant IK13_First = nothing;
 Constant IK14_First = nothing;
 Constant IK15_First = nothing;
-Constant IK16_First = X183;
+Constant IK16_First = X193;
 Constant IK17_First = nothing;
 Constant IK18_First = nothing;
 Constant IK19_First = nothing;
@@ -9699,28 +9789,38 @@ Constant IK32_First = nothing;
 Constant IK33_First = nothing;
 Constant IK34_First = nothing;
 Constant IK35_First = nothing;
-Constant IK36_First = X183;
+Constant IK36_First = X193;
 Constant IK37_First = nothing;
 Constant IK38_First = nothing;
-Constant IK39_First = X183;
-Constant IK40_First = X184;
+Constant IK39_First = X193;
+Constant IK40_First = X194;
 Constant IK41_First = nothing;
-Constant IK42_First = X183;
+Constant IK42_First = X193;
 Constant IK43_First = nothing;
 Constant IK44_First = nothing;
 Constant IK45_First = nothing;
 Constant IK46_First = nothing;
 Constant IK47_First = nothing;
 Constant IK48_First = nothing;
-Constant IK49_First = X185;
-Constant IK50_First = X185;
-Constant IK51_First = X194;
-Constant IK52_First = X182;
-Constant IK53_First = X182;
-Constant IK54_First = X181;
-Constant IK55_First = X181;
-Constant IK56_First = X181;
-Constant IK57_First = I180_anrasan_glance;
+Constant IK49_First = X195;
+Constant IK50_First = X195;
+Constant IK51_First = X204;
+Constant IK52_First = X192;
+Constant IK53_First = nothing;
+Constant IK54_First = nothing;
+Constant IK55_First = nothing;
+Constant IK56_First = nothing;
+Constant IK57_First = nothing;
+Constant IK58_First = X192;
+Constant IK59_First = nothing;
+Constant IK60_First = nothing;
+Constant IK61_First = nothing;
+Constant IK62_First = nothing;
+Constant IK63_First = nothing;
+Constant IK64_First = X191;
+Constant IK65_First = X191;
+Constant IK66_First = X191;
+Constant IK67_First = I190_anrasan_glance;
 Constant No_Directions = 12;
 ! Table of direction object alias constants:
 Constant DirectionObject_0 = I46_north;
@@ -9736,43 +9836,43 @@ Constant DirectionObject_9 = I55_down;
 Constant DirectionObject_10 = in_obj;
 Constant DirectionObject_11 = out_obj;
 Array Map_Storage -->
- 0 0 I199_getan_tenets 0 0 0 I200_semsan_simile I198_ekorran_roughs 0 0 0 0 ! Exits from: I180_anrasan_glance
- I199_getan_tenets I199_getan_tenets I222_lustan_cautions I220_via_firozi 0 0 I180_anrasan_glance I221_flogan_shames 0 I220_via_firozi 0 0 ! Exits from: I198_ekorran_roughs
- 0 I226_stora_rede I226_stora_rede I198_ekorran_roughs I180_anrasan_glance I198_ekorran_roughs 0 I222_lustan_cautions 0 0 0 0 ! Exits from: I199_getan_tenets
- 0 0 0 0 0 0 0 I180_anrasan_glance 0 0 0 0 ! Exits from: I200_semsan_simile
- I202_motala_dun I202_motala_dun I203_harkan_idiom I205_yan_jaggery I204_pinnan_glimpse 0 0 0 0 0 0 0 ! Exits from: I201_bolesan_ambitions
- 0 0 0 I201_bolesan_ambitions 0 I201_bolesan_ambitions 0 I203_harkan_idiom 0 0 0 0 ! Exits from: I202_motala_dun
- 0 0 I228_kolan_presence 0 I201_bolesan_ambitions I223_idan_frisk I202_motala_dun I228_kolan_presence 0 0 0 0 ! Exits from: I203_harkan_idiom
- I201_bolesan_ambitions 0 I201_bolesan_ambitions 0 0 0 0 I205_yan_jaggery 0 0 0 0 ! Exits from: I204_pinnan_glimpse
- I201_bolesan_ambitions 0 I224_torpan_cleft 0 0 I226_stora_rede I204_pinnan_glimpse 0 0 0 0 0 ! Exits from: I205_yan_jaggery
- I207_feman_falters 0 0 I209_ojan_repine I208_fyran_descant 0 I208_fyran_descant 0 0 0 0 0 ! Exits from: I206_brunnan_bafflings
- 0 0 0 I206_brunnan_bafflings I224_torpan_cleft I211_isalan_interval I223_idan_frisk I225_jadraan_fix 0 0 0 0 ! Exits from: I207_feman_falters
- 0 0 I206_brunnan_bafflings 0 0 I209_ojan_repine I224_torpan_cleft I206_brunnan_bafflings 0 0 0 0 ! Exits from: I208_fyran_descant
- I206_brunnan_bafflings I208_fyran_descant 0 I231_rekan_flux I231_rekan_flux I232_vragan_boost 0 0 0 0 0 0 ! Exits from: I209_ojan_repine
- I211_isalan_interval I211_isalan_interval 0 I214_vindel_frowns I213_taftan_raves I214_vindel_frowns I212_simean_dims 0 0 0 0 0 ! Exits from: I210_dofsan_vex
- 0 I207_feman_falters I225_jadraan_fix I212_simean_dims I212_simean_dims I210_dofsan_vex I227_gimja_preserve 0 0 0 0 0 ! Exits from: I211_isalan_interval
- I211_isalan_interval 0 I211_isalan_interval 0 I221_flogan_shames I213_taftan_raves I232_vragan_boost I210_dofsan_vex I232_vragan_boost 0 0 0 ! Exits from: I212_simean_dims
- 0 I212_simean_dims I210_dofsan_vex 0 0 0 I221_flogan_shames I214_vindel_frowns 0 0 0 0 ! Exits from: I213_taftan_raves
- I210_dofsan_vex I217_navran_dissent I218_hammar_steadies 0 0 0 I213_taftan_raves 0 0 0 0 0 ! Exits from: I214_vindel_frowns
- I216_marlan_bias I216_marlan_bias 0 0 I217_navran_dissent I218_hammar_steadies 0 I219_smy_mod 0 0 0 0 ! Exits from: I215_dyran_notion
- 0 I225_jadraan_fix I229_stopan_winnow I217_navran_dissent 0 I215_dyran_notion 0 0 0 0 0 0 ! Exits from: I216_marlan_bias
- I216_marlan_bias 0 I215_dyran_notion I214_vindel_frowns 0 I218_hammar_steadies 0 I218_hammar_steadies 0 0 0 0 ! Exits from: I217_navran_dissent
- I219_smy_mod I215_dyran_notion 0 0 I214_vindel_frowns 0 I217_navran_dissent 0 0 0 0 0 ! Exits from: I218_hammar_steadies
- 0 0 0 I218_hammar_steadies 0 0 I215_dyran_notion 0 0 0 0 0 ! Exits from: I219_smy_mod
- I198_ekorran_roughs 0 0 0 0 0 0 0 I198_ekorran_roughs 0 0 0 ! Exits from: I220_via_firozi
- 0 I222_lustan_cautions I212_simean_dims 0 0 0 I198_ekorran_roughs I213_taftan_raves 0 0 0 0 ! Exits from: I221_flogan_shames
- I226_stora_rede I199_getan_tenets 0 0 I198_ekorran_roughs I221_flogan_shames I199_getan_tenets I231_rekan_flux 0 0 0 0 ! Exits from: I222_lustan_cautions
- 0 I228_kolan_presence 0 0 0 I224_torpan_cleft I203_harkan_idiom I207_feman_falters 0 0 0 0 ! Exits from: I223_idan_frisk
- 0 I223_idan_frisk I207_feman_falters I226_stora_rede I205_yan_jaggery 0 0 I208_fyran_descant 0 0 0 0 ! Exits from: I224_torpan_cleft
- 0 0 0 0 I211_isalan_interval I216_marlan_bias I207_feman_falters I229_stopan_winnow 0 0 0 0 ! Exits from: I225_jadraan_fix
- I224_torpan_cleft I205_yan_jaggery 0 I222_lustan_cautions I199_getan_tenets I199_getan_tenets I230_kobah_habitat 0 0 0 0 0 ! Exits from: I226_stora_rede
- 0 0 0 0 0 0 0 I211_isalan_interval 0 0 0 0 ! Exits from: I227_gimja_preserve
- 0 0 0 0 I203_harkan_idiom I223_idan_frisk I203_harkan_idiom 0 0 0 0 0 ! Exits from: I228_kolan_presence
- 0 0 I233_onbo_park 0 I216_marlan_bias 0 I225_jadraan_fix 0 0 0 0 0 ! Exits from: I229_stopan_winnow
- 0 0 0 0 0 0 0 I226_stora_rede 0 0 0 0 ! Exits from: I230_kobah_habitat
- I209_ojan_repine 0 I209_ojan_repine 0 0 0 I222_lustan_cautions I232_vragan_boost 0 0 0 0 ! Exits from: I231_rekan_flux
- 0 I209_ojan_repine 0 0 0 0 I231_rekan_flux I212_simean_dims 0 I212_simean_dims 0 0 ! Exits from: I232_vragan_boost
- 0 0 0 0 I229_stopan_winnow 0 0 0 0 0 0 0 ! Exits from: I233_onbo_park
+ 0 0 I209_getan_tenets 0 0 0 I210_semsan_simile I208_ekorran_roughs 0 0 0 0 ! Exits from: I190_anrasan_glance
+ I209_getan_tenets I209_getan_tenets I232_lustan_cautions I230_via_firozi 0 0 I190_anrasan_glance I231_flogan_shames 0 I230_via_firozi 0 0 ! Exits from: I208_ekorran_roughs
+ 0 I236_stora_rede I236_stora_rede I208_ekorran_roughs I190_anrasan_glance I208_ekorran_roughs 0 I232_lustan_cautions 0 0 0 0 ! Exits from: I209_getan_tenets
+ 0 0 0 0 0 0 0 I190_anrasan_glance 0 0 0 0 ! Exits from: I210_semsan_simile
+ I212_motala_dun I212_motala_dun I213_harkan_idiom I215_yan_jaggery I214_pinnan_glimpse 0 0 0 0 0 0 0 ! Exits from: I211_bolesan_ambitions
+ 0 0 0 I211_bolesan_ambitions 0 I211_bolesan_ambitions 0 I213_harkan_idiom 0 0 0 0 ! Exits from: I212_motala_dun
+ 0 0 I238_kolan_presence 0 I211_bolesan_ambitions I233_idan_frisk I212_motala_dun I238_kolan_presence 0 0 0 0 ! Exits from: I213_harkan_idiom
+ I211_bolesan_ambitions 0 I211_bolesan_ambitions 0 0 0 0 I215_yan_jaggery 0 0 0 0 ! Exits from: I214_pinnan_glimpse
+ I211_bolesan_ambitions 0 I234_torpan_cleft 0 0 I236_stora_rede I214_pinnan_glimpse 0 0 0 0 0 ! Exits from: I215_yan_jaggery
+ I217_feman_falters 0 0 I219_ojan_repine I218_fyran_descant 0 I218_fyran_descant 0 0 0 0 0 ! Exits from: I216_brunnan_bafflings
+ 0 0 0 I216_brunnan_bafflings I234_torpan_cleft I221_isalan_interval I233_idan_frisk I235_jadraan_fix 0 0 0 0 ! Exits from: I217_feman_falters
+ 0 0 I216_brunnan_bafflings 0 0 I219_ojan_repine I234_torpan_cleft I216_brunnan_bafflings 0 0 0 0 ! Exits from: I218_fyran_descant
+ I216_brunnan_bafflings I218_fyran_descant 0 I241_rekan_flux I241_rekan_flux I242_vragan_boost 0 0 0 0 0 0 ! Exits from: I219_ojan_repine
+ I221_isalan_interval I221_isalan_interval 0 I224_vindel_frowns I223_taftan_raves I224_vindel_frowns I222_simean_dims 0 0 0 0 0 ! Exits from: I220_dofsan_vex
+ 0 I217_feman_falters I235_jadraan_fix I222_simean_dims I222_simean_dims I220_dofsan_vex I237_gimja_preserve 0 0 0 0 0 ! Exits from: I221_isalan_interval
+ I221_isalan_interval 0 I221_isalan_interval 0 I231_flogan_shames I223_taftan_raves I242_vragan_boost I220_dofsan_vex I242_vragan_boost 0 0 0 ! Exits from: I222_simean_dims
+ 0 I222_simean_dims I220_dofsan_vex 0 0 0 I231_flogan_shames I224_vindel_frowns 0 0 0 0 ! Exits from: I223_taftan_raves
+ I220_dofsan_vex I227_navran_dissent I228_hammar_steadies 0 0 0 I223_taftan_raves 0 0 0 0 0 ! Exits from: I224_vindel_frowns
+ I226_marlan_bias I226_marlan_bias 0 0 I227_navran_dissent I228_hammar_steadies 0 I229_smy_mod 0 0 0 0 ! Exits from: I225_dyran_notion
+ 0 I235_jadraan_fix I239_stopan_winnow I227_navran_dissent 0 I225_dyran_notion 0 0 0 0 0 0 ! Exits from: I226_marlan_bias
+ I226_marlan_bias 0 I225_dyran_notion I224_vindel_frowns 0 I228_hammar_steadies 0 I228_hammar_steadies 0 0 0 0 ! Exits from: I227_navran_dissent
+ I229_smy_mod I225_dyran_notion 0 0 I224_vindel_frowns 0 I227_navran_dissent 0 0 0 0 0 ! Exits from: I228_hammar_steadies
+ 0 0 0 I228_hammar_steadies 0 0 I225_dyran_notion 0 0 0 0 0 ! Exits from: I229_smy_mod
+ I208_ekorran_roughs 0 0 0 0 0 0 0 I208_ekorran_roughs 0 0 0 ! Exits from: I230_via_firozi
+ 0 I232_lustan_cautions I222_simean_dims 0 0 0 I208_ekorran_roughs I223_taftan_raves 0 0 0 0 ! Exits from: I231_flogan_shames
+ I236_stora_rede I209_getan_tenets 0 0 I208_ekorran_roughs I231_flogan_shames I209_getan_tenets I241_rekan_flux 0 0 0 0 ! Exits from: I232_lustan_cautions
+ 0 I238_kolan_presence 0 0 0 I234_torpan_cleft I213_harkan_idiom I217_feman_falters 0 0 0 0 ! Exits from: I233_idan_frisk
+ 0 I233_idan_frisk I217_feman_falters I236_stora_rede I215_yan_jaggery 0 0 I218_fyran_descant 0 0 0 0 ! Exits from: I234_torpan_cleft
+ 0 0 0 0 I221_isalan_interval I226_marlan_bias I217_feman_falters I239_stopan_winnow 0 0 0 0 ! Exits from: I235_jadraan_fix
+ I234_torpan_cleft I215_yan_jaggery 0 I232_lustan_cautions I209_getan_tenets I209_getan_tenets I240_kobah_habitat 0 0 0 0 0 ! Exits from: I236_stora_rede
+ 0 0 0 0 0 0 0 I221_isalan_interval 0 0 0 0 ! Exits from: I237_gimja_preserve
+ 0 0 0 0 I213_harkan_idiom I233_idan_frisk I213_harkan_idiom 0 0 0 0 0 ! Exits from: I238_kolan_presence
+ 0 0 I243_onbo_park 0 I226_marlan_bias 0 I235_jadraan_fix 0 0 0 0 0 ! Exits from: I239_stopan_winnow
+ 0 0 0 0 0 0 0 I236_stora_rede 0 0 0 0 ! Exits from: I240_kobah_habitat
+ I219_ojan_repine 0 I219_ojan_repine 0 0 0 I232_lustan_cautions I242_vragan_boost 0 0 0 0 ! Exits from: I241_rekan_flux
+ 0 I219_ojan_repine 0 0 0 0 I241_rekan_flux I222_simean_dims 0 I222_simean_dims 0 0 ! Exits from: I242_vragan_boost
+ 0 0 0 0 I239_stopan_winnow 0 0 0 0 0 0 0 ! Exits from: I243_onbo_park
 ;
 
 Class VPH_Class;
@@ -9803,7 +9903,7 @@ Class K1_room
     has ~visited
 ;
 
-Class K57_street 
+Class K67_street 
     class K1_room
 ;
 
@@ -9871,18 +9971,18 @@ Class K12_animal
     with plural "animals"
 ;
 
-Class K54_vendor 
+Class K64_vendor 
     class K8_person
     with plural "vendors"
 ;
 
-Class K55_street_sprite 
-    class K54_vendor
+Class K65_street_sprite 
+    class K64_vendor
     with plural "street sprites"
 ;
 
-Class K56_produce_vendor 
-    class K55_street_sprite
+Class K66_produce_vendor 
+    class K65_street_sprite
     with plural "Produce Vendors"
     with description SC_3
 ;
@@ -9936,9 +10036,59 @@ Class K52_shrine
     has static
 ;
 
-Class K53_shrine_to_mab 
+Class K53_shrine_to_humbaba 
+    class K52_shrine
+    with plural "shrine to Humbabas"
+;
+
+Class K54_shrine_to_lem 
+    class K52_shrine
+    with plural "shrine to Lems"
+;
+
+Class K55_shrine_to_friendly 
+    class K52_shrine
+    with plural "shrine to Friendlies"
+;
+
+Class K56_shrine_to_spriggan 
+    class K52_shrine
+    with plural "shrine to Spriggans"
+;
+
+Class K57_shrine_to_cosma 
+    class K52_shrine
+    with plural "shrine to Cosmas"
+;
+
+Class K58_shrine_to_mab 
     class K52_shrine
     with plural "shrine to Mabs"
+;
+
+Class K59_shrine_to_tii 
+    class K52_shrine
+    with plural "shrine to Tiis"
+;
+
+Class K60_shrine_to_grendaline 
+    class K52_shrine
+    with plural "shrine to Grendalines"
+;
+
+Class K61_shrine_to_zille 
+    class K52_shrine
+    with plural "shrine to Zilles"
+;
+
+Class K62_shrine_to_alph 
+    class K52_shrine
+    with plural "shrine to Alphs"
+;
+
+Class K63_shrine_to_pot 
+    class K52_shrine
+    with plural "shrine to Pots"
 ;
 
 Class K7_backdrop 
@@ -10359,9 +10509,9 @@ Object selfobj ""
     with cap_short_name "Yourself"
     has mark_as_thing
     with IK2_Count 0
-    with IK2_Link X181
+    with IK2_Link X191
     with IK8_Count 0
-    with IK8_Link X181
+    with IK8_Link X191
     with KD_Count 8
     with name 'yourself' 
     with action_bitmap 0 0 0 0 0 0 
@@ -11117,8 +11267,8 @@ Object I137_zhambu ""
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I180_anrasan_glance ""
-    class K57_street
+Object I190_anrasan_glance ""
+    class K67_street
     with short_name "Anrasan Glance"
     with description SC_17
     with map_region I88_alakol
@@ -11127,67 +11277,67 @@ Object I180_anrasan_glance ""
     with list_together 0
     has mark_as_room
     with IK1_Count 0
-    with IK1_Link I198_ekorran_roughs
-    with IK57_Count 0
-    with IK57_Link I198_ekorran_roughs
-    with KD_Count 57
+    with IK1_Link I208_ekorran_roughs
+    with IK67_Count 0
+    with IK67_Link I208_ekorran_roughs
+    with KD_Count 67
     with name 'anrasan' 'glance' 
 ;
 
-Object -> X181 ""
-    class K56_produce_vendor
+Object -> X191 ""
+    class K66_produce_vendor
     with short_name "Produce Vendor"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 1
-    with IK2_Link X182
+    with IK2_Link X192
     with IK8_Count 1
     with IK8_Link nothing
-    with IK54_Count 0
-    with IK54_Link nothing
-    with IK55_Count 0
-    with IK55_Link nothing
-    with IK56_Count 0
-    with IK56_Link nothing
-    with KD_Count 56
+    with IK64_Count 0
+    with IK64_Link nothing
+    with IK65_Count 0
+    with IK65_Link nothing
+    with IK66_Count 0
+    with IK66_Link nothing
+    with KD_Count 66
     with name 'produce' 'vendor'  'vendors//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X182 ""
-    class K53_shrine_to_mab
+Object -> X192 ""
+    class K58_shrine_to_mab
     with short_name "shrine to Mab"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 2
-    with IK2_Link X183
+    with IK2_Link X193
     with IK5_Count 0
     with IK5_Link nothing
     with IK52_Count 0
     with IK52_Link nothing
-    with IK53_Count 0
-    with IK53_Link nothing
-    with KD_Count 53
+    with IK58_Count 0
+    with IK58_Link nothing
+    with KD_Count 58
     with name 'shrine' 'to' 'mab'   'mabs//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X183 ""
+Object -> X193 ""
     class K42_fruit_tree
     with short_name "Fruit Tree"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 3
-    with IK2_Link X184
+    with IK2_Link X194
     with IK16_Count 0
-    with IK16_Link X184
+    with IK16_Link X194
     with IK36_Count 0
-    with IK36_Link X184
+    with IK36_Link X194
     with IK39_Count 0
-    with IK39_Link X184
+    with IK39_Link X194
     with IK42_Count 0
     with IK42_Link nothing
     with KD_Count 42
@@ -11195,14 +11345,14 @@ Object -> X183 ""
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X184 ""
+Object -> X194 ""
     class K40_bean_tree
     with short_name "Bean Tree"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 4
-    with IK2_Link X185
+    with IK2_Link X195
     with IK16_Count 1
     with IK16_Link nothing
     with IK36_Count 1
@@ -11216,152 +11366,152 @@ Object -> X184 ""
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X185 ""
+Object -> X195 ""
     class K50_metal_rock
     with short_name "metal rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 5
-    with IK2_Link X186
+    with IK2_Link X196
     with IK49_Count 0
-    with IK49_Link X186
+    with IK49_Link X196
     with IK50_Count 0
-    with IK50_Link X186
+    with IK50_Link X196
     with KD_Count 50
     with name 'metal' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X186 ""
+Object -> X196 ""
     class K50_metal_rock
     with short_name "metal rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 6
-    with IK2_Link X187
+    with IK2_Link X197
     with IK49_Count 1
-    with IK49_Link X187
+    with IK49_Link X197
     with IK50_Count 1
-    with IK50_Link X187
+    with IK50_Link X197
     with KD_Count 50
     with name 'metal' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X187 ""
+Object -> X197 ""
     class K50_metal_rock
     with short_name "metal rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 7
-    with IK2_Link X188
+    with IK2_Link X198
     with IK49_Count 2
-    with IK49_Link X188
+    with IK49_Link X198
     with IK50_Count 2
-    with IK50_Link X188
+    with IK50_Link X198
     with KD_Count 50
     with name 'metal' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X188 ""
+Object -> X198 ""
     class K50_metal_rock
     with short_name "metal rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 8
-    with IK2_Link X189
+    with IK2_Link X199
     with IK49_Count 3
-    with IK49_Link X189
+    with IK49_Link X199
     with IK50_Count 3
-    with IK50_Link X189
+    with IK50_Link X199
     with KD_Count 50
     with name 'metal' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X189 ""
+Object -> X199 ""
     class K50_metal_rock
     with short_name "metal rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 9
-    with IK2_Link X190
+    with IK2_Link X200
     with IK49_Count 4
-    with IK49_Link X190
+    with IK49_Link X200
     with IK50_Count 4
-    with IK50_Link X190
+    with IK50_Link X200
     with KD_Count 50
     with name 'metal' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X190 ""
+Object -> X200 ""
     class K50_metal_rock
     with short_name "metal rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 10
-    with IK2_Link X191
+    with IK2_Link X201
     with IK49_Count 5
-    with IK49_Link X191
+    with IK49_Link X201
     with IK50_Count 5
-    with IK50_Link X191
+    with IK50_Link X201
     with KD_Count 50
     with name 'metal' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X191 ""
+Object -> X201 ""
     class K50_metal_rock
     with short_name "metal rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 11
-    with IK2_Link X192
+    with IK2_Link X202
     with IK49_Count 6
-    with IK49_Link X192
+    with IK49_Link X202
     with IK50_Count 6
-    with IK50_Link X192
+    with IK50_Link X202
     with KD_Count 50
     with name 'metal' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X192 ""
+Object -> X202 ""
     class K50_metal_rock
     with short_name "metal rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 12
-    with IK2_Link X193
+    with IK2_Link X203
     with IK49_Count 7
-    with IK49_Link X193
+    with IK49_Link X203
     with IK50_Count 7
-    with IK50_Link X193
+    with IK50_Link X203
     with KD_Count 50
     with name 'metal' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X193 ""
+Object -> X203 ""
     class K50_metal_rock
     with short_name "metal rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 13
-    with IK2_Link X194
+    with IK2_Link X204
     with IK49_Count 8
-    with IK49_Link X194
+    with IK49_Link X204
     with IK50_Count 8
     with IK50_Link nothing
     with KD_Count 50
@@ -11369,58 +11519,58 @@ Object -> X193 ""
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X194 ""
+Object -> X204 ""
     class K51_dullite_rock
     with short_name "dullite rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 14
-    with IK2_Link X195
+    with IK2_Link X205
     with IK49_Count 9
-    with IK49_Link X195
+    with IK49_Link X205
     with IK51_Count 0
-    with IK51_Link X195
+    with IK51_Link X205
     with KD_Count 51
     with name 'dullite' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X195 ""
+Object -> X205 ""
     class K51_dullite_rock
     with short_name "dullite rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 15
-    with IK2_Link X196
+    with IK2_Link X206
     with IK49_Count 10
-    with IK49_Link X196
+    with IK49_Link X206
     with IK51_Count 1
-    with IK51_Link X196
+    with IK51_Link X206
     with KD_Count 51
     with name 'dullite' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X196 ""
+Object -> X206 ""
     class K51_dullite_rock
     with short_name "dullite rock"
     with vector 0
     with list_together 0
     has mark_as_thing
     with IK2_Count 16
-    with IK2_Link X197
+    with IK2_Link X207
     with IK49_Count 11
-    with IK49_Link X197
+    with IK49_Link X207
     with IK51_Count 2
-    with IK51_Link X197
+    with IK51_Link X207
     with KD_Count 51
     with name 'dullite' 'rock'  'rocks//p' 
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object -> X197 ""
+Object -> X207 ""
     class K51_dullite_rock
     with short_name "dullite rock"
     with vector 0
@@ -11437,8 +11587,8 @@ Object -> X197 ""
     with action_bitmap 0 0 0 0 0 0 
 ;
 
-Object I198_ekorran_roughs ""
-    class K57_street
+Object I208_ekorran_roughs ""
+    class K67_street
     with short_name "Ekorran Roughs"
     with description SC_18
     with map_region I88_alakol
@@ -11449,15 +11599,15 @@ Object I198_ekorran_roughs ""
     with cap_short_name "Ekorran Roughs"
     has mark_as_room
     with IK1_Count 1
-    with IK1_Link I199_getan_tenets
-    with IK57_Count 1
-    with IK57_Link I199_getan_tenets
-    with KD_Count 57
+    with IK1_Link I209_getan_tenets
+    with IK67_Count 1
+    with IK67_Link I209_getan_tenets
+    with KD_Count 67
     with name 'ekorran' 'roughs' 
 ;
 
-Object I199_getan_tenets ""
-    class K57_street
+Object I209_getan_tenets ""
+    class K67_street
     with short_name "Getan Tenets"
     with description SC_19
     with map_region I88_alakol
@@ -11468,15 +11618,15 @@ Object I199_getan_tenets ""
     with cap_short_name "Getan Tenets"
     has mark_as_room
     with IK1_Count 2
-    with IK1_Link I200_semsan_simile
-    with IK57_Count 2
-    with IK57_Link I200_semsan_simile
-    with KD_Count 57
+    with IK1_Link I210_semsan_simile
+    with IK67_Count 2
+    with IK67_Link I210_semsan_simile
+    with KD_Count 67
     with name 'getan' 'tenets' 
 ;
 
-Object I200_semsan_simile ""
-    class K57_street
+Object I210_semsan_simile ""
+    class K67_street
     with short_name "Semsan Simile"
     with description SC_20
     with map_region I88_alakol
@@ -11487,15 +11637,15 @@ Object I200_semsan_simile ""
     with cap_short_name "Semsan Simile"
     has mark_as_room
     with IK1_Count 3
-    with IK1_Link I201_bolesan_ambitions
-    with IK57_Count 3
-    with IK57_Link I201_bolesan_ambitions
-    with KD_Count 57
+    with IK1_Link I211_bolesan_ambitions
+    with IK67_Count 3
+    with IK67_Link I211_bolesan_ambitions
+    with KD_Count 67
     with name 'semsan' 'simile' 
 ;
 
-Object I201_bolesan_ambitions ""
-    class K57_street
+Object I211_bolesan_ambitions ""
+    class K67_street
     with short_name "Bolesan Ambitions"
     with description SC_21
     with map_region I88_alakol
@@ -11506,15 +11656,15 @@ Object I201_bolesan_ambitions ""
     with cap_short_name "Bolesan Ambitions"
     has mark_as_room
     with IK1_Count 4
-    with IK1_Link I202_motala_dun
-    with IK57_Count 4
-    with IK57_Link I202_motala_dun
-    with KD_Count 57
+    with IK1_Link I212_motala_dun
+    with IK67_Count 4
+    with IK67_Link I212_motala_dun
+    with KD_Count 67
     with name 'bolesan' 'ambitions' 
 ;
 
-Object I202_motala_dun ""
-    class K57_street
+Object I212_motala_dun ""
+    class K67_street
     with short_name "Motala Dun"
     with description SC_22
     with map_region I88_alakol
@@ -11525,15 +11675,15 @@ Object I202_motala_dun ""
     with cap_short_name "Motala Dun"
     has mark_as_room
     with IK1_Count 5
-    with IK1_Link I203_harkan_idiom
-    with IK57_Count 5
-    with IK57_Link I203_harkan_idiom
-    with KD_Count 57
+    with IK1_Link I213_harkan_idiom
+    with IK67_Count 5
+    with IK67_Link I213_harkan_idiom
+    with KD_Count 67
     with name 'motala' 'dun' 
 ;
 
-Object I203_harkan_idiom ""
-    class K57_street
+Object I213_harkan_idiom ""
+    class K67_street
     with short_name "Harkan Idiom"
     with description SC_23
     with map_region I88_alakol
@@ -11544,15 +11694,15 @@ Object I203_harkan_idiom ""
     with cap_short_name "Harkan Idiom"
     has mark_as_room
     with IK1_Count 6
-    with IK1_Link I204_pinnan_glimpse
-    with IK57_Count 6
-    with IK57_Link I204_pinnan_glimpse
-    with KD_Count 57
+    with IK1_Link I214_pinnan_glimpse
+    with IK67_Count 6
+    with IK67_Link I214_pinnan_glimpse
+    with KD_Count 67
     with name 'harkan' 'idiom' 
 ;
 
-Object I204_pinnan_glimpse ""
-    class K57_street
+Object I214_pinnan_glimpse ""
+    class K67_street
     with short_name "Pinnan Glimpse"
     with description SC_24
     with map_region I88_alakol
@@ -11563,15 +11713,15 @@ Object I204_pinnan_glimpse ""
     with cap_short_name "Pinnan Glimpse"
     has mark_as_room
     with IK1_Count 7
-    with IK1_Link I205_yan_jaggery
-    with IK57_Count 7
-    with IK57_Link I205_yan_jaggery
-    with KD_Count 57
+    with IK1_Link I215_yan_jaggery
+    with IK67_Count 7
+    with IK67_Link I215_yan_jaggery
+    with KD_Count 67
     with name 'pinnan' 'glimpse' 
 ;
 
-Object I205_yan_jaggery ""
-    class K57_street
+Object I215_yan_jaggery ""
+    class K67_street
     with short_name "Yan Jaggery"
     with description SC_25
     with map_region I88_alakol
@@ -11582,15 +11732,15 @@ Object I205_yan_jaggery ""
     with cap_short_name "Yan Jaggery"
     has mark_as_room
     with IK1_Count 8
-    with IK1_Link I206_brunnan_bafflings
-    with IK57_Count 8
-    with IK57_Link I206_brunnan_bafflings
-    with KD_Count 57
+    with IK1_Link I216_brunnan_bafflings
+    with IK67_Count 8
+    with IK67_Link I216_brunnan_bafflings
+    with KD_Count 67
     with name 'yan' 'jaggery' 
 ;
 
-Object I206_brunnan_bafflings ""
-    class K57_street
+Object I216_brunnan_bafflings ""
+    class K67_street
     with short_name "Brunnan Bafflings"
     with description SC_26
     with map_region I88_alakol
@@ -11601,15 +11751,15 @@ Object I206_brunnan_bafflings ""
     with cap_short_name "Brunnan Bafflings"
     has mark_as_room
     with IK1_Count 9
-    with IK1_Link I207_feman_falters
-    with IK57_Count 9
-    with IK57_Link I207_feman_falters
-    with KD_Count 57
+    with IK1_Link I217_feman_falters
+    with IK67_Count 9
+    with IK67_Link I217_feman_falters
+    with KD_Count 67
     with name 'brunnan' 'bafflings' 
 ;
 
-Object I207_feman_falters ""
-    class K57_street
+Object I217_feman_falters ""
+    class K67_street
     with short_name "Feman Falters"
     with description SC_27
     with map_region I88_alakol
@@ -11620,15 +11770,15 @@ Object I207_feman_falters ""
     with cap_short_name "Feman Falters"
     has mark_as_room
     with IK1_Count 10
-    with IK1_Link I208_fyran_descant
-    with IK57_Count 10
-    with IK57_Link I208_fyran_descant
-    with KD_Count 57
+    with IK1_Link I218_fyran_descant
+    with IK67_Count 10
+    with IK67_Link I218_fyran_descant
+    with KD_Count 67
     with name 'feman' 'falters' 
 ;
 
-Object I208_fyran_descant ""
-    class K57_street
+Object I218_fyran_descant ""
+    class K67_street
     with short_name "Fyran Descant"
     with description SC_28
     with map_region I88_alakol
@@ -11639,15 +11789,15 @@ Object I208_fyran_descant ""
     with cap_short_name "Fyran Descant"
     has mark_as_room
     with IK1_Count 11
-    with IK1_Link I209_ojan_repine
-    with IK57_Count 11
-    with IK57_Link I209_ojan_repine
-    with KD_Count 57
+    with IK1_Link I219_ojan_repine
+    with IK67_Count 11
+    with IK67_Link I219_ojan_repine
+    with KD_Count 67
     with name 'fyran' 'descant' 
 ;
 
-Object I209_ojan_repine ""
-    class K57_street
+Object I219_ojan_repine ""
+    class K67_street
     with short_name "Ojan Repine"
     with description SC_29
     with map_region I88_alakol
@@ -11658,15 +11808,15 @@ Object I209_ojan_repine ""
     with cap_short_name "Ojan Repine"
     has mark_as_room
     with IK1_Count 12
-    with IK1_Link I210_dofsan_vex
-    with IK57_Count 12
-    with IK57_Link I210_dofsan_vex
-    with KD_Count 57
+    with IK1_Link I220_dofsan_vex
+    with IK67_Count 12
+    with IK67_Link I220_dofsan_vex
+    with KD_Count 67
     with name 'ojan' 'repine' 
 ;
 
-Object I210_dofsan_vex ""
-    class K57_street
+Object I220_dofsan_vex ""
+    class K67_street
     with short_name "Dofsan Vex"
     with description SC_30
     with map_region I88_alakol
@@ -11677,15 +11827,15 @@ Object I210_dofsan_vex ""
     with cap_short_name "Dofsan Vex"
     has mark_as_room
     with IK1_Count 13
-    with IK1_Link I211_isalan_interval
-    with IK57_Count 13
-    with IK57_Link I211_isalan_interval
-    with KD_Count 57
+    with IK1_Link I221_isalan_interval
+    with IK67_Count 13
+    with IK67_Link I221_isalan_interval
+    with KD_Count 67
     with name 'dofsan' 'vex' 
 ;
 
-Object I211_isalan_interval ""
-    class K57_street
+Object I221_isalan_interval ""
+    class K67_street
     with short_name "Isalan Interval"
     with description SC_31
     with map_region I88_alakol
@@ -11696,15 +11846,15 @@ Object I211_isalan_interval ""
     with cap_short_name "Isalan Interval"
     has mark_as_room
     with IK1_Count 14
-    with IK1_Link I212_simean_dims
-    with IK57_Count 14
-    with IK57_Link I212_simean_dims
-    with KD_Count 57
+    with IK1_Link I222_simean_dims
+    with IK67_Count 14
+    with IK67_Link I222_simean_dims
+    with KD_Count 67
     with name 'isalan' 'interval' 
 ;
 
-Object I212_simean_dims ""
-    class K57_street
+Object I222_simean_dims ""
+    class K67_street
     with short_name "Simean Dims"
     with description SC_32
     with map_region I88_alakol
@@ -11715,15 +11865,15 @@ Object I212_simean_dims ""
     with cap_short_name "Simean Dims"
     has mark_as_room
     with IK1_Count 15
-    with IK1_Link I213_taftan_raves
-    with IK57_Count 15
-    with IK57_Link I213_taftan_raves
-    with KD_Count 57
+    with IK1_Link I223_taftan_raves
+    with IK67_Count 15
+    with IK67_Link I223_taftan_raves
+    with KD_Count 67
     with name 'simean' 'dims' 
 ;
 
-Object I213_taftan_raves ""
-    class K57_street
+Object I223_taftan_raves ""
+    class K67_street
     with short_name "Taftan Raves"
     with description SC_33
     with map_region I88_alakol
@@ -11734,15 +11884,15 @@ Object I213_taftan_raves ""
     with cap_short_name "Taftan Raves"
     has mark_as_room
     with IK1_Count 16
-    with IK1_Link I214_vindel_frowns
-    with IK57_Count 16
-    with IK57_Link I214_vindel_frowns
-    with KD_Count 57
+    with IK1_Link I224_vindel_frowns
+    with IK67_Count 16
+    with IK67_Link I224_vindel_frowns
+    with KD_Count 67
     with name 'taftan' 'raves' 
 ;
 
-Object I214_vindel_frowns ""
-    class K57_street
+Object I224_vindel_frowns ""
+    class K67_street
     with short_name "Vindel Frowns"
     with description SC_34
     with map_region I88_alakol
@@ -11753,15 +11903,15 @@ Object I214_vindel_frowns ""
     with cap_short_name "Vindel Frowns"
     has mark_as_room
     with IK1_Count 17
-    with IK1_Link I215_dyran_notion
-    with IK57_Count 17
-    with IK57_Link I215_dyran_notion
-    with KD_Count 57
+    with IK1_Link I225_dyran_notion
+    with IK67_Count 17
+    with IK67_Link I225_dyran_notion
+    with KD_Count 67
     with name 'vindel' 'frowns' 
 ;
 
-Object I215_dyran_notion ""
-    class K57_street
+Object I225_dyran_notion ""
+    class K67_street
     with short_name "Dyran Notion"
     with description SC_35
     with map_region I88_alakol
@@ -11772,15 +11922,15 @@ Object I215_dyran_notion ""
     with cap_short_name "Dyran Notion"
     has mark_as_room
     with IK1_Count 18
-    with IK1_Link I216_marlan_bias
-    with IK57_Count 18
-    with IK57_Link I216_marlan_bias
-    with KD_Count 57
+    with IK1_Link I226_marlan_bias
+    with IK67_Count 18
+    with IK67_Link I226_marlan_bias
+    with KD_Count 67
     with name 'dyran' 'notion' 
 ;
 
-Object I216_marlan_bias ""
-    class K57_street
+Object I226_marlan_bias ""
+    class K67_street
     with short_name "Marlan Bias"
     with description SC_36
     with map_region I88_alakol
@@ -11791,15 +11941,15 @@ Object I216_marlan_bias ""
     with cap_short_name "Marlan Bias"
     has mark_as_room
     with IK1_Count 19
-    with IK1_Link I217_navran_dissent
-    with IK57_Count 19
-    with IK57_Link I217_navran_dissent
-    with KD_Count 57
+    with IK1_Link I227_navran_dissent
+    with IK67_Count 19
+    with IK67_Link I227_navran_dissent
+    with KD_Count 67
     with name 'marlan' 'bias' 
 ;
 
-Object I217_navran_dissent ""
-    class K57_street
+Object I227_navran_dissent ""
+    class K67_street
     with short_name "Navran Dissent"
     with description SC_37
     with map_region I88_alakol
@@ -11810,15 +11960,15 @@ Object I217_navran_dissent ""
     with cap_short_name "Navran Dissent"
     has mark_as_room
     with IK1_Count 20
-    with IK1_Link I218_hammar_steadies
-    with IK57_Count 20
-    with IK57_Link I218_hammar_steadies
-    with KD_Count 57
+    with IK1_Link I228_hammar_steadies
+    with IK67_Count 20
+    with IK67_Link I228_hammar_steadies
+    with KD_Count 67
     with name 'navran' 'dissent' 
 ;
 
-Object I218_hammar_steadies ""
-    class K57_street
+Object I228_hammar_steadies ""
+    class K67_street
     with short_name "Hammar Steadies"
     with description SC_38
     with map_region I88_alakol
@@ -11829,15 +11979,15 @@ Object I218_hammar_steadies ""
     with cap_short_name "Hammar Steadies"
     has mark_as_room
     with IK1_Count 21
-    with IK1_Link I219_smy_mod
-    with IK57_Count 21
-    with IK57_Link I219_smy_mod
-    with KD_Count 57
+    with IK1_Link I229_smy_mod
+    with IK67_Count 21
+    with IK67_Link I229_smy_mod
+    with KD_Count 67
     with name 'hammar' 'steadies' 
 ;
 
-Object I219_smy_mod ""
-    class K57_street
+Object I229_smy_mod ""
+    class K67_street
     with short_name "Smy Mod"
     with description SC_39
     with map_region I88_alakol
@@ -11848,15 +11998,15 @@ Object I219_smy_mod ""
     with cap_short_name "Smy Mod"
     has mark_as_room
     with IK1_Count 22
-    with IK1_Link I220_via_firozi
-    with IK57_Count 22
-    with IK57_Link I220_via_firozi
-    with KD_Count 57
+    with IK1_Link I230_via_firozi
+    with IK67_Count 22
+    with IK67_Link I230_via_firozi
+    with KD_Count 67
     with name 'smy' 'mod' 
 ;
 
-Object I220_via_firozi ""
-    class K57_street
+Object I230_via_firozi ""
+    class K67_street
     with short_name "Via Firozi"
     with description SC_40
     with map_region I88_alakol
@@ -11867,15 +12017,15 @@ Object I220_via_firozi ""
     with cap_short_name "Via Firozi"
     has mark_as_room
     with IK1_Count 23
-    with IK1_Link I221_flogan_shames
-    with IK57_Count 23
-    with IK57_Link I221_flogan_shames
-    with KD_Count 57
+    with IK1_Link I231_flogan_shames
+    with IK67_Count 23
+    with IK67_Link I231_flogan_shames
+    with KD_Count 67
     with name 'via' 'firozi' 
 ;
 
-Object I221_flogan_shames ""
-    class K57_street
+Object I231_flogan_shames ""
+    class K67_street
     with short_name "Flogan Shames"
     with description SC_41
     with map_region I88_alakol
@@ -11886,15 +12036,15 @@ Object I221_flogan_shames ""
     with cap_short_name "Flogan Shames"
     has mark_as_room
     with IK1_Count 24
-    with IK1_Link I222_lustan_cautions
-    with IK57_Count 24
-    with IK57_Link I222_lustan_cautions
-    with KD_Count 57
+    with IK1_Link I232_lustan_cautions
+    with IK67_Count 24
+    with IK67_Link I232_lustan_cautions
+    with KD_Count 67
     with name 'flogan' 'shames' 
 ;
 
-Object I222_lustan_cautions ""
-    class K57_street
+Object I232_lustan_cautions ""
+    class K67_street
     with short_name "Lustan Cautions"
     with description SC_42
     with map_region I88_alakol
@@ -11905,15 +12055,15 @@ Object I222_lustan_cautions ""
     with cap_short_name "Lustan Cautions"
     has mark_as_room
     with IK1_Count 25
-    with IK1_Link I223_idan_frisk
-    with IK57_Count 25
-    with IK57_Link I223_idan_frisk
-    with KD_Count 57
+    with IK1_Link I233_idan_frisk
+    with IK67_Count 25
+    with IK67_Link I233_idan_frisk
+    with KD_Count 67
     with name 'lustan' 'cautions' 
 ;
 
-Object I223_idan_frisk ""
-    class K57_street
+Object I233_idan_frisk ""
+    class K67_street
     with short_name "Idan Frisk"
     with description SC_43
     with map_region I88_alakol
@@ -11924,15 +12074,15 @@ Object I223_idan_frisk ""
     with cap_short_name "Idan Frisk"
     has mark_as_room
     with IK1_Count 26
-    with IK1_Link I224_torpan_cleft
-    with IK57_Count 26
-    with IK57_Link I224_torpan_cleft
-    with KD_Count 57
+    with IK1_Link I234_torpan_cleft
+    with IK67_Count 26
+    with IK67_Link I234_torpan_cleft
+    with KD_Count 67
     with name 'idan' 'frisk' 
 ;
 
-Object I224_torpan_cleft ""
-    class K57_street
+Object I234_torpan_cleft ""
+    class K67_street
     with short_name "Torpan Cleft"
     with description SC_44
     with map_region I88_alakol
@@ -11943,15 +12093,15 @@ Object I224_torpan_cleft ""
     with cap_short_name "Torpan Cleft"
     has mark_as_room
     with IK1_Count 27
-    with IK1_Link I225_jadraan_fix
-    with IK57_Count 27
-    with IK57_Link I225_jadraan_fix
-    with KD_Count 57
+    with IK1_Link I235_jadraan_fix
+    with IK67_Count 27
+    with IK67_Link I235_jadraan_fix
+    with KD_Count 67
     with name 'torpan' 'cleft' 
 ;
 
-Object I225_jadraan_fix ""
-    class K57_street
+Object I235_jadraan_fix ""
+    class K67_street
     with short_name "Jadraan Fix"
     with description SC_45
     with map_region I88_alakol
@@ -11962,15 +12112,15 @@ Object I225_jadraan_fix ""
     with cap_short_name "Jadraan Fix"
     has mark_as_room
     with IK1_Count 28
-    with IK1_Link I226_stora_rede
-    with IK57_Count 28
-    with IK57_Link I226_stora_rede
-    with KD_Count 57
+    with IK1_Link I236_stora_rede
+    with IK67_Count 28
+    with IK67_Link I236_stora_rede
+    with KD_Count 67
     with name 'jadraan' 'fix' 
 ;
 
-Object I226_stora_rede ""
-    class K57_street
+Object I236_stora_rede ""
+    class K67_street
     with short_name "Stora Rede"
     with description SC_46
     with map_region I88_alakol
@@ -11981,15 +12131,15 @@ Object I226_stora_rede ""
     with cap_short_name "Stora Rede"
     has mark_as_room
     with IK1_Count 29
-    with IK1_Link I227_gimja_preserve
-    with IK57_Count 29
-    with IK57_Link I227_gimja_preserve
-    with KD_Count 57
+    with IK1_Link I237_gimja_preserve
+    with IK67_Count 29
+    with IK67_Link I237_gimja_preserve
+    with KD_Count 67
     with name 'stora' 'rede' 
 ;
 
-Object I227_gimja_preserve ""
-    class K57_street
+Object I237_gimja_preserve ""
+    class K67_street
     with short_name "Gimja Preserve"
     with description SC_47
     with map_region I88_alakol
@@ -12000,15 +12150,15 @@ Object I227_gimja_preserve ""
     with cap_short_name "Gimja Preserve"
     has mark_as_room
     with IK1_Count 30
-    with IK1_Link I228_kolan_presence
-    with IK57_Count 30
-    with IK57_Link I228_kolan_presence
-    with KD_Count 57
+    with IK1_Link I238_kolan_presence
+    with IK67_Count 30
+    with IK67_Link I238_kolan_presence
+    with KD_Count 67
     with name 'gimja' 'preserve' 
 ;
 
-Object I228_kolan_presence ""
-    class K57_street
+Object I238_kolan_presence ""
+    class K67_street
     with short_name "Kolan Presence"
     with description SC_48
     with map_region I88_alakol
@@ -12019,15 +12169,15 @@ Object I228_kolan_presence ""
     with cap_short_name "Kolan Presence"
     has mark_as_room
     with IK1_Count 31
-    with IK1_Link I229_stopan_winnow
-    with IK57_Count 31
-    with IK57_Link I229_stopan_winnow
-    with KD_Count 57
+    with IK1_Link I239_stopan_winnow
+    with IK67_Count 31
+    with IK67_Link I239_stopan_winnow
+    with KD_Count 67
     with name 'kolan' 'presence' 
 ;
 
-Object I229_stopan_winnow ""
-    class K57_street
+Object I239_stopan_winnow ""
+    class K67_street
     with short_name "Stopan Winnow"
     with description SC_49
     with map_region I88_alakol
@@ -12038,15 +12188,15 @@ Object I229_stopan_winnow ""
     with cap_short_name "Stopan Winnow"
     has mark_as_room
     with IK1_Count 32
-    with IK1_Link I230_kobah_habitat
-    with IK57_Count 32
-    with IK57_Link I230_kobah_habitat
-    with KD_Count 57
+    with IK1_Link I240_kobah_habitat
+    with IK67_Count 32
+    with IK67_Link I240_kobah_habitat
+    with KD_Count 67
     with name 'stopan' 'winnow' 
 ;
 
-Object I230_kobah_habitat ""
-    class K57_street
+Object I240_kobah_habitat ""
+    class K67_street
     with short_name "Kobah Habitat"
     with description SC_50
     with map_region I88_alakol
@@ -12057,15 +12207,15 @@ Object I230_kobah_habitat ""
     with cap_short_name "Kobah Habitat"
     has mark_as_room
     with IK1_Count 33
-    with IK1_Link I231_rekan_flux
-    with IK57_Count 33
-    with IK57_Link I231_rekan_flux
-    with KD_Count 57
+    with IK1_Link I241_rekan_flux
+    with IK67_Count 33
+    with IK67_Link I241_rekan_flux
+    with KD_Count 67
     with name 'kobah' 'habitat' 
 ;
 
-Object I231_rekan_flux ""
-    class K57_street
+Object I241_rekan_flux ""
+    class K67_street
     with short_name "Rekan Flux"
     with description SC_51
     with map_region I88_alakol
@@ -12076,15 +12226,15 @@ Object I231_rekan_flux ""
     with cap_short_name "Rekan Flux"
     has mark_as_room
     with IK1_Count 34
-    with IK1_Link I232_vragan_boost
-    with IK57_Count 34
-    with IK57_Link I232_vragan_boost
-    with KD_Count 57
+    with IK1_Link I242_vragan_boost
+    with IK67_Count 34
+    with IK67_Link I242_vragan_boost
+    with KD_Count 67
     with name 'rekan' 'flux' 
 ;
 
-Object I232_vragan_boost ""
-    class K57_street
+Object I242_vragan_boost ""
+    class K67_street
     with short_name "Vragan Boost"
     with description SC_52
     with map_region I88_alakol
@@ -12095,15 +12245,15 @@ Object I232_vragan_boost ""
     with cap_short_name "Vragan Boost"
     has mark_as_room
     with IK1_Count 35
-    with IK1_Link I233_onbo_park
-    with IK57_Count 35
-    with IK57_Link I233_onbo_park
-    with KD_Count 57
+    with IK1_Link I243_onbo_park
+    with IK67_Count 35
+    with IK67_Link I243_onbo_park
+    with KD_Count 67
     with name 'vragan' 'boost' 
 ;
 
-Object I233_onbo_park ""
-    class K57_street
+Object I243_onbo_park ""
+    class K67_street
     with short_name "Onbo Park"
     with description SC_53
     with map_region I88_alakol
@@ -12115,9 +12265,9 @@ Object I233_onbo_park ""
     has mark_as_room
     with IK1_Count 36
     with IK1_Link nothing
-    with IK57_Count 36
-    with IK57_Link nothing
-    with KD_Count 57
+    with IK67_Count 36
+    with IK67_Link nothing
+    with KD_Count 67
     with name 'onbo' 'park' 
 ;
 
@@ -12286,7 +12436,7 @@ Array ActionData table
 Constant AD_RECORDS = 80;
 [ ANSTVC_7 pos state;
     if (state == 1) {
-        MStack-->pos = I180_anrasan_glance; pos++;
+        MStack-->pos = I190_anrasan_glance; pos++;
         MStack-->pos = nothing; pos++;
         MStack-->pos = nothing; pos++;
         MStack-->pos = nothing; pos++;
@@ -29963,6 +30113,26 @@ Constant SC_15 = "the";
 #ifndef IK56_Link; Constant IK56_Link = 0; #endif;
 #ifndef IK57_Count; Constant IK57_Count = 0; #endif;
 #ifndef IK57_Link; Constant IK57_Link = 0; #endif;
+#ifndef IK58_Count; Constant IK58_Count = 0; #endif;
+#ifndef IK58_Link; Constant IK58_Link = 0; #endif;
+#ifndef IK59_Count; Constant IK59_Count = 0; #endif;
+#ifndef IK59_Link; Constant IK59_Link = 0; #endif;
+#ifndef IK60_Count; Constant IK60_Count = 0; #endif;
+#ifndef IK60_Link; Constant IK60_Link = 0; #endif;
+#ifndef IK61_Count; Constant IK61_Count = 0; #endif;
+#ifndef IK61_Link; Constant IK61_Link = 0; #endif;
+#ifndef IK62_Count; Constant IK62_Count = 0; #endif;
+#ifndef IK62_Link; Constant IK62_Link = 0; #endif;
+#ifndef IK63_Count; Constant IK63_Count = 0; #endif;
+#ifndef IK63_Link; Constant IK63_Link = 0; #endif;
+#ifndef IK64_Count; Constant IK64_Count = 0; #endif;
+#ifndef IK64_Link; Constant IK64_Link = 0; #endif;
+#ifndef IK65_Count; Constant IK65_Count = 0; #endif;
+#ifndef IK65_Link; Constant IK65_Link = 0; #endif;
+#ifndef IK66_Count; Constant IK66_Count = 0; #endif;
+#ifndef IK66_Link; Constant IK66_Link = 0; #endif;
+#ifndef IK67_Count; Constant IK67_Count = 0; #endif;
+#ifndef IK67_Link; Constant IK67_Link = 0; #endif;
 #ifndef KD_Count; Constant KD_Count = 0; #endif;
 #ifndef name; Constant name = 0; #endif;
 #ifndef parse_name; Constant parse_name = 0; #endif;

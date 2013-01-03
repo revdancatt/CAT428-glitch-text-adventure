@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1ec0c30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xdd49fb0" />
+  <activeNode nodeId="node-0x1ec0c30" />
   <item nodeId="node-0x1ec0c30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -23,10 +23,10 @@ text-glitch alpha version 0.2.5
 An Interactive Fiction by Rev Dan Catt
 Release 1 / Serial number 130103 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
-Anrasan Glance
-You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East.
+Torpan Cleft
+You are in Torpan Cleft, Alakol. You can see the entrance to Torpan Cleft Subway Station here, which irritatingly you can&apos;t get into. Exits you can get into are Northeast, Southeast, South, West and Northwest.
 
-You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree and four Dullite Rocks here.
+You can see an Animal Goods Vendor, a shrine to Humbaba (empty), two Wood Trees, a Bean Tree and a Sparkly Rock here.
 
 &gt;</result>
     <commentary xml:space="preserve">
@@ -45,7 +45,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 &gt;w
 </commentary>
     <played>YES</played>
-    <changed>NO</changed>
+    <changed>YES</changed>
     <temporary score="308">NO</temporary>
     <children>
       <child nodeId="node-0x1e5d610" />

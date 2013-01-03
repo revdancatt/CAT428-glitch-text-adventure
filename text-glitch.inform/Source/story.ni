@@ -156,6 +156,14 @@ The description of a Toy Vendor is "Once branded in the age of Tii as The Lord o
 
 A street is a kind of room.
 
+Torpan Cleft is a street in Alakol. "You are in Torpan Cleft, Alakol. You can see the entrance to Torpan Cleft Subway Station here, which irritatingly you can't get into. Exits you can get into are Northeast, Southeast, South, West and Northwest."
+In Torpan Cleft is an Animal Goods Vendor, a shrine to Humbaba, two wood trees, a bean tree and a sparkly rock.
+Torpan Cleft is southwest of Idan Frisk.
+Torpan Cleft is southeast of Feman Falters.
+Torpan Cleft is east of Fyran Descant.
+Torpan Cleft is northwest of Yan Jaggery.
+Torpan Cleft is north of Stora Rede.
+
 
 The Anrasan Glance is a street in Alakol. "You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East."
 In Anrasan Glance is a Produce Vendor, a shrine to Mab, a fruit tree, a bean tree and four dullite rocks.
@@ -341,7 +349,7 @@ Pinnan Glimpse is east of Yan Jaggery.
 Pinnan Glimpse is southeast of Bolesan Ambitions.
 
 
-Rekan Flux is a street in Alakol. "You are in pleasent fields of Rekan Flux, Alakol. There are clear exists East and West, while a short path curves round North to Ojan Repine."
+Rekan Flux is a street in Alakol. "You are in pleasent fields of Rekan Flux, Alakol. There are clear exits East and West, while a short path curves round North to Ojan Repine."
 In Rekan Flux is a Produce Vendor, a shrine to Lem and a fruit tree.
 Rekan Flux is west of Lustan Cautions.
 Rekan Flux is east of Vragan Boost.
@@ -395,15 +403,6 @@ Taftan Raves is southwest of Simean Dims.
 Taftan Raves is southeast of Dofsan Vex.
 
 
-Torpan Cleft is a street in Alakol. "You are in Torpan Cleft, Alakol. You can see the entrance to Torpan Cleft Subway Station here, which irritatingly you can't get into. Exists you can get into are Northeast, Southeast, South, West and Northwest."
-In Torpan Cleft is an Animal Goods Vendor, a shrine to Humbaba, two wood trees, a bean tree and a sparkly rock.
-Torpan Cleft is southwest of Idan Frisk.
-Torpan Cleft is southeast of Feman Falters.
-Torpan Cleft is east of Fyran Descant.
-Torpan Cleft is northwest of Yan Jaggery.
-Torpan Cleft is north of Stora Rede.
-
-
 Via Firozi is a street in Alakol. "You are in Via Firozi, Alakol, the gateway to Firozi just down a path to the Southeast which magical forces are preventing you from travelling. The only way you can currently go is back up north to Ekorran Roughs.
 
 The view from here looking over Firozi is quite pretty thought, so there is that."
@@ -434,4 +433,3 @@ Yan Jaggery is west of Pinnan Glimpse.
 Yan Jaggery is south of Bolesan Ambitions.
 Yan Jaggery is southeast of Torpan Cleft.
 Yan Jaggery is northeast of Stora Rede.
-

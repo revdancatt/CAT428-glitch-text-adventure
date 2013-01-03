@@ -23,6 +23,7 @@ TODO
 4. Allow the player to sell fruit to the vendor.
 5. Allow the user to buy a pick from the vendor.
 
+_Also_ to claw back some memory from the limit we're hitting, may change the code so there's only one of each type of Shrine and Vendor in existance and then move them in and out of the player's current room as needed. The logic is a bit more involved but that way at least we'll only have 1 Shrine to Mab that moves around rather than several instances in each location.
 
 0.2.5
 =====

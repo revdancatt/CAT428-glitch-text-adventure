@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x1ec0c30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1e6f6070" />
+  <activeNode nodeId="node-0xdd49fb0" />
   <item nodeId="node-0x1ec0c30">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -46,9 +46,8 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 </commentary>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="305">NO</temporary>
+    <temporary score="308">NO</temporary>
     <children>
-      <child nodeId="node-0xa2f5b20" />
       <child nodeId="node-0x1e5d610" />
       <child nodeId="node-0xdddfde0" />
       <child nodeId="node-0x1e5e660" />
@@ -61,8 +60,8 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
 
 &gt;</result>
     <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="305">YES</temporary>
+    <changed>NO</changed>
+    <temporary score="308">YES</temporary>
     <children>
       <child nodeId="node-0x1e6f6070" />
     </children>
@@ -77,8 +76,20 @@ You can see an Animal Goods Vendor, a shrine to Humbaba (empty), four Metal Rock
 
 &gt;</result>
     <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="308">YES</temporary>
+    <children>
+      <child nodeId="node-0xdd49fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xdd49fb0">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">With the ripe smell of Happy Capture branded Piggy Bait wafting from streets away, you can always find a Street Spirit selling Animal Goods if you need one. Specialising in butterfly massage oil, loomers, spindles, and everything you need for a successful home herd.
+
+&gt;</result>
+    <played>YES</played>
     <changed>YES</changed>
-    <temporary score="304">YES</temporary>
+    <temporary score="307">YES</temporary>
   </item>
   <item nodeId="node-0x1e5e660">
     <command xml:space="preserve">nw</command>
@@ -1974,132 +1985,5 @@ You can see a Groceries Vendor, a shrine to Pot (empty), a Gas Plant and two Fru
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="262">YES</temporary>
-  </item>
-  <item nodeId="node-0xa2f5b20">
-    <command xml:space="preserve">x shrine</command>
-    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="129">YES</temporary>
-    <children>
-      <child nodeId="node-0xddf3220" />
-    </children>
-  </item>
-  <item nodeId="node-0xddf3220">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Ekorran Roughs
-You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="129">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e6f0d30" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e6f0d30">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Flogan Shames
-You are in Flogan Shames, Alakol. The cliff top trails lead off East and West to Ekorran Roughs and Taftan Raves, Lustan Cautions is to the Northeast, a dark cave Northwest leasts to Simean Dims.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="129">YES</temporary>
-    <children>
-      <child nodeId="node-0xa2d0230" />
-    </children>
-  </item>
-  <item nodeId="node-0xa2d0230">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Taftan Raves
-You are in Taftan Raves, Alakol. The cliff top trails continues East and West to Flogan Shames and Vindel Frowns, Dofsan Vex is to the Northwest, a dark cave Northeast leasts to Simean Dims.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="129">YES</temporary>
-    <children>
-      <child nodeId="node-0xa24a910" />
-    </children>
-  </item>
-  <item nodeId="node-0xa24a910">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Dofsan Vex
-You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
-
-You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a dirt pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="129">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd6ac70" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd6ac70">
-    <command xml:space="preserve">x shrine</command>
-    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="129">YES</temporary>
-    <children>
-      <child nodeId="node-0xf92e010" />
-    </children>
-  </item>
-  <item nodeId="node-0xf92e010">
-    <command xml:space="preserve">get shrine</command>
-    <result xml:space="preserve">That&apos;s fixed in place.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="129">YES</temporary>
-    <children>
-      <child nodeId="node-0xa20f480" />
-    </children>
-  </item>
-  <item nodeId="node-0xa20f480">
-    <command xml:space="preserve">get tree</command>
-    <result xml:space="preserve">Which do you mean, a Fruit Tree, the Wood Tree or the Bubble Tree?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="129">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd83740" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd83740">
-    <command xml:space="preserve">get fruit tree</command>
-    <result xml:space="preserve">That&apos;s fixed in place.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="129">YES</temporary>
-    <children>
-      <child nodeId="node-0xa214ea0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa214ea0">
-    <command xml:space="preserve">x dirt pile</command>
-    <result xml:space="preserve">A pile of dirt. Digging it with a shovel produces various dirty rewards, their quality depending on how deeply you appreciate soil, and how many friends are digging with you.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="128">YES</temporary>
   </item>
 </Skein>

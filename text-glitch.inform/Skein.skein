@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x1ec0c30" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x1b3aca0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x1ec0c30" />
-  <item nodeId="node-0x1ec0c30">
+  <activeNode nodeId="node-0x1b3aca0" />
+  <item nodeId="node-0x1b3aca0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -48,13 +48,13 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>YES</changed>
     <temporary score="308">NO</temporary>
     <children>
-      <child nodeId="node-0x1e5d610" />
-      <child nodeId="node-0xdddfde0" />
-      <child nodeId="node-0x1e5e660" />
-      <child nodeId="node-0xddb1a30" />
+      <child nodeId="node-0x7f9a510" />
+      <child nodeId="node-0x7f9a430" />
+      <child nodeId="node-0x7f992b0" />
+      <child nodeId="node-0x1b3acf0" />
     </children>
   </item>
-  <item nodeId="node-0xddb1a30">
+  <item nodeId="node-0x1b3acf0">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle.
 
@@ -63,10 +63,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Fruit Tree, a Bean Tree
     <changed>NO</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0x1e6f6070" />
+      <child nodeId="node-0x1b3ad40" />
     </children>
   </item>
-  <item nodeId="node-0x1e6f6070">
+  <item nodeId="node-0x1b3ad40">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Semsan Simile
@@ -79,10 +79,10 @@ You can see an Animal Goods Vendor, a shrine to Humbaba (empty), four Metal Rock
     <changed>NO</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0xdd49fb0" />
+      <child nodeId="node-0x7f99260" />
     </children>
   </item>
-  <item nodeId="node-0xdd49fb0">
+  <item nodeId="node-0x7f99260">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">With the ripe smell of Happy Capture branded Piggy Bait wafting from streets away, you can always find a Street Spirit selling Animal Goods if you need one. Specialising in butterfly massage oil, loomers, spindles, and everything you need for a successful home herd.
 
@@ -91,7 +91,7 @@ You can see an Animal Goods Vendor, a shrine to Humbaba (empty), four Metal Rock
     <changed>YES</changed>
     <temporary score="307">YES</temporary>
   </item>
-  <item nodeId="node-0x1e5e660">
+  <item nodeId="node-0x7f992b0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -104,11 +104,11 @@ You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Pla
     <changed>NO</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x1e731f0" />
-      <child nodeId="node-0xdaa2800" />
+      <child nodeId="node-0x7f994b0" />
+      <child nodeId="node-0x7f99300" />
     </children>
   </item>
-  <item nodeId="node-0xdaa2800">
+  <item nodeId="node-0x7f99300">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you&apos;ll find everything Alchemy, Crystalmalizing and Potion-related right here.
 
@@ -117,10 +117,10 @@ You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Pla
     <changed>YES</changed>
     <temporary score="218">YES</temporary>
     <children>
-      <child nodeId="node-0xdae0380" />
+      <child nodeId="node-0x7f99350" />
     </children>
   </item>
-  <item nodeId="node-0xdae0380">
+  <item nodeId="node-0x7f99350">
     <command xml:space="preserve">x shrine</command>
     <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
 
@@ -129,10 +129,10 @@ You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Pla
     <changed>YES</changed>
     <temporary score="218">YES</temporary>
     <children>
-      <child nodeId="node-0xda22da0" />
+      <child nodeId="node-0x7f99460" />
     </children>
   </item>
-  <item nodeId="node-0xda22da0">
+  <item nodeId="node-0x7f99460">
     <command xml:space="preserve">x egg plant</command>
     <result xml:space="preserve">The noble Egg Plant. As is fitting to a fruit as ovoidly perfect as a prolate moon, Egg Plants (of course) can only be found underground in cool, dark places.
 
@@ -141,7 +141,7 @@ You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Pla
     <changed>YES</changed>
     <temporary score="217">YES</temporary>
   </item>
-  <item nodeId="node-0x1e731f0">
+  <item nodeId="node-0x7f994b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -150,10 +150,10 @@ You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Pla
     <changed>NO</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x18c4780" />
+      <child nodeId="node-0x7f99500" />
     </children>
   </item>
-  <item nodeId="node-0x18c4780">
+  <item nodeId="node-0x7f99500">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Stora Rede
@@ -166,11 +166,11 @@ Oh and cave! There&apos;s a cave to the Southeast.
     <changed>NO</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xb8b59a0" />
-      <child nodeId="node-0x1e6f3b10" />
+      <child nodeId="node-0x7f99e70" />
+      <child nodeId="node-0x7f99550" />
     </children>
   </item>
-  <item nodeId="node-0x1e6f3b10">
+  <item nodeId="node-0x7f99550">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -179,10 +179,10 @@ Oh and cave! There&apos;s a cave to the Southeast.
     <changed>NO</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xa23a6e0" />
+      <child nodeId="node-0x7f995a0" />
     </children>
   </item>
-  <item nodeId="node-0xa23a6e0">
+  <item nodeId="node-0x7f995a0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Torpan Cleft
@@ -193,11 +193,11 @@ You are in Torpan Cleft, Alakol. You can see the entrance to Torpan Cleft Subway
     <changed>NO</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xa257590" />
-      <child nodeId="node-0x833db30" />
+      <child nodeId="node-0x7f99900" />
+      <child nodeId="node-0x7f996d0" />
     </children>
   </item>
-  <item nodeId="node-0x833db30">
+  <item nodeId="node-0x7f996d0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Feman Falters
@@ -210,10 +210,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Bean Tree, a Sparkly Ro
     <changed>YES</changed>
     <temporary score="175">YES</temporary>
     <children>
-      <child nodeId="node-0xa28c770" />
+      <child nodeId="node-0x7f993c0" />
     </children>
   </item>
-  <item nodeId="node-0xa28c770">
+  <item nodeId="node-0x7f993c0">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle.
 
@@ -222,10 +222,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Bean Tree, a Sparkly Ro
     <changed>NO</changed>
     <temporary score="175">YES</temporary>
     <children>
-      <child nodeId="node-0xa2a4b40" />
+      <child nodeId="node-0x7f99740" />
     </children>
   </item>
-  <item nodeId="node-0xa2a4b40">
+  <item nodeId="node-0x7f99740">
     <command xml:space="preserve">x shrine</command>
     <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
 
@@ -234,10 +234,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Bean Tree, a Sparkly Ro
     <changed>NO</changed>
     <temporary score="175">YES</temporary>
     <children>
-      <child nodeId="node-0x1e6a4e80" />
+      <child nodeId="node-0x7f997b0" />
     </children>
   </item>
-  <item nodeId="node-0x1e6a4e80">
+  <item nodeId="node-0x7f997b0">
     <command xml:space="preserve">x bean tree</command>
     <result xml:space="preserve">The good old Tree of Bean. Laden with 57 varieties of identical-looking legume, these protein-machines provide the raw ingredients for hearty chow and base material for new trees.
 
@@ -246,10 +246,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Bean Tree, a Sparkly Ro
     <changed>NO</changed>
     <temporary score="175">YES</temporary>
     <children>
-      <child nodeId="node-0x1e6eabc0" />
+      <child nodeId="node-0x7f99820" />
     </children>
   </item>
-  <item nodeId="node-0x1e6eabc0">
+  <item nodeId="node-0x7f99820">
     <command xml:space="preserve">x sparkly</command>
     <result xml:space="preserve">The most desperate-to-be-loved mineral you could ever hope to meet, this minable mini-mountain brings a touch of disco to out-of-the-way places. Full of high-value chunks and crushable minerals, every major miner seeks their own vein of sparkly.
 
@@ -258,10 +258,10 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Bean Tree, a Sparkly Ro
     <changed>NO</changed>
     <temporary score="175">YES</temporary>
     <children>
-      <child nodeId="node-0x1e6f96a0" />
+      <child nodeId="node-0x7f99890" />
     </children>
   </item>
-  <item nodeId="node-0x1e6f96a0">
+  <item nodeId="node-0x7f99890">
     <command xml:space="preserve">x metal</command>
     <result xml:space="preserve">A stupefying combination of classic rock and the power of metal. Most often found in rocky areas, these heavyweights are indispensable in the production of ingots and the metallurgic arts.
 
@@ -270,7 +270,7 @@ You can see a Produce Vendor, a shrine to Mab (empty), a Bean Tree, a Sparkly Ro
     <changed>NO</changed>
     <temporary score="174">YES</temporary>
   </item>
-  <item nodeId="node-0xa257590">
+  <item nodeId="node-0x7f99900">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Fyran Descant
@@ -283,10 +283,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0x1e66baf0" />
+      <child nodeId="node-0x7f99970" />
     </children>
   </item>
-  <item nodeId="node-0x1e66baf0">
+  <item nodeId="node-0x7f99970">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">Endorsed by Mab herself, if you find a Street Spirit specialising in Gardening Goods, you&apos;ll find everything necessary for home-grown self-sufficiency.
 
@@ -295,10 +295,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xa2708e0" />
+      <child nodeId="node-0x7f99610" />
     </children>
   </item>
-  <item nodeId="node-0xa2708e0">
+  <item nodeId="node-0x7f99610">
     <command xml:space="preserve">x shrine</command>
     <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
 
@@ -307,10 +307,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xddf3340" />
+      <child nodeId="node-0x7f99660" />
     </children>
   </item>
-  <item nodeId="node-0xddf3340">
+  <item nodeId="node-0x7f99660">
     <command xml:space="preserve">x bean tree</command>
     <result xml:space="preserve">The good old Tree of Bean. Laden with 57 varieties of identical-looking legume, these protein-machines provide the raw ingredients for hearty chow and base material for new trees.
 
@@ -319,10 +319,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xdd8f440" />
+      <child nodeId="node-0x7f99b60" />
     </children>
   </item>
-  <item nodeId="node-0xdd8f440">
+  <item nodeId="node-0x7f99b60">
     <command xml:space="preserve">get beryl rock</command>
     <result xml:space="preserve">That&apos;s fixed in place.
 
@@ -331,10 +331,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xdda3e40" />
+      <child nodeId="node-0x7f99bd0" />
     </children>
   </item>
-  <item nodeId="node-0xdda3e40">
+  <item nodeId="node-0x7f99bd0">
     <command xml:space="preserve">get beryl rocks</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -343,10 +343,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xa2f3710" />
+      <child nodeId="node-0x7f99c40" />
     </children>
   </item>
-  <item nodeId="node-0xa2f3710">
+  <item nodeId="node-0x7f99c40">
     <command xml:space="preserve">get beryl rock</command>
     <result xml:space="preserve">That&apos;s fixed in place.
 
@@ -355,10 +355,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xa2f49f0" />
+      <child nodeId="node-0x7f99cb0" />
     </children>
   </item>
-  <item nodeId="node-0xa2f49f0">
+  <item nodeId="node-0x7f99cb0">
     <command xml:space="preserve">get two beryl rock</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -367,10 +367,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xddbdfa0" />
+      <child nodeId="node-0x7f99d20" />
     </children>
   </item>
-  <item nodeId="node-0xddbdfa0">
+  <item nodeId="node-0x7f99d20">
     <command xml:space="preserve">get two beryl rocks</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -379,10 +379,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xa2f9a50" />
+      <child nodeId="node-0x7f99d90" />
     </children>
   </item>
-  <item nodeId="node-0xa2f9a50">
+  <item nodeId="node-0x7f99d90">
     <command xml:space="preserve">get 2 beryl rocks</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -391,10 +391,10 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="214">YES</temporary>
     <children>
-      <child nodeId="node-0xdd9b740" />
+      <child nodeId="node-0x7f99e00" />
     </children>
   </item>
-  <item nodeId="node-0xdd9b740">
+  <item nodeId="node-0x7f99e00">
     <command xml:space="preserve">get 2 beryl rock</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -403,7 +403,7 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Bean Tree,
     <changed>YES</changed>
     <temporary score="213">YES</temporary>
   </item>
-  <item nodeId="node-0xb8b59a0">
+  <item nodeId="node-0x7f99e70">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Kobah Habitat
@@ -414,10 +414,10 @@ You are in Kobah Habitat, a premier Fox Brushing Preserve in Alakol. Sometimes, 
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xa2b8550" />
+      <child nodeId="node-0x7f99ee0" />
     </children>
   </item>
-  <item nodeId="node-0xa2b8550">
+  <item nodeId="node-0x7f99ee0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Stora Rede
@@ -430,10 +430,10 @@ Oh and cave! There&apos;s a cave to the Southeast.
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xb839620" />
+      <child nodeId="node-0x7f99f50" />
     </children>
   </item>
-  <item nodeId="node-0xb839620">
+  <item nodeId="node-0x7f99f50">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Yan Jaggery
@@ -444,10 +444,10 @@ You are in Yan Jaggery, Alakol. Its a bit windy up here but comes with fansatic 
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xa2ac500" />
+      <child nodeId="node-0x7f99fc0" />
     </children>
   </item>
-  <item nodeId="node-0xa2ac500">
+  <item nodeId="node-0x7f99fc0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Bolesan Ambitions
@@ -460,10 +460,10 @@ You can see a Produce Vendor, a shrine to Spriggan (empty), two Metal Rocks and 
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x83a9be0" />
+      <child nodeId="node-0x7f999e0" />
     </children>
   </item>
-  <item nodeId="node-0x83a9be0">
+  <item nodeId="node-0x7f999e0">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Harkan Idiom
@@ -476,10 +476,10 @@ You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Patch, a Wood
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xb83aa20" />
+      <child nodeId="node-0x7f99a50" />
     </children>
   </item>
-  <item nodeId="node-0xb83aa20">
+  <item nodeId="node-0x7f99a50">
     <command xml:space="preserve">x tii</command>
     <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
 
@@ -488,10 +488,10 @@ You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Patch, a Wood
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xa230110" />
+      <child nodeId="node-0x7f99ac0" />
     </children>
   </item>
-  <item nodeId="node-0xa230110">
+  <item nodeId="node-0x7f99ac0">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you&apos;ll find everything Alchemy, Crystalmalizing and Potion-related right here.
 
@@ -500,10 +500,10 @@ You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Patch, a Wood
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xb8f60a0" />
+      <child nodeId="node-0x7f9a270" />
     </children>
   </item>
-  <item nodeId="node-0xb8f60a0">
+  <item nodeId="node-0x7f9a270">
     <command xml:space="preserve">x patch</command>
     <result xml:space="preserve">A humble, weedy patch. With a spade you can dig it, a hoe you can tend it, and, with a bean, even grow a tree in it. (NB: Trees are delicate organisms, and beans will only consent to being planted in the correct region.)
 
@@ -512,10 +512,10 @@ You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Patch, a Wood
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xa261360" />
+      <child nodeId="node-0x7f9a2e0" />
     </children>
   </item>
-  <item nodeId="node-0xa261360">
+  <item nodeId="node-0x7f9a2e0">
     <command xml:space="preserve">x tree</command>
     <result xml:space="preserve">Which do you mean, the Wood Tree or a Fruit Tree?
 
@@ -524,10 +524,10 @@ You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Patch, a Wood
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0x18df9e0" />
+      <child nodeId="node-0x7f9a350" />
     </children>
   </item>
-  <item nodeId="node-0x18df9e0">
+  <item nodeId="node-0x7f9a350">
     <command xml:space="preserve">x dullite</command>
     <result xml:space="preserve">A study in shades of grey, gray, and a monochromatic 8-bit scale of debatable spelling, this common rock is mostly found underground, is minable, and may contain precious gems.
 
@@ -536,10 +536,10 @@ You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Patch, a Wood
     <changed>YES</changed>
     <temporary score="251">YES</temporary>
     <children>
-      <child nodeId="node-0xa2b7290" />
+      <child nodeId="node-0x7f9a3c0" />
     </children>
   </item>
-  <item nodeId="node-0xa2b7290">
+  <item nodeId="node-0x7f9a3c0">
     <command xml:space="preserve">x metal</command>
     <result xml:space="preserve">A stupefying combination of classic rock and the power of metal. Most often found in rocky areas, these heavyweights are indispensable in the production of ingots and the metallurgic arts.
 
@@ -548,7 +548,7 @@ You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Patch, a Wood
     <changed>YES</changed>
     <temporary score="250">YES</temporary>
   </item>
-  <item nodeId="node-0xdddfde0">
+  <item nodeId="node-0x7f9a430">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 Semsan Simile
@@ -561,10 +561,10 @@ You can see an Animal Goods Vendor, a shrine to Humbaba (empty), four Metal Rock
     <changed>YES</changed>
     <temporary score="303">YES</temporary>
     <children>
-      <child nodeId="node-0xddb5090" />
+      <child nodeId="node-0x7f9a4a0" />
     </children>
   </item>
-  <item nodeId="node-0xddb5090">
+  <item nodeId="node-0x7f9a4a0">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">You see nothing special about the Animal Goods Vendor.
 
@@ -573,7 +573,7 @@ You can see an Animal Goods Vendor, a shrine to Humbaba (empty), four Metal Rock
     <changed>YES</changed>
     <temporary score="302">YES</temporary>
   </item>
-  <item nodeId="node-0x1e5d610">
+  <item nodeId="node-0x7f9a510">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Ekorran Roughs
@@ -586,13 +586,13 @@ You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile,
     <changed>YES</changed>
     <temporary score="301">YES</temporary>
     <children>
-      <child nodeId="node-0xb8e3780" />
-      <child nodeId="node-0x1e5d5a0" />
-      <child nodeId="node-0xdd9bf10" />
-      <child nodeId="node-0xdabf790" />
+      <child nodeId="node-0x7f9a0a0" />
+      <child nodeId="node-0x7f9a890" />
+      <child nodeId="node-0x7f9c730" />
+      <child nodeId="node-0x7f9a580" />
     </children>
   </item>
-  <item nodeId="node-0xdabf790">
+  <item nodeId="node-0x7f9a580">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">You can&apos;t make an omlet without making eggs might be true, but you&apos;d look pretty stupid trying to make one without a frying pan as well. If you need a Frying Pan for frying, a Saucepan for saucing, or an Awesome Pot for general awesomeness, you need to look to the Street Spirit who holds all the Kitchen Tools.
 
@@ -601,10 +601,10 @@ You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile,
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xdaf8b50" />
+      <child nodeId="node-0x7f9a5f0" />
     </children>
   </item>
-  <item nodeId="node-0xdaf8b50">
+  <item nodeId="node-0x7f9a5f0">
     <command xml:space="preserve">x shrine</command>
     <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
 
@@ -613,10 +613,10 @@ You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile,
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xa2ac310" />
+      <child nodeId="node-0x7f9a660" />
     </children>
   </item>
-  <item nodeId="node-0xa2ac310">
+  <item nodeId="node-0x7f9a660">
     <command xml:space="preserve">x pile</command>
     <result xml:space="preserve">A pile of dirt. Digging it with a shovel produces various dirty rewards, their quality depending on how deeply you appreciate soil, and how many friends are digging with you.
 
@@ -625,10 +625,10 @@ You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile,
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xa2324a0" />
+      <child nodeId="node-0x7f9a6d0" />
     </children>
   </item>
-  <item nodeId="node-0xa2324a0">
+  <item nodeId="node-0x7f9a6d0">
     <command xml:space="preserve">x rocks</command>
     <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
 
@@ -637,10 +637,10 @@ You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile,
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xdaccbb0" />
+      <child nodeId="node-0x7f9a740" />
     </children>
   </item>
-  <item nodeId="node-0xdaccbb0">
+  <item nodeId="node-0x7f9a740">
     <command xml:space="preserve">x rock</command>
     <result xml:space="preserve">Which do you mean, a metal rock, a dullite rock or a beryl rock?
 
@@ -649,10 +649,10 @@ You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile,
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xa20b6e0" />
+      <child nodeId="node-0x7f9a7b0" />
     </children>
   </item>
-  <item nodeId="node-0xa20b6e0">
+  <item nodeId="node-0x7f9a7b0">
     <command xml:space="preserve">x metal rock</command>
     <result xml:space="preserve">A stupefying combination of classic rock and the power of metal. Most often found in rocky areas, these heavyweights are indispensable in the production of ingots and the metallurgic arts.
 
@@ -661,10 +661,10 @@ You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile,
     <changed>YES</changed>
     <temporary score="153">YES</temporary>
     <children>
-      <child nodeId="node-0xa2e05b0" />
+      <child nodeId="node-0x7f9a820" />
     </children>
   </item>
-  <item nodeId="node-0xa2e05b0">
+  <item nodeId="node-0x7f9a820">
     <command xml:space="preserve">x beryl rock</command>
     <result xml:space="preserve">A mineral dull in colour if not composite, Beryl can generally be found underground, where its eerie green surface calls to miners, refiners and gem collectors alike.
 
@@ -673,7 +673,76 @@ You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile,
     <changed>YES</changed>
     <temporary score="152">YES</temporary>
   </item>
-  <item nodeId="node-0xdd9bf10">
+  <item nodeId="node-0x7f9c730">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Getan Tenets
+You are in the underground cave of Getan Tenets. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions.
+
+You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Plant, nine Metal Rocks and four Beryl Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="263">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9c7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9c7a0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">
+Ekorran Roughs
+You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
+
+You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile, a Fruit Tree, five Metal Rocks, two Dullite Rocks and three Beryl Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="263">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9c810" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9c810">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Lustan Cautions
+You are in Lustan Cautions, Alakol. There&apos;s a deep dark cave Northeast heading into Getan Tenets, the cliff top trails can be seen to the Southeast and Southwest leading to Ekorran Roughs and Flogan Shames. The main track leads North to Stora Rede, while a small nearly hidden grassy path wanders West to Rekan Flux.
+
+You can see a Groceries Vendor, a shrine to Pot (empty), a Gas Plant and two Fruit Trees here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="263">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9c880" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9c880">
+    <command xml:space="preserve">x plant</command>
+    <result xml:space="preserve">The ever-mellow Gas Plant. Packed with a stash of General Vapour that&apos;s just begging to be gassified. With a love of the murky and mystical, Gas Plants can often be found in totally far out spaces.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="263">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9c8f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9c8f0">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Carrying the kind of ingredients necessary for some of your more fancy-pant meals, this Pot-endorsed Street Spirit sells anything delicious that you cannot make at home (like honey, birch syrup and salmon) and a couple of things you can (like buns and garlic). Grocery Street Spirits: The Foodie&apos;s Friend.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="262">YES</temporary>
+  </item>
+  <item nodeId="node-0x7f9a890">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Getan Tenets
@@ -686,10 +755,10 @@ You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Pla
     <changed>YES</changed>
     <temporary score="301">YES</temporary>
     <children>
-      <child nodeId="node-0xdd74be0" />
+      <child nodeId="node-0x7f9a900" />
     </children>
   </item>
-  <item nodeId="node-0xdd74be0">
+  <item nodeId="node-0x7f9a900">
     <command xml:space="preserve">nr</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -698,10 +767,10 @@ You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Pla
     <changed>YES</changed>
     <temporary score="301">YES</temporary>
     <children>
-      <child nodeId="node-0xdde1e60" />
+      <child nodeId="node-0x7f9a970" />
     </children>
   </item>
-  <item nodeId="node-0xdde1e60">
+  <item nodeId="node-0x7f9a970">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Stora Rede
@@ -716,10 +785,10 @@ You can see a Hardware Vendor, a shrine to Friendly (empty), a Bean Tree, a Spic
     <changed>YES</changed>
     <temporary score="301">YES</temporary>
     <children>
-      <child nodeId="node-0x833f780" />
+      <child nodeId="node-0x7f9a030" />
     </children>
   </item>
-  <item nodeId="node-0x833f780">
+  <item nodeId="node-0x7f9a030">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
 Yan Jaggery
@@ -732,7 +801,7 @@ You can see a Groceries Vendor, a shrine to Cosma (empty), a Patch, a Wood Tree,
     <changed>YES</changed>
     <temporary score="300">YES</temporary>
   </item>
-  <item nodeId="node-0x1e5d5a0">
+  <item nodeId="node-0x7f9a0a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 Flogan Shames
@@ -745,899 +814,12 @@ You can see a Gardening Goods Vendor, a shrine to Spriggan (empty), a Patch, fiv
     <changed>NO</changed>
     <temporary score="296">YES</temporary>
     <children>
-      <child nodeId="node-0xda50f20" />
-      <child nodeId="node-0x1e5d530" />
-      <child nodeId="node-0xdd86230" />
+      <child nodeId="node-0x7f9a110" />
+      <child nodeId="node-0x7f9bee0" />
+      <child nodeId="node-0x7f9bd20" />
     </children>
   </item>
-  <item nodeId="node-0xdd86230">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Taftan Raves
-You are in Taftan Raves, Alakol. The cliff top trails continues East and West to Flogan Shames and Vindel Frowns, Dofsan Vex is to the Northwest, a dark cave Northeast leasts to Simean Dims.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xda3ca30" />
-    </children>
-  </item>
-  <item nodeId="node-0xda3ca30">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e6e1070" />
-      <child nodeId="node-0xdaf3dc0" />
-      <child nodeId="node-0xdaf97e0" />
-      <child nodeId="node-0xdd67fb0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd67fb0">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Dofsan Vex
-You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
-
-You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xdaa2da0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdaa2da0">
-    <command xml:space="preserve">sw</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xddd0100" />
-    </children>
-  </item>
-  <item nodeId="node-0xddd0100">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Navran Dissent
-You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xa26ea90" />
-    </children>
-  </item>
-  <item nodeId="node-0xa26ea90">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xa22ced0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa22ced0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Hammar Steadies
-You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
-
-You can see a Groceries Vendor, a shrine to Cosma (empty), a Bean Tree, three Metal Rocks and three Dullite Rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xddb4770" />
-    </children>
-  </item>
-  <item nodeId="node-0xddb4770">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd758e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd758e0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Navran Dissent
-You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xb83f300" />
-    </children>
-  </item>
-  <item nodeId="node-0xb83f300">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Marlan Bias
-You are in Marlan Bias, Alakol. You can make out winding tracks leading Northwest, Northeast, Southwest and South.
-
-You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), a Dirt Pile and two Gas Plants here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xdde1fa0" />
-    </children>
-  </item>
-  <item nodeId="node-0xdde1fa0">
-    <command xml:space="preserve">x vendor</command>
-    <result xml:space="preserve">Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you&apos;ll find everything Alchemy, Crystalmalizing and Potion-related right here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="296">YES</temporary>
-    <children>
-      <child nodeId="node-0xa254e10" />
-    </children>
-  </item>
-  <item nodeId="node-0xa254e10">
-    <command xml:space="preserve">x gas plant</command>
-    <result xml:space="preserve">The ever-mellow Gas Plant. Packed with a stash of General Vapour that&apos;s just begging to be gassified. With a love of the murky and mystical, Gas Plants can often be found in totally far out spaces.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="295">YES</temporary>
-  </item>
-  <item nodeId="node-0xdaf97e0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Hammar Steadies
-You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0xa25ca00" />
-    </children>
-  </item>
-  <item nodeId="node-0xa25ca00">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-Navran Dissent
-You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0xa22b100" />
-    </children>
-  </item>
-  <item nodeId="node-0xa22b100">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-Hammar Steadies
-You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0x18c4730" />
-    </children>
-  </item>
-  <item nodeId="node-0x18c4730">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Dyran Notion
-You are in Dyran Notion, Alakol. Marlan Bias and Navran Dissent are futher into the grassy plains to the North and Southeast, while Hammar Steadies and Smy Mod are along a rock path running Southwest and Westwards.
-
-You can see a Produce Vendor, a shrine to Mab (empty) and four Fruit Trees here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0xda61960" />
-    </children>
-  </item>
-  <item nodeId="node-0xda61960">
-    <command xml:space="preserve">x vendor</command>
-    <result xml:space="preserve">For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0xf980520" />
-    </children>
-  </item>
-  <item nodeId="node-0xf980520">
-    <command xml:space="preserve">x shrine</command>
-    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0xa2d20f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa2d20f0">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0xda37f10" />
-    </children>
-  </item>
-  <item nodeId="node-0xda37f10">
-    <command xml:space="preserve">tree</command>
-    <result xml:space="preserve">compass (5) 
-  the north
-  the northeast
-  the northwest
-  the south
-  the southeast
-  the southwest
-  the east
-  the west
-  the up
-  the down
-  the inside
-  the outside
-(LibraryMessages) (6) 
-(darkness object) (7) 
-(Inform Parser) (8) 
-(Inform Library) (9) 
-(property_numberspace_forcer) (10) 
-(ValuePropertyHolder_39) (12) 
-Alakol (99) 
-Andra (100) 
-Aranna (101) 
-Balzare (102) 
-Baqala (103) 
-Besara (104) 
-Bortola (105) 
-Brillah (106) 
-Callopee (107) 
-Cauda (108) 
-Chakra Phool (109) 
-Choru (110) 
-Drifa (111) 
-Fenneq (112) 
-Firozi (113) 
-Folivoria (114) 
-Groddle Forest (115) 
-Groddle Heights (116) 
-Groddle Meadow (117) 
-Haoma (118) 
-Haraiva (119) 
-Ilmenskie Caverns (120) 
-Ilmenskie Deeps (121) 
-Ix (122) 
-Jal (123) 
-Jethimadh (124) 
-Kajuu (125) 
-Kalavana (126) 
-Karnata (127) 
-Kloro (128) 
-Lida (129) 
-Massadoe (130) 
-Moshi Moshi Oshilatis (131) 
-Muufo (132) 
-Nottis (133) 
-Ormonos (134) 
-Pollokoo (135) 
-Rasana (136) 
-Roobrik (137) 
-Salatu (138) 
-Samudra (139) 
-Shimla Mirch (140) 
-Sura (141) 
-Tahli (142) 
-Tamila (143) 
-Uralia (144) 
-Vantalu (145) 
-Vortex of Random (146) 
-Xalanga (147) 
-Zhambu (148) 
-Anrasan Glance (149) 
-  a Produce Vendor
-  a shrine to Mab
-  a Fruit Tree
-  a Bean Tree
-  nine metal rocks
-  four dullite rocks
-Ekorran Roughs (167) 
-Getan Tenets (168) 
-Semsan Simile (169) 
-Bolesan Ambitions (170) 
-  a Produce Vendor
-  a shrine to Spriggan
-  two metal rocks
-  three sparkly rocks
-Motala Dun (178) 
-Harkan Idiom (179) 
-Pinnan Glimpse (180) 
-Yan Jaggery (181) 
-Brunnan Bafflings (182) 
-  three beryl rocks
-  a Toy Vendor
-  a shrine to Cosma
-  two Bean Trees
-  three metal rocks
-Feman Falters (191) 
-Fyran Descant (192) 
-Ojan Repine (193) 
-Dofsan Vex (194) 
-  an Alchemical Goods Vendor
-  a shrine to Tii
-  a dirt pile
-  two Fruit Trees
-  a Wood Tree
-  a Bubble Tree
-Isalan Interval (202) 
-Simean Dims (203) 
-Taftan Raves (204) 
-Vindel Frowns (205) 
-Dyran Notion (206) 
-  yourself
-  a Produce Vendor
-  a shrine to Mab
-  four Fruit Trees
-Marlan Bias (213) 
-Navran Dissent (214) 
-Hammar Steadies (215) 
-Smy Mod (216) 
-Via Firozi (217) 
-Flogan Shames (218) 
-Lustan Cautions (219) 
-Idan Frisk (220) 
-Torpan Cleft (221) 
-Jadraan Fix (222) 
-Stora Rede (223) 
-Gimja Preserve (224) 
-Kolan Presence (225) 
-Stopan Winnow (226) 
-Kobah Habitat (227) 
-Rekan Flux (228) 
-Vragan Boost (229) 
-Onbo Park (230) 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e6b8fa0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e6b8fa0">
-    <command xml:space="preserve">x</command>
-    <result xml:space="preserve">What do you want to examine?
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0xddf3390" />
-    </children>
-  </item>
-  <item nodeId="node-0xddf3390">
-    <command xml:space="preserve">x tree</command>
-    <result xml:space="preserve">The glorious Fruit Tree. Thick with tasty cherries ripe to be converted into other delicious fruits, these venerable plants may not be chatty, but they&apos;re indispensable for fine edibles and quaffables of all sorts.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0xddb0d00" />
-    </children>
-  </item>
-  <item nodeId="node-0xddb0d00">
-    <command xml:space="preserve">tree</command>
-    <result xml:space="preserve">compass (5) 
-  the north
-  the northeast
-  the northwest
-  the south
-  the southeast
-  the southwest
-  the east
-  the west
-  the up
-  the down
-  the inside
-  the outside
-(LibraryMessages) (6) 
-(darkness object) (7) 
-(Inform Parser) (8) 
-(Inform Library) (9) 
-(property_numberspace_forcer) (10) 
-(ValuePropertyHolder_39) (12) 
-Alakol (99) 
-Andra (100) 
-Aranna (101) 
-Balzare (102) 
-Baqala (103) 
-Besara (104) 
-Bortola (105) 
-Brillah (106) 
-Callopee (107) 
-Cauda (108) 
-Chakra Phool (109) 
-Choru (110) 
-Drifa (111) 
-Fenneq (112) 
-Firozi (113) 
-Folivoria (114) 
-Groddle Forest (115) 
-Groddle Heights (116) 
-Groddle Meadow (117) 
-Haoma (118) 
-Haraiva (119) 
-Ilmenskie Caverns (120) 
-Ilmenskie Deeps (121) 
-Ix (122) 
-Jal (123) 
-Jethimadh (124) 
-Kajuu (125) 
-Kalavana (126) 
-Karnata (127) 
-Kloro (128) 
-Lida (129) 
-Massadoe (130) 
-Moshi Moshi Oshilatis (131) 
-Muufo (132) 
-Nottis (133) 
-Ormonos (134) 
-Pollokoo (135) 
-Rasana (136) 
-Roobrik (137) 
-Salatu (138) 
-Samudra (139) 
-Shimla Mirch (140) 
-Sura (141) 
-Tahli (142) 
-Tamila (143) 
-Uralia (144) 
-Vantalu (145) 
-Vortex of Random (146) 
-Xalanga (147) 
-Zhambu (148) 
-Anrasan Glance (149) 
-  a Produce Vendor
-  a shrine to Mab
-  a Fruit Tree
-  a Bean Tree
-  nine metal rocks
-  four dullite rocks
-Ekorran Roughs (167) 
-Getan Tenets (168) 
-Semsan Simile (169) 
-Bolesan Ambitions (170) 
-  a Produce Vendor
-  a shrine to Spriggan
-  two metal rocks
-  three sparkly rocks
-Motala Dun (178) 
-Harkan Idiom (179) 
-Pinnan Glimpse (180) 
-Yan Jaggery (181) 
-Brunnan Bafflings (182) 
-  three beryl rocks
-  a Toy Vendor
-  a shrine to Cosma
-  two Bean Trees
-  three metal rocks
-Feman Falters (191) 
-Fyran Descant (192) 
-Ojan Repine (193) 
-Dofsan Vex (194) 
-  an Alchemical Goods Vendor
-  a shrine to Tii
-  a dirt pile
-  two Fruit Trees
-  a Wood Tree
-  a Bubble Tree
-Isalan Interval (202) 
-Simean Dims (203) 
-Taftan Raves (204) 
-Vindel Frowns (205) 
-Dyran Notion (206) 
-  yourself
-  a Produce Vendor
-  a shrine to Mab
-  four Fruit Trees
-Marlan Bias (213) 
-Navran Dissent (214) 
-Hammar Steadies (215) 
-Smy Mod (216) 
-Via Firozi (217) 
-Flogan Shames (218) 
-Lustan Cautions (219) 
-Idan Frisk (220) 
-Torpan Cleft (221) 
-Jadraan Fix (222) 
-Stora Rede (223) 
-Gimja Preserve (224) 
-Kolan Presence (225) 
-Stopan Winnow (226) 
-Kobah Habitat (227) 
-Rekan Flux (228) 
-Vragan Boost (229) 
-Onbo Park (230) 
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="145">YES</temporary>
-    <children>
-      <child nodeId="node-0xda241d0" />
-    </children>
-  </item>
-  <item nodeId="node-0xda241d0">
-    <command xml:space="preserve">x tree</command>
-    <result xml:space="preserve">The glorious Fruit Tree. Thick with tasty cherries ripe to be converted into other delicious fruits, these venerable plants may not be chatty, but they&apos;re indispensable for fine edibles and quaffables of all sorts.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="144">YES</temporary>
-  </item>
-  <item nodeId="node-0xdaf3dc0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Dofsan Vex
-You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
-
-You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0xa20fa00" />
-    </children>
-  </item>
-  <item nodeId="node-0xa20fa00">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0xa2da6f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa2da6f0">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Navran Dissent
-You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0xa2df610" />
-    </children>
-  </item>
-  <item nodeId="node-0xa2df610">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0x832abe0" />
-    </children>
-  </item>
-  <item nodeId="node-0x832abe0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0x83167c0" />
-    </children>
-  </item>
-  <item nodeId="node-0x83167c0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Dofsan Vex
-You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
-
-You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e678200" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e678200">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0x180b980" />
-    </children>
-  </item>
-  <item nodeId="node-0x180b980">
-    <command xml:space="preserve">ne</command>
-    <result xml:space="preserve">
-Navran Dissent
-You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd53910" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd53910">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0xa27d370" />
-    </children>
-  </item>
-  <item nodeId="node-0xa27d370">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Hammar Steadies
-You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
-
-You can see a Groceries Vendor, a shrine to Cosma (empty), a Bean Tree, three Metal Rocks and three Dullite Rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e634d40" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e634d40">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd89340" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd89340">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd09080" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd09080">
-    <command xml:space="preserve">se</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd88130" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd88130">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-Dofsan Vex
-You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
-
-You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="282">YES</temporary>
-    <children>
-      <child nodeId="node-0xa20b4b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xa20b4b0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-Vindel Frowns
-You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="281">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e6e1070">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="237">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e6dd0d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e6dd0d0">
-    <command xml:space="preserve">nw</command>
-    <result xml:space="preserve">
-Hammar Steadies
-You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
-
-You can see a Groceries Vendor, a shrine to Cosma (empty), a Bean Tree, three Metal Rocks and three Dullite Rocks here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="237">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e683570" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e683570">
-    <command xml:space="preserve">x vendor</command>
-    <result xml:space="preserve">Carrying the kind of ingredients necessary for some of your more fancy-pant meals, this Pot-endorsed Street Spirit sells anything delicious that you cannot make at home (like honey, birch syrup and salmon) and a couple of things you can (like buns and garlic). Grocery Street Spirits: The Foodie&apos;s Friend.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="237">YES</temporary>
-    <children>
-      <child nodeId="node-0xddf5910" />
-    </children>
-  </item>
-  <item nodeId="node-0xddf5910">
-    <command xml:space="preserve">x spirit</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="237">YES</temporary>
-    <children>
-      <child nodeId="node-0x8300ae0" />
-    </children>
-  </item>
-  <item nodeId="node-0x8300ae0">
-    <command xml:space="preserve">x sprite</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="237">YES</temporary>
-    <children>
-      <child nodeId="node-0xdd73a70" />
-    </children>
-  </item>
-  <item nodeId="node-0xdd73a70">
-    <command xml:space="preserve">x street sprite</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="237">YES</temporary>
-    <children>
-      <child nodeId="node-0x1e61950" />
-    </children>
-  </item>
-  <item nodeId="node-0x1e61950">
-    <command xml:space="preserve">x street sprite</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="237">YES</temporary>
-    <children>
-      <child nodeId="node-0xda41140" />
-    </children>
-  </item>
-  <item nodeId="node-0xda41140">
-    <command xml:space="preserve">x vendor</command>
-    <result xml:space="preserve">Carrying the kind of ingredients necessary for some of your more fancy-pant meals, this Pot-endorsed Street Spirit sells anything delicious that you cannot make at home (like honey, birch syrup and salmon) and a couple of things you can (like buns and garlic). Grocery Street Spirits: The Foodie&apos;s Friend.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="236">YES</temporary>
-  </item>
-  <item nodeId="node-0x1e5d530">
+  <item nodeId="node-0x7f9bd20">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Simean Dims
@@ -1648,10 +830,10 @@ Ooooh, you are underground in Simean Dims, Alakol, how exciting! There are sever
     <changed>YES</changed>
     <temporary score="257">YES</temporary>
     <children>
-      <child nodeId="node-0xa26de30" />
+      <child nodeId="node-0x7f9bd90" />
     </children>
   </item>
-  <item nodeId="node-0xa26de30">
+  <item nodeId="node-0x7f9bd90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 Isalan Interval
@@ -1664,10 +846,10 @@ You can see a Gardening Goods Vendor, a shrine to Grendaline (empty), a Dirt Pil
     <changed>YES</changed>
     <temporary score="257">YES</temporary>
     <children>
-      <child nodeId="node-0x18cab30" />
+      <child nodeId="node-0x7f9be00" />
     </children>
   </item>
-  <item nodeId="node-0x18cab30">
+  <item nodeId="node-0x7f9be00">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
 Jadraan Fix
@@ -1680,10 +862,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="257">YES</temporary>
     <children>
-      <child nodeId="node-0x1867780" />
+      <child nodeId="node-0x7f9be70" />
     </children>
   </item>
-  <item nodeId="node-0x1867780">
+  <item nodeId="node-0x7f9be70">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">Clanking almost inaudibly as it bounces gently up and down, you might think the Street Spirit specialising Hardware doesn&apos;t look like a vendor carrying several tonnes of equipment, but you would be wrong. Bags, Toolboxes, Gassifiers, Fruit-changers and Machine Parts can all be found tucked into invisible pockets of the Alph-endorsed Street Spirit. If you can use it to turn one thing into another, the Hardware vendor probably has it.
 
@@ -1692,7 +874,7 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="256">YES</temporary>
   </item>
-  <item nodeId="node-0xda50f20">
+  <item nodeId="node-0x7f9bee0">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">Endorsed by Mab herself, if you find a Street Spirit specialising in Gardening Goods, you&apos;ll find everything necessary for home-grown self-sufficiency.
 
@@ -1701,10 +883,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0x181f8f0" />
+      <child nodeId="node-0x7f9bf50" />
     </children>
   </item>
-  <item nodeId="node-0x181f8f0">
+  <item nodeId="node-0x7f9bf50">
     <command xml:space="preserve">x shrine</command>
     <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
 
@@ -1713,10 +895,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0x8347940" />
+      <child nodeId="node-0x7f9bfc0" />
     </children>
   </item>
-  <item nodeId="node-0x8347940">
+  <item nodeId="node-0x7f9bfc0">
     <command xml:space="preserve">x patch</command>
     <result xml:space="preserve">A humble, weedy patch. With a spade you can dig it, a hoe you can tend it, and, with a bean, even grow a tree in it. (NB: Trees are delicate organisms, and beans will only consent to being planted in the correct region.)
 
@@ -1725,10 +907,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xa2bbc10" />
+      <child nodeId="node-0x7f9c030" />
     </children>
   </item>
-  <item nodeId="node-0xa2bbc10">
+  <item nodeId="node-0x7f9c030">
     <command xml:space="preserve">x metal</command>
     <result xml:space="preserve">A stupefying combination of classic rock and the power of metal. Most often found in rocky areas, these heavyweights are indispensable in the production of ingots and the metallurgic arts.
 
@@ -1737,10 +919,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xa2a4300" />
+      <child nodeId="node-0x7f9c0a0" />
     </children>
   </item>
-  <item nodeId="node-0xa2a4300">
+  <item nodeId="node-0x7f9c0a0">
     <command xml:space="preserve">x beryl</command>
     <result xml:space="preserve">A mineral dull in colour if not composite, Beryl can generally be found underground, where its eerie green surface calls to miners, refiners and gem collectors alike.
 
@@ -1749,10 +931,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xdd5c900" />
+      <child nodeId="node-0x7f9c110" />
     </children>
   </item>
-  <item nodeId="node-0xdd5c900">
+  <item nodeId="node-0x7f9c110">
     <command xml:space="preserve">x dullite</command>
     <result xml:space="preserve">A study in shades of grey, gray, and a monochromatic 8-bit scale of debatable spelling, this common rock is mostly found underground, is minable, and may contain precious gems.
 
@@ -1761,10 +943,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xddfa2e0" />
+      <child nodeId="node-0x7f9c180" />
     </children>
   </item>
-  <item nodeId="node-0xddfa2e0">
+  <item nodeId="node-0x7f9c180">
     <command xml:space="preserve">get all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -1773,10 +955,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0x83b17a0" />
+      <child nodeId="node-0x7f9c1f0" />
     </children>
   </item>
-  <item nodeId="node-0x83b17a0">
+  <item nodeId="node-0x7f9c1f0">
     <command xml:space="preserve">take all</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -1785,10 +967,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xa2a6690" />
+      <child nodeId="node-0x7f9c260" />
     </children>
   </item>
-  <item nodeId="node-0xa2a6690">
+  <item nodeId="node-0x7f9c260">
     <command xml:space="preserve">get tree</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1797,10 +979,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xdd57ee0" />
+      <child nodeId="node-0x7f9c2d0" />
     </children>
   </item>
-  <item nodeId="node-0xdd57ee0">
+  <item nodeId="node-0x7f9c2d0">
     <command xml:space="preserve">get vendor</command>
     <result xml:space="preserve">I don&apos;t suppose the Gardening Goods Vendor would care for that.
 
@@ -1809,10 +991,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0x83a8cb0" />
+      <child nodeId="node-0x7f9c340" />
     </children>
   </item>
-  <item nodeId="node-0x83a8cb0">
+  <item nodeId="node-0x7f9c340">
     <command xml:space="preserve">get metal rocks</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -1821,10 +1003,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xddc3560" />
+      <child nodeId="node-0x7f9c3b0" />
     </children>
   </item>
-  <item nodeId="node-0xddc3560">
+  <item nodeId="node-0x7f9c3b0">
     <command xml:space="preserve">get patch</command>
     <result xml:space="preserve">That&apos;s fixed in place.
 
@@ -1833,10 +1015,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xa2df660" />
+      <child nodeId="node-0x7f9c420" />
     </children>
   </item>
-  <item nodeId="node-0xa2df660">
+  <item nodeId="node-0x7f9c420">
     <command xml:space="preserve">get four dullite rocks</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1845,10 +1027,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xdd640c0" />
+      <child nodeId="node-0x7f9c490" />
     </children>
   </item>
-  <item nodeId="node-0xdd640c0">
+  <item nodeId="node-0x7f9c490">
     <command xml:space="preserve">x rocks</command>
     <result xml:space="preserve">You can&apos;t use multiple objects with that verb.
 
@@ -1857,10 +1039,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xa2e0a90" />
+      <child nodeId="node-0x7f9c500" />
     </children>
   </item>
-  <item nodeId="node-0xa2e0a90">
+  <item nodeId="node-0x7f9c500">
     <command xml:space="preserve">x rock</command>
     <result xml:space="preserve">Which do you mean, a Metal Rock, a Beryl Rock or a Dullite Rock?
 
@@ -1869,10 +1051,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xb8d6510" />
+      <child nodeId="node-0x7f9c570" />
     </children>
   </item>
-  <item nodeId="node-0xb8d6510">
+  <item nodeId="node-0x7f9c570">
     <command xml:space="preserve">get rock</command>
     <result xml:space="preserve">Which do you mean, a Metal Rock, a Beryl Rock or a Dullite Rock?
 
@@ -1881,10 +1063,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0xda603b0" />
+      <child nodeId="node-0x7f9c5e0" />
     </children>
   </item>
-  <item nodeId="node-0xda603b0">
+  <item nodeId="node-0x7f9c5e0">
     <command xml:space="preserve">get dullite rock</command>
     <result xml:space="preserve">That&apos;s fixed in place.
 
@@ -1893,10 +1075,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0x1e6519e0" />
+      <child nodeId="node-0x7f9c650" />
     </children>
   </item>
-  <item nodeId="node-0x1e6519e0">
+  <item nodeId="node-0x7f9c650">
     <command xml:space="preserve">get all rocks</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -1905,10 +1087,10 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="198">YES</temporary>
     <children>
-      <child nodeId="node-0x1e6b62c0" />
+      <child nodeId="node-0x7f9c6c0" />
     </children>
   </item>
-  <item nodeId="node-0x1e6b62c0">
+  <item nodeId="node-0x7f9c6c0">
     <command xml:space="preserve">get all metal rocks</command>
     <result xml:space="preserve">There are none at all available!
 
@@ -1917,73 +1099,891 @@ You can see a Hardware Vendor, a shrine to Alph (empty), a Bean Tree and two Fru
     <changed>YES</changed>
     <temporary score="197">YES</temporary>
   </item>
-  <item nodeId="node-0xb8e3780">
+  <item nodeId="node-0x7f9a110">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Taftan Raves
+You are in Taftan Raves, Alakol. The cliff top trails continues East and West to Flogan Shames and Vindel Frowns, Dofsan Vex is to the Northwest, a dark cave Northeast leasts to Simean Dims.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9a180" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9a180">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b9a0" />
+      <child nodeId="node-0x7f9b310" />
+      <child nodeId="node-0x7f9add0" />
+      <child nodeId="node-0x7f9a1f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9a1f0">
     <command xml:space="preserve">ne</command>
     <result xml:space="preserve">
-Getan Tenets
-You are in the underground cave of Getan Tenets. You can exit to Anrasan Glance and Ekorran Roughs through a cave exit Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions.
+Dofsan Vex
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
 
-You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), an Egg Plant, nine Metal Rocks and four Beryl Rocks here.
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="296">YES</temporary>
     <children>
-      <child nodeId="node-0xb8ad6a0" />
+      <child nodeId="node-0x7f9a9e0" />
     </children>
   </item>
-  <item nodeId="node-0xb8ad6a0">
+  <item nodeId="node-0x7f9a9e0">
     <command xml:space="preserve">sw</command>
     <result xml:space="preserve">
-Ekorran Roughs
-You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi.
-
-You can see a Kitchen Tools Vendor, a shrine to Grendaline (empty), a Dirt Pile, a Fruit Tree, five Metal Rocks, two Dullite Rocks and three Beryl Rocks here.
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="296">YES</temporary>
     <children>
-      <child nodeId="node-0xddf9340" />
+      <child nodeId="node-0x7f9aa50" />
     </children>
   </item>
-  <item nodeId="node-0xddf9340">
+  <item nodeId="node-0x7f9aa50">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9aac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9aac0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9ab30" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9ab30">
     <command xml:space="preserve">nw</command>
     <result xml:space="preserve">
-Lustan Cautions
-You are in Lustan Cautions, Alakol. There&apos;s a deep dark cave Northeast heading into Getan Tenets, the cliff top trails can be seen to the Southeast and Southwest leading to Ekorran Roughs and Flogan Shames. The main track leads North to Stora Rede, while a small nearly hidden grassy path wanders West to Rekan Flux.
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
 
-You can see a Groceries Vendor, a shrine to Pot (empty), a Gas Plant and two Fruit Trees here.
+You can see a Groceries Vendor, a shrine to Cosma (empty), a Bean Tree, three Metal Rocks and three Dullite Rocks here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="296">YES</temporary>
     <children>
-      <child nodeId="node-0xb85d030" />
+      <child nodeId="node-0x7f9aba0" />
     </children>
   </item>
-  <item nodeId="node-0xb85d030">
-    <command xml:space="preserve">x plant</command>
+  <item nodeId="node-0x7f9aba0">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9ac10" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9ac10">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9ac80" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9ac80">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Marlan Bias
+You are in Marlan Bias, Alakol. You can make out winding tracks leading Northwest, Northeast, Southwest and South.
+
+You can see an Alchemical Goods Vendor, a shrine to Friendly (empty), a Dirt Pile and two Gas Plants here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9acf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9acf0">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Fizzling and clinking gently as it bobs up and down, this street spirit (endorsed by all-powerful Tii), is a one-stop shop for all your alchemical needs. From Tongs to Tincturing Kits, Fancy Picks to Firefly Jars, you&apos;ll find everything Alchemy, Crystalmalizing and Potion-related right here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="296">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9ad60" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9ad60">
+    <command xml:space="preserve">x gas plant</command>
     <result xml:space="preserve">The ever-mellow Gas Plant. Packed with a stash of General Vapour that&apos;s just begging to be gassified. With a love of the murky and mystical, Gas Plants can often be found in totally far out spaces.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="263">YES</temporary>
+    <temporary score="295">YES</temporary>
+  </item>
+  <item nodeId="node-0x7f9add0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
     <children>
-      <child nodeId="node-0x182ba90" />
+      <child nodeId="node-0x7f9ae40" />
     </children>
   </item>
-  <item nodeId="node-0x182ba90">
+  <item nodeId="node-0x7f9ae40">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9aeb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9aeb0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9af20" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9af20">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Dyran Notion
+You are in Dyran Notion, Alakol. Marlan Bias and Navran Dissent are futher into the grassy plains to the North and Southeast, while Hammar Steadies and Smy Mod are along a rock path running Southwest and Westwards.
+
+You can see a Produce Vendor, a shrine to Mab (empty) and four Fruit Trees here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9af90" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9af90">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">For chefs, saucerers and fry-cooks who love to cook but hate to garden, a Street Spirit selling Produce specialises in providing any vegetable you might require for a recipe. Sure, you could grow tomatoes, potatoes, cucumbers or corn in a garden - but why bother, when you could procure them right here in the Produce Aisle.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b000" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b000">
+    <command xml:space="preserve">x shrine</command>
+    <result xml:space="preserve">A shrine dedicated to a certain giant. All donations deposited into such a shrine will, through the gigantic grapevine, result in favour being paid to the donator. Shrines to the 11 Giants can be found throughout Ur.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b070" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b070">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b0e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b0e0">
+    <command xml:space="preserve">tree</command>
+    <result xml:space="preserve">compass (5) 
+  the north
+  the northeast
+  the northwest
+  the south
+  the southeast
+  the southwest
+  the east
+  the west
+  the up
+  the down
+  the inside
+  the outside
+(LibraryMessages) (6) 
+(darkness object) (7) 
+(Inform Parser) (8) 
+(Inform Library) (9) 
+(property_numberspace_forcer) (10) 
+(ValuePropertyHolder_39) (12) 
+Alakol (99) 
+Andra (100) 
+Aranna (101) 
+Balzare (102) 
+Baqala (103) 
+Besara (104) 
+Bortola (105) 
+Brillah (106) 
+Callopee (107) 
+Cauda (108) 
+Chakra Phool (109) 
+Choru (110) 
+Drifa (111) 
+Fenneq (112) 
+Firozi (113) 
+Folivoria (114) 
+Groddle Forest (115) 
+Groddle Heights (116) 
+Groddle Meadow (117) 
+Haoma (118) 
+Haraiva (119) 
+Ilmenskie Caverns (120) 
+Ilmenskie Deeps (121) 
+Ix (122) 
+Jal (123) 
+Jethimadh (124) 
+Kajuu (125) 
+Kalavana (126) 
+Karnata (127) 
+Kloro (128) 
+Lida (129) 
+Massadoe (130) 
+Moshi Moshi Oshilatis (131) 
+Muufo (132) 
+Nottis (133) 
+Ormonos (134) 
+Pollokoo (135) 
+Rasana (136) 
+Roobrik (137) 
+Salatu (138) 
+Samudra (139) 
+Shimla Mirch (140) 
+Sura (141) 
+Tahli (142) 
+Tamila (143) 
+Uralia (144) 
+Vantalu (145) 
+Vortex of Random (146) 
+Xalanga (147) 
+Zhambu (148) 
+Anrasan Glance (149) 
+  a Produce Vendor
+  a shrine to Mab
+  a Fruit Tree
+  a Bean Tree
+  nine metal rocks
+  four dullite rocks
+Ekorran Roughs (167) 
+Getan Tenets (168) 
+Semsan Simile (169) 
+Bolesan Ambitions (170) 
+  a Produce Vendor
+  a shrine to Spriggan
+  two metal rocks
+  three sparkly rocks
+Motala Dun (178) 
+Harkan Idiom (179) 
+Pinnan Glimpse (180) 
+Yan Jaggery (181) 
+Brunnan Bafflings (182) 
+  three beryl rocks
+  a Toy Vendor
+  a shrine to Cosma
+  two Bean Trees
+  three metal rocks
+Feman Falters (191) 
+Fyran Descant (192) 
+Ojan Repine (193) 
+Dofsan Vex (194) 
+  an Alchemical Goods Vendor
+  a shrine to Tii
+  a dirt pile
+  two Fruit Trees
+  a Wood Tree
+  a Bubble Tree
+Isalan Interval (202) 
+Simean Dims (203) 
+Taftan Raves (204) 
+Vindel Frowns (205) 
+Dyran Notion (206) 
+  yourself
+  a Produce Vendor
+  a shrine to Mab
+  four Fruit Trees
+Marlan Bias (213) 
+Navran Dissent (214) 
+Hammar Steadies (215) 
+Smy Mod (216) 
+Via Firozi (217) 
+Flogan Shames (218) 
+Lustan Cautions (219) 
+Idan Frisk (220) 
+Torpan Cleft (221) 
+Jadraan Fix (222) 
+Stora Rede (223) 
+Gimja Preserve (224) 
+Kolan Presence (225) 
+Stopan Winnow (226) 
+Kobah Habitat (227) 
+Rekan Flux (228) 
+Vragan Boost (229) 
+Onbo Park (230) 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b150" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b150">
+    <command xml:space="preserve">x</command>
+    <result xml:space="preserve">What do you want to examine?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b1c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b1c0">
+    <command xml:space="preserve">x tree</command>
+    <result xml:space="preserve">The glorious Fruit Tree. Thick with tasty cherries ripe to be converted into other delicious fruits, these venerable plants may not be chatty, but they&apos;re indispensable for fine edibles and quaffables of all sorts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b230" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b230">
+    <command xml:space="preserve">tree</command>
+    <result xml:space="preserve">compass (5) 
+  the north
+  the northeast
+  the northwest
+  the south
+  the southeast
+  the southwest
+  the east
+  the west
+  the up
+  the down
+  the inside
+  the outside
+(LibraryMessages) (6) 
+(darkness object) (7) 
+(Inform Parser) (8) 
+(Inform Library) (9) 
+(property_numberspace_forcer) (10) 
+(ValuePropertyHolder_39) (12) 
+Alakol (99) 
+Andra (100) 
+Aranna (101) 
+Balzare (102) 
+Baqala (103) 
+Besara (104) 
+Bortola (105) 
+Brillah (106) 
+Callopee (107) 
+Cauda (108) 
+Chakra Phool (109) 
+Choru (110) 
+Drifa (111) 
+Fenneq (112) 
+Firozi (113) 
+Folivoria (114) 
+Groddle Forest (115) 
+Groddle Heights (116) 
+Groddle Meadow (117) 
+Haoma (118) 
+Haraiva (119) 
+Ilmenskie Caverns (120) 
+Ilmenskie Deeps (121) 
+Ix (122) 
+Jal (123) 
+Jethimadh (124) 
+Kajuu (125) 
+Kalavana (126) 
+Karnata (127) 
+Kloro (128) 
+Lida (129) 
+Massadoe (130) 
+Moshi Moshi Oshilatis (131) 
+Muufo (132) 
+Nottis (133) 
+Ormonos (134) 
+Pollokoo (135) 
+Rasana (136) 
+Roobrik (137) 
+Salatu (138) 
+Samudra (139) 
+Shimla Mirch (140) 
+Sura (141) 
+Tahli (142) 
+Tamila (143) 
+Uralia (144) 
+Vantalu (145) 
+Vortex of Random (146) 
+Xalanga (147) 
+Zhambu (148) 
+Anrasan Glance (149) 
+  a Produce Vendor
+  a shrine to Mab
+  a Fruit Tree
+  a Bean Tree
+  nine metal rocks
+  four dullite rocks
+Ekorran Roughs (167) 
+Getan Tenets (168) 
+Semsan Simile (169) 
+Bolesan Ambitions (170) 
+  a Produce Vendor
+  a shrine to Spriggan
+  two metal rocks
+  three sparkly rocks
+Motala Dun (178) 
+Harkan Idiom (179) 
+Pinnan Glimpse (180) 
+Yan Jaggery (181) 
+Brunnan Bafflings (182) 
+  three beryl rocks
+  a Toy Vendor
+  a shrine to Cosma
+  two Bean Trees
+  three metal rocks
+Feman Falters (191) 
+Fyran Descant (192) 
+Ojan Repine (193) 
+Dofsan Vex (194) 
+  an Alchemical Goods Vendor
+  a shrine to Tii
+  a dirt pile
+  two Fruit Trees
+  a Wood Tree
+  a Bubble Tree
+Isalan Interval (202) 
+Simean Dims (203) 
+Taftan Raves (204) 
+Vindel Frowns (205) 
+Dyran Notion (206) 
+  yourself
+  a Produce Vendor
+  a shrine to Mab
+  four Fruit Trees
+Marlan Bias (213) 
+Navran Dissent (214) 
+Hammar Steadies (215) 
+Smy Mod (216) 
+Via Firozi (217) 
+Flogan Shames (218) 
+Lustan Cautions (219) 
+Idan Frisk (220) 
+Torpan Cleft (221) 
+Jadraan Fix (222) 
+Stora Rede (223) 
+Gimja Preserve (224) 
+Kolan Presence (225) 
+Stopan Winnow (226) 
+Kobah Habitat (227) 
+Rekan Flux (228) 
+Vragan Boost (229) 
+Onbo Park (230) 
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="145">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b2a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b2a0">
+    <command xml:space="preserve">x tree</command>
+    <result xml:space="preserve">The glorious Fruit Tree. Thick with tasty cherries ripe to be converted into other delicious fruits, these venerable plants may not be chatty, but they&apos;re indispensable for fine edibles and quaffables of all sorts.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="144">YES</temporary>
+  </item>
+  <item nodeId="node-0x7f9b310">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Dofsan Vex
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
+
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b380" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b380">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b3f0">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b460" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b460">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b4d0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b540" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b540">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Dofsan Vex
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
+
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b5b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b5b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b620" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b620">
+    <command xml:space="preserve">ne</command>
+    <result xml:space="preserve">
+Navran Dissent
+You are in Navran Dissent, Alakol. Cliff top trails can be seen to the South and Southwest leading to Vindel Frowns and Hammar Steadies. There are also paths leading off at slight angles to each other North and Northwest.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b690" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b690">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b700" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b700">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
+
+You can see a Groceries Vendor, a shrine to Cosma (empty), a Bean Tree, three Metal Rocks and three Dullite Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b770" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b770">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b7e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b7e0">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b850" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b850">
+    <command xml:space="preserve">se</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b8c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b8c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+Dofsan Vex
+You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims.
+
+You can see an Alchemical Goods Vendor, a shrine to Tii (empty), a Dirt Pile, two Fruit Trees, a Wood Tree and a Bubble Tree here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="282">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9b930" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9b930">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Vindel Frowns
+You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="281">YES</temporary>
+  </item>
+  <item nodeId="node-0x7f9b9a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9ba10" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9ba10">
+    <command xml:space="preserve">nw</command>
+    <result xml:space="preserve">
+Hammar Steadies
+You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent.
+
+You can see a Groceries Vendor, a shrine to Cosma (empty), a Bean Tree, three Metal Rocks and three Dullite Rocks here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9ba80" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9ba80">
     <command xml:space="preserve">x vendor</command>
     <result xml:space="preserve">Carrying the kind of ingredients necessary for some of your more fancy-pant meals, this Pot-endorsed Street Spirit sells anything delicious that you cannot make at home (like honey, birch syrup and salmon) and a couple of things you can (like buns and garlic). Grocery Street Spirits: The Foodie&apos;s Friend.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="262">YES</temporary>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9baf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9baf0">
+    <command xml:space="preserve">x spirit</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9bb60" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9bb60">
+    <command xml:space="preserve">x sprite</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9bbd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9bbd0">
+    <command xml:space="preserve">x street sprite</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9bc40" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9bc40">
+    <command xml:space="preserve">x street sprite</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="237">YES</temporary>
+    <children>
+      <child nodeId="node-0x7f9bcb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7f9bcb0">
+    <command xml:space="preserve">x vendor</command>
+    <result xml:space="preserve">Carrying the kind of ingredients necessary for some of your more fancy-pant meals, this Pot-endorsed Street Spirit sells anything delicious that you cannot make at home (like honey, birch syrup and salmon) and a couple of things you can (like buns and garlic). Grocery Street Spirits: The Foodie&apos;s Friend.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="236">YES</temporary>
   </item>
 </Skein>

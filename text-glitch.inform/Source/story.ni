@@ -157,7 +157,7 @@ The description of a Toy Vendor is "Once branded in the age of Tii as The Lord o
 A street is a kind of room.
 
 Torpan Cleft is a street in Alakol. "You are in Torpan Cleft, Alakol. You can see the entrance to Torpan Cleft Subway Station here, which irritatingly you can't get into. Exits you can get into are Northeast, Southeast, South, West and Northwest."
-In Torpan Cleft is an Animal Goods Vendor, a shrine to Humbaba, two wood trees, a bean tree and a sparkly rock.
+In Torpan Cleft is an Animal Goods Vendor, a shrine to Humbaba, two wood trees, a bean tree, a beryl rock and a sparkly rock.
 Torpan Cleft is southwest of Idan Frisk.
 Torpan Cleft is southeast of Feman Falters.
 Torpan Cleft is east of Fyran Descant.
@@ -166,14 +166,14 @@ Torpan Cleft is north of Stora Rede.
 
 
 The Anrasan Glance is a street in Alakol. "You are in Anrasan Glance, Alakol. Ekorran Roughs is to the West, Getan Tenets is Northwest and Semsan Simile is East."
-In Anrasan Glance is a Produce Vendor, a shrine to Mab, a fruit tree, a bean tree and four dullite rocks.
+In Anrasan Glance is a Produce Vendor, a shrine to Mab, a fruit tree, a bean tree, nine metal rocks and four dullite rocks.
 Anrasan Glance is east of Ekorran Roughs.
 Anrasan Glance is southeast of Getan Tenets.
 Anrasan Glance is west of Semsan Simile.
 
 
 Bolesan Ambitions is a street in Alakol. "You are in Bolesan Ambitions, Alakol. A cave entrance leads the way Northeast to Motala Dun, while a rocky path leads Northwest to Harkan Idiom. Pinnan Glimpse is Southeast and Yan Jaggery is South."
-In Bolesan Ambitions is a Produce Vendor, a shrine to Spriggan and three sparkly rocks.
+In Bolesan Ambitions is a Produce Vendor, a shrine to Spriggan, two metal rocks, a beryl rock and three sparkly rocks.
 Bolesan Ambitions is south of Motala Dun.
 Bolesan Ambitions is southeast of Harkan Idiom.
 Bolesan Ambitions is north of Pinnan Glimpse.
@@ -188,7 +188,7 @@ Brunnan Bafflings is north of Ojan Repine.
 
 
 Dofsan Vex is a street in Alakol. "You are in the lovely wide open fields of Dofsan Vex, Alakol. Carrying on North takes you to Isalan Interval, meanwhile the coastal path to the Southeast and Southwest head off to Taftan Raves and Vindel Frowns. A dark cave entrance to the East leads to Simean Dims."
-In Dofsan Vex is an Alchemical Goods Vendor, a shrine to Tii, a dirt pile and a bubble tree.
+In Dofsan Vex is an Alchemical Goods Vendor, a shrine to Tii, a dirt pile, two fruit trees, a wood tree and a bubble tree.
 Dofsan Vex is southwest of Isalan Interval.
 Dofsan Vex is west of Simean Dims.
 Dofsan Vex is northwest of Taftan Raves.
@@ -204,7 +204,7 @@ Dyran Notion is east of Smy Mod.
 
 
 Ekorran Roughs is a street in Alakol. "You are in Ekorran Roughs, Alakol. The clifftop trails lead off East and West to Anrasan Glance and Flogan Shames, Lustan Cautions is Northwest, a cave entrance to the North leads to Getan Tenets while a path down the cliff to the South leads to beach and Via Firozi."
-In Ekorran Roughs is a Kitchen Tools Vendor, a shrine to Grendaline, a dirt pile, a fruit tree, five metal rocks and a beryl rock.
+In Ekorran Roughs is a Kitchen Tools Vendor, a shrine to Grendaline, a dirt pile, a fruit tree, five metal rocks, two dullite rocks and three beryl rocks.
 Ekorran Roughs is west of Anrasan Glance.
 Ekorran Roughs is southwest of Getan Tenets.
 Ekorran Roughs is north of Via Firozi.
@@ -214,7 +214,7 @@ Ekorran Roughs is southeast of Lustan Cautions.
 
 
 Feman Falters is a street in Alakol. "You are in Feman Falters, Alakol. Paths heading East and Southeast at the top of the rocky cliff face take you to Idan Frisk and Torpan Cleft, while a trail at the bottom leads South to Brunnan Bafflings. Isalan Interval is Southwest and Jadraan Fix is West."
-In Feman Falters is a Produce Vendor, a shrine to Mab, a bean tree, a sparkly rock and two metal rocks.
+In Feman Falters is a Produce Vendor, a shrine to Mab, a bean tree, a sparkly rock, two beryl rocks and two metal rocks.
 Feman Falters is west of Idan Frisk.
 Feman Falters is northwest of Torpan Cleft.
 Feman Falters is north of Brunnan Bafflings.
@@ -223,7 +223,7 @@ Feman Falters is east of Jadraan Fix.
 
 
 Flogan Shames is a street in Alakol. "You are in Flogan Shames, Alakol. The cliff top trails lead off East and West to Ekorran Roughs and Taftan Raves, Lustan Cautions is to the Northeast, a dark cave Northwest leasts to Simean Dims."
-In Flogan Shames is a Gardening Goods Vendor, a shrine to Spriggan, a patch, five metal rocks and two dullite rocks.
+In Flogan Shames is a Gardening Goods Vendor, a shrine to Spriggan, a patch, five metal rocks, three beryl rocks and four dullite rocks.
 Flogan Shames is southwest of Lustan Cautions.
 Flogan Shames is west of Ekorran Roughs.
 Flogan Shames is east of Taftan Raves.
@@ -231,14 +231,14 @@ Flogan Shames is southeast of Simean Dims.
 
 
 Fyran Descant is a street in Alakol. "You are in Fyran Descant, Alakol. A steep climb to the East leads to the Torpan Cleft, meanwhile a grassy trail leads West and Southwest to Brunnan Bafflings and Ojan Repine."
-In Fyran Descant is a Gardening Goods Vendor, a shrine to Spriggan, a bean tree, a sparkly rock, a dullite rock and two beryl rocks.
+In Fyran Descant is a Gardening Goods Vendor, a shrine to Spriggan, a bean tree, a sparkly rock, a dullite rock, three metal rocks and two beryl rocks.
 Fyran Descant is west of Torpan Cleft.
 Fyran Descant is southeast of Brunnan Bafflings.
 Fyran Descant is northeast of Ojan Repine.
 
 
 Getan Tenets is a street in Alakol. "You are in the underground cave of Getan Tenets. You can exit to Anrasan Glance and Ekorran Roughs through cave exits Southeast and Southwest. Other exits to the Northeast and West will take you to Stora Rede and Lustan Cautions."
-In Getan Tenets is an Alchemical Goods Vendor, a shrine to Friendly, an egg plant and four beryl rocks.
+In Getan Tenets is an Alchemical Goods Vendor, a shrine to Friendly, an egg plant, nine metal rocks and four beryl rocks.
 Getan Tenets is northwest of Anrasan Glance.
 Getan Tenets is north of Ekorran Roughs.
 Getan Tenets is northeast of Lustan Cautions.
@@ -250,7 +250,7 @@ Gimja Preserve is east of Isalan Interval.
 
 
 Hammar Steadies is a street in Alakol. "You are in Hammar Steadies, Alakol. The clifftop trails lead off North and Southeast to Smy Mod and Vindel Frowns, grassy paths head Northeast to Dyran Notion and East to Navran Dissent."
-In Hammar Steadies is a Groceries Vendor, a shrine to Cosma, a bean tree and three dullite rocks.
+In Hammar Steadies is a Groceries Vendor, a shrine to Cosma, a bean tree, three metal rocks and three dullite rocks.
 Hammar Steadies is southwest of Dyran Notion.
 Hammar Steadies is southwest of Navran Dissent.
 Hammar Steadies is south of Smy Mod.
@@ -258,7 +258,7 @@ Hammar Steadies is northwest of Vindel Frowns.
 
 
 Harkan Idiom is a street in Alakol. "You are high up in the mountains in Harkan Idiom, Alakol. Rocky trails lead Northwest, Southwest and Southeast to Kolan Presence, Idan Fris and Bolesan Ambitions. To the East a cave mouth acts as the entrance to Motala Dun."
-In Harkan Idiom is an Alchemical Goods Vendor, a shrine to Tii, a patch, a wood tree and two metal rocks.
+In Harkan Idiom is an Alchemical Goods Vendor, a shrine to Tii, a patch, a wood tree, two fruit trees, a dullite rock and two metal rocks.
 Harkan Idiom is west of Motala Dun.
 Harkan Idiom is northwest of Bolesan Ambitions.
 Harkan Idiom is east of Kolan Presence.
@@ -266,7 +266,7 @@ Harkan Idiom is east of Idan Frisk.
 
 
 Idan Frisk is a street in Alakol. "You are in Idan Frisk, Alakol. From here you can get to Kolan Presence Northeast, Harkan Idiom East and Torpan Cleft to the Southwest. A dangerous path leads West to Feman Falters."
-In Idan Frisk is a Kitchen Tools Vendor, a shrine to Pot, two bean trees and a sparkly rock.
+In Idan Frisk is a Kitchen Tools Vendor, a shrine to Pot, two bean trees, two metal rocks and a sparkly rock.
 Idan Frisk is southwest of Kolan Presence.
 Idan Frisk is southwest of Harkan Idiom.
 Idan Frisk is east of Feman Falters.
@@ -274,7 +274,7 @@ Idan Frisk is northeast of Torpan Cleft.
 
 
 Isalan Interval is a street in Alakol. "You are in Isalan Interval, Alakol. Paths Southwest and Northwest head to Dofsan Vex and Jadraan Fix, while a small trail leads Northeast to the base of Feman Falters. A small dark cave to the Southeast is the way to enter Simean Dims. The smell of damp foxes drifts over from the Gimja Preserve to the East."
-In Isalan Interval is a Gardening Goods Vendor, a shrine to Grendaline, a dirt pile and a fruit tree.
+In Isalan Interval is a Gardening Goods Vendor, a shrine to Grendaline, a dirt pile, two bean trees and a fruit tree.
 Isalan Interval is southwest of Feman Falters.
 Isalan Interval is west of Gimja Preserve.
 Isalan Interval is north of Simean Dims.
@@ -295,7 +295,7 @@ Kobah Habitat is east of Stora Rede.
 
 
 Kolan Presence is a street in Alakol. "You are high up in Kolan Presence, Alakol. The way North is currently blocked by a rock fall, the only way to continue is back along the unblocked route to the East and Southwest."
-In Kolan Presence is a Hardware Vendor, a shrine to Alph, a bean tree and two dullite rocks.
+In Kolan Presence is a Hardware Vendor, a shrine to Alph, a bean tree, four fruit trees, five metal rocks and two dullite rocks.
 Kolan Presence is northwest of Harkan Idiom.
 Kolan Presence is northeast of Idan Frisk.
 
@@ -318,7 +318,7 @@ Marlan Bias is north of Navran Dissent.
 
 
 Motala Dun is a street in Alakol. "You are deep underground in Motala Dun, Alakol. Light from the outside world shines in from the West and South. There's more light coming in from behind a large boulder to the Northeast but there appears to be no way to get past at the moment."
-In Motala Dun is a Kitchen Tools Vendor, a shrine to Lem, two egg plants and three beryl rocks.
+In Motala Dun is a Kitchen Tools Vendor, a shrine to Lem, two egg plants, three beryl rocks and four metal rocks.
 Motala Dun is northeast of Bolesan Ambitions.
 Motala Dun is east of Harkan Idiom.
 
@@ -350,7 +350,7 @@ Pinnan Glimpse is southeast of Bolesan Ambitions.
 
 
 Rekan Flux is a street in Alakol. "You are in pleasent fields of Rekan Flux, Alakol. There are clear exits East and West, while a short path curves round North to Ojan Repine."
-In Rekan Flux is a Produce Vendor, a shrine to Lem and a fruit tree.
+In Rekan Flux is a Produce Vendor, a shrine to Lem, a bean tree and a fruit tree.
 Rekan Flux is west of Lustan Cautions.
 Rekan Flux is east of Vragan Boost.
 Rekan Flux is southeast of Ojan Repine.
@@ -372,7 +372,7 @@ Simean Dims is down of Vragan Boost.
 
 
 Smy Mod is a street in Alakol. "You are in Smy Mod at the end (or start depending on your point of view) of the cliff top path which heads off into the distance Southwards, although you can also head inland East to Dyran Notion."
-In Smy Mod is a Kitchen Tools Vendor, a shrine to Lem, a patch, a fruit tree, and a beryl rock.
+In Smy Mod is a Kitchen Tools Vendor, a shrine to Lem, a patch, a fruit tree, two dullite rocks and a beryl rock.
 Smy Mod is north of Hammar Steadies.
 Smy Mod is west of Dyran Notion.
 
@@ -396,7 +396,7 @@ Stora Rede is north of Lustan Cautions.
 
 
 Taftan Raves is a street in Alakol. "You are in Taftan Raves, Alakol. The cliff top trails continues East and West to Flogan Shames and Vindel Frowns, Dofsan Vex is to the Northwest, a dark cave Northeast leasts to Simean Dims."
-In Taftan Raves is an Animal Goods Vendor, a shrine to Alph, a wood tree, a bean tree and two dullite rocks.
+In Taftan Raves is an Animal Goods Vendor, a shrine to Alph, a wood tree, a bean tree, seven metal rocks and two dullite rocks.
 Taftan Raves is west of Flogan Shames.
 Taftan Raves is east of Vindel Frowns.
 Taftan Raves is southwest of Simean Dims.
@@ -406,13 +406,13 @@ Taftan Raves is southeast of Dofsan Vex.
 Via Firozi is a street in Alakol. "You are in Via Firozi, Alakol, the gateway to Firozi just down a path to the Southeast which magical forces are preventing you from travelling. The only way you can currently go is back up north to Ekorran Roughs.
 
 The view from here looking over Firozi is quite pretty thought, so there is that."
-In Via Firozi is a Hardware Vendor, a shrine to Zille, two fruit trees and two beryl rocks.
+In Via Firozi is a Hardware Vendor, a shrine to Zille, two fruit trees, a metal rock and two beryl rocks.
 Via Firozi is south of Ekorran Roughs.
 Via Firozi is down of Ekorran Roughs.
 
 
 Vindel Frowns is a street in Alakol. "You are in Vindel Frowns, Alakol. The cliff top trails continues East and Northwest to Taftan Raves and Hammar Steadies. You can also leave the clift top path by going North or Northeast."
-In Vindel Frowns is an Animal Goods Vendor, a shrine to Lem, a fruit tree and a metal rock.
+In Vindel Frowns is an Animal Goods Vendor, a shrine to Lem, a fruit tree, three dullite rocks and a metal rock.
 Vindel Frowns is west of Taftan Raves.
 Vindel Frowns is southwest of Dofsan Vex.
 Vindel Frowns is south of Navran Dissent.
@@ -420,7 +420,7 @@ Vindel Frowns is southeast of Hammar Steadies.
 
 
 Vragan Boost is a street in Alakol. "You are in Vragan Boost a pretty little street in Alakol. Gentle paths head off East and Northeastwards, meanwhile a dirty hole down and west leads into the Simean Dims caves."
-In Vragan Boost is an Animal Goods Vendor, a shrine to Humbaba, a patch, a fruit tree and a dullite rock.
+In Vragan Boost is an Animal Goods Vendor, a shrine to Humbaba, a patch, a fruit tree, two beryl rocks and a dullite rock.
 Vragan Boost is west of Rekan Flux.
 Vragan Boost is southwest of Ojan Repine.
 Vragan Boost is east of Simean Dims.
@@ -428,7 +428,7 @@ Vragan Boost is up of Simean Dims.
 
 
 Yan Jaggery is a street in Alakol. "You are in Yan Jaggery, Alakol. Its a bit windy up here but comes with fansatic views South across Alakol. Exits are all over the place but for the sake of simplicity; North, East, Northwest and Southwest."
-In Yan Jaggery is a Groceries Vendor, a shrine to Cosma, a patch, a wood tree, a fruit tree and two sparkly rocks.
+In Yan Jaggery is a Groceries Vendor, a shrine to Cosma, a patch, a wood tree, a fruit tree, three metal rocks and two sparkly rocks.
 Yan Jaggery is west of Pinnan Glimpse.
 Yan Jaggery is south of Bolesan Ambitions.
 Yan Jaggery is southeast of Torpan Cleft.

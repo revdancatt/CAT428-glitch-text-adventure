@@ -1,5 +1,7 @@
-cat428-glitch-text-adventure
-============================
+![Screen Shot](http://cattopus23.com/img/panel-CAT428.png)
+
+Glitch Text Adventure
+=====================
 
 A very alpha version of Glitch "running" as an inform7 text adventure for putting onto Playfic.
 
@@ -40,7 +42,6 @@ Also aliased Street to Room just because it feels nicer.
 =====
 
 Linked up all the rooms in Alakol
-
 
 0.2.2
 =====
